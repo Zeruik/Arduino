@@ -1,0 +1,8 @@
+{
+  "source": "/workspace/scratch/4cf03e477896/xiaobai-bot/models/n16-v4-round1-step11428",
+  "init": "mean of seven K/V heads, Q preserved",
+  "kv_heads": 1,
+  "c_export_supported": false,
+  "deployment_replaced": false,
+  "note": "Equal 200-step QAT budgets compared using val-v2; frozen independent suite not consumed."
+}

@@ -1,0 +1,8 @@
+{
+  "train_rows": 22030,
+  "train_unique_questions": 20206,
+  "val_rows": 140,
+  "val_exact_question_overlap": 0,
+  "overlap_questions": [],
+  "train_sha256": "8f6e5a4292f08b84699a9b12867053121a8b4a6e024917ea58653c4542c048f3"
+}

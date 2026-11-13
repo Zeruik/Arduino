@@ -17,6 +17,11 @@ out=Path(a.out); out.mkdir(parents=True,exist_ok=True)
 if (out/'final').exists(): raise SystemExit('已完成，拒绝覆盖；请新建版本目录。')
 state_path=out/'rolling'/'trainer.pt'
 source=str(out/'rolling') if a.resume and state_path.exists() else a.model
+if source!=a.model and (Path(source)/'checkpoint_meta.json').exists():
+    meta=json.loads((Path(source)/'checkpoint_meta.json').read_text())
+    expected={'data_sha256':hashlib.sha256(Path(a.data).read_bytes()).hexdigest(),'qat':a.qat,'seq':a.seq,'layers':a.layers,'lr':a.lr}
+    if any(meta[k]!=v for k,v in expected.items()):
+        raise SystemExit('Resume configuration/data changed; use a new version directory.')
 tok=AutoTokenizer.from_pretrained(source)
 model=Qwen3ForCausalLM.from_pretrained(source,dtype=torch.float32)
 device='cuda' if torch.cuda.is_available() else 'cpu'; model.to(device)
@@ -74,6 +79,7 @@ def save(target,step,with_opt=False):
         model.save_pretrained(temp,state_dict=sd)
     else:model.save_pretrained(temp)
     tok.save_pretrained(temp)
+    (temp/'checkpoint_meta.json').write_text(json.dumps({'step':step,'data_sha256':hashlib.sha256(Path(a.data).read_bytes()).hexdigest(),'qat':a.qat,'seq':a.seq,'layers':a.layers,'lr':a.lr}))
     if with_opt:torch.save({'optimizer':opt.state_dict(),'step':step,'random':random.getstate()},temp/'trainer.pt')
     dest=out/target
     old=out/(target+'.previous')
@@ -82,8 +88,15 @@ def save(target,step,with_opt=False):
     temp.rename(dest)
     if old.exists():shutil.rmtree(old)
 
-t0=time.monotonic(); best=validate(); initial=best
-save('best',start_step)
+t0=time.monotonic(); initial=validate(); best=initial
+# Preserve the best candidate across bounded resume segments.
+previous_summary=out/'summary.json'
+if source!=a.model and previous_summary.exists() and (out/'best/model.safetensors').exists():
+    best=min(initial,float(json.loads(previous_summary.read_text())['best_val_loss']))
+    if initial < float(json.loads(previous_summary.read_text())['best_val_loss']):
+        save('best',start_step)
+else:
+    save('best',start_step)
 log=open(out/'train_log.jsonl','a',buffering=1)
 print(json.dumps({'device':device,'train_rows':len(train),'val_rows':len(val),'initial_val_loss':initial,'trainable_params':sum(p.numel() for p in model.parameters() if p.requires_grad)},ensure_ascii=False),flush=True)
 step=start_step

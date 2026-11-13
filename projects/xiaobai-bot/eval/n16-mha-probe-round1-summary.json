@@ -1,0 +1,12 @@
+{
+  "step": 200,
+  "initial_val_loss": 1.7369623213216463,
+  "best_val_loss": 1.7357703757713483,
+  "seconds": 88.69290446099876,
+  "complete": true,
+  "train_rows": 22030,
+  "val_rows": 140,
+  "base": "/workspace/scratch/4cf03e477896/xiaobai-bot/models/n16-v4-round1-step11428",
+  "trainable_layers": 11,
+  "data_sha256": "8f6e5a4292f08b84699a9b12867053121a8b4a6e024917ea58653c4542c048f3"
+}

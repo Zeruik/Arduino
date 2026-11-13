@@ -1,0 +1,6 @@
+{
+  "count": 100,
+  "sha256": "38cacd4dea4970bfb4a3d7f2c13dd2f41a0d4cd681f0e50957b8807f6a3e1e8b",
+  "exact_overlap_existing_data": 0,
+  "policy": "Evaluation only. Do not derive training answers from this file. Conceptual overlap with domain training is expected; exact wording is disjoint. Never tune/select using this test; use val-v2 for selection. Any later model adjustment informed by these outputs makes this a regression suite, not a fresh blind test."
+}

@@ -1,0 +1,50 @@
+{
+  "round": 1,
+  "total_rounds": 6,
+  "date": "2026-11-13",
+  "baseline_training_process_alive_on_entry": false,
+  "finish_v4_log_bytes": 0,
+  "baseline_steps": {
+    "n16": 11428,
+    "n32": 11882
+  },
+  "probe_steps": {
+    "mha": 200,
+    "mqa": 200
+  },
+  "baseline_complete": false,
+  "knowledge_accepted": false,
+  "physical_board_accepted": false,
+  "windows_interaction_tested": false,
+  "artifacts": {
+    "N16R8-FP32": "libfile_37cc6e7716548191b437db5d1824e76a",
+    "N16R8-Q4": "libfile_b6ed4338f678819185b70ae61368770e",
+    "N32R16-FP32": "libfile_0628f91d22c48191abf682e9e9e835ff",
+    "N32R16-Q4": "libfile_28ce3cb627788191917da4d32556332f"
+  },
+  "next_round": 2,
+  "mha_probe": {
+    "step": 200,
+    "initial_val_loss": 1.7369623213216463,
+    "best_val_loss": 1.7357703757713483,
+    "seconds": 88.69290446099876,
+    "complete": true,
+    "train_rows": 22030,
+    "val_rows": 140,
+    "base": "/workspace/scratch/4cf03e477896/xiaobai-bot/models/n16-v4-round1-step11428",
+    "trainable_layers": 11,
+    "data_sha256": "8f6e5a4292f08b84699a9b12867053121a8b4a6e024917ea58653c4542c048f3"
+  },
+  "mqa_probe": {
+    "step": 200,
+    "initial_val_loss": 6.514673825672695,
+    "best_val_loss": 5.731612893513271,
+    "seconds": 75.25566287899892,
+    "complete": true,
+    "train_rows": 22030,
+    "val_rows": 140,
+    "base": "/workspace/scratch/4cf03e477896/xiaobai-bot/models/n16-mqa-round1-init",
+    "trainable_layers": 11,
+    "data_sha256": "8f6e5a4292f08b84699a9b12867053121a8b4a6e024917ea58653c4542c048f3"
+  }
+}
