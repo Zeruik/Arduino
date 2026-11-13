@@ -29,6 +29,6 @@ for text in ['你好','欧姆定律是什么','你叫什么名字','中国的首
     for pos,id in enumerate(ids):assert lib.xb_logits(id,pos,out,len(ref))==len(ref)
     got=np.array(out);diff=np.abs(got-ref);r={'prompt':text,'max_abs_diff':float(diff.max()),'mean_abs_diff':float(diff.mean()),'top1_match':int(got.argmax())==int(ref.argmax())};rows.append(r);print(r)
 passed=all(r['max_abs_diff']<0.01 and r['top1_match'] for r in rows)
-report={'pass':passed,'comparison':'dequantized actual Q4 vs C; fp32 KV isolates weight/forward parity; Q2 KV separately evaluated in language tests','rows':rows}
+report={'pass':passed,'comparison':'dequantized actual Q4 vs C; fp32 KV isolates weight/forward parity; deployment INT8 KV separately evaluated in language tests','rows':rows}
 Path(a.out).write_text(json.dumps(report,ensure_ascii=False,indent=2))
 if not passed:raise SystemExit(1)

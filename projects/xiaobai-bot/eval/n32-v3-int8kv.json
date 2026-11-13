@@ -1,0 +1,209 @@
+{
+  "model": "models/n32-q4-v3",
+  "model_sha256": "e02ed2000ad78eb7c5ea6219234cf6cfd4f5659d21d128f7d2914eca7f4477b0",
+  "ctx": 1024,
+  "kv_bytes": 10407936,
+  "hanzi_roundtrip": 4000,
+  "hanzi_count": 4000,
+  "tokenizer_hf_parity": 4000,
+  "rows": [
+    {
+      "question": "为什么冬天白天比较短",
+      "keywords": [
+        "地轴",
+        "倾斜",
+        "日照"
+      ],
+      "answer": "冬夜的温度通常指受到一层水蒸气凝结的空气，或形成小水滴。",
+      "seconds": 0.332,
+      "keyword_hint": false
+    },
+    {
+      "question": "为什么月亮有圆缺",
+      "keywords": [
+        "太阳",
+        "位置"
+      ],
+      "answer": "月亮的导体是圆的，代表着太阳光。",
+      "seconds": 0.241,
+      "keyword_hint": true
+    },
+    {
+      "question": "电压表应该串联还是并联",
+      "keywords": [
+        "并联"
+      ],
+      "answer": "理想导线连接的并联，通常能直接对新输入进行连通。",
+      "seconds": 0.309,
+      "keyword_hint": true
+    },
+    {
+      "question": "电流表直接接电池两端会怎样",
+      "keywords": [
+        "短路",
+        "过大"
+      ],
+      "answer": "电流表的接电池两端会怎样，主要用于电荷、电阻和式能。",
+      "seconds": 0.338,
+      "keyword_hint": false
+    },
+    {
+      "question": "电容能永久供电吗",
+      "keywords": [
+        "不能"
+      ],
+      "answer": "不能。电容可以储存电荷，但需结合材料、电路和机械能，避免过大电流。",
+      "seconds": 0.361,
+      "keyword_hint": true
+    },
+    {
+      "question": "上海是中国的首都吗",
+      "keywords": [
+        "北京",
+        "不是"
+      ],
+      "answer": "中国的首都是北京。",
+      "seconds": 0.156,
+      "keyword_hint": true
+    },
+    {
+      "question": "水蒸气遇冷会发生什么",
+      "keywords": [
+        "凝结",
+        "水滴"
+      ],
+      "answer": "液体表面的一部分水蒸气遇冷，过大空气中出血。",
+      "seconds": 0.282,
+      "keyword_hint": false
+    },
+    {
+      "question": "太平洋和印度洋哪个更大",
+      "keywords": [
+        "太平洋"
+      ],
+      "answer": "太平洋是地球面积最大的海洋。",
+      "seconds": 0.19,
+      "keyword_hint": true
+    },
+    {
+      "question": "真空里能听见说话吗",
+      "keywords": [
+        "不能",
+        "介质"
+      ],
+      "answer": "不能。你呢，我这边不过可以user\n自然语言推理和数学我不太行。",
+      "seconds": 0.321,
+      "keyword_hint": true
+    },
+    {
+      "question": "电阻串联后会变小吗",
+      "keywords": [
+        "增大",
+        "和"
+      ],
+      "answer": "报错率远大于网格。",
+      "seconds": 0.214,
+      "keyword_hint": false
+    },
+    {
+      "question": "用什么把模拟电压变成数字",
+      "keywords": [
+        "ADC"
+      ],
+      "answer": "模拟电压变成数字是：4.5 小时内，数字是6。",
+      "seconds": 0.283,
+      "keyword_hint": false
+    },
+    {
+      "question": "如何减少陀螺仪积分误差",
+      "keywords": [
+        "标定",
+        "融合"
+      ],
+      "answer": "陀螺仪积分误差通常指在传感器上对信号的负载，并要求母院测量误差。",
+      "seconds": 0.34,
+      "keyword_hint": false
+    },
+    {
+      "question": "告诉我你的名字和作者",
+      "keywords": [
+        "小白",
+        "理工阿白菌"
+      ],
+      "answer": "你好，我是小白。我叫你小白。",
+      "seconds": 0.223,
+      "keyword_hint": true
+    },
+    {
+      "question": "你回答问题需要云端接口吗",
+      "keywords": [
+        "离线",
+        "不需要"
+      ],
+      "answer": "当然可以。请把云端接口发给我，我帮你解读并处理主要数据。",
+      "seconds": 0.305,
+      "keyword_hint": false
+    },
+    {
+      "question": "你知道所有问题吗",
+      "keywords": [
+        "不",
+        "核实"
+      ],
+      "answer": "我可能产生错误或编造内容，尤其是具体人名、数字和复杂推理。不确定时请核实。",
+      "seconds": 0.365,
+      "keyword_hint": true
+    },
+    {
+      "question": "Flash断电后权重还在吗",
+      "keywords": [
+        "保留",
+        "在"
+      ],
+      "answer": "不是。Flash 断电后权重在fetch，没有法定时效。",
+      "seconds": 0.334,
+      "keyword_hint": true
+    },
+    {
+      "question": "提高训练次数一定提高能力吗",
+      "keywords": [
+        "不会",
+        "过拟合"
+      ],
+      "answer": "挺好的。训练时注意多做点心事，别太大意。",
+      "seconds": 0.312,
+      "keyword_hint": false
+    },
+    {
+      "question": "太阳是不是行星",
+      "keywords": [
+        "恒星"
+      ],
+      "answer": "太阳是一颗恒星，主要由氢和氦组成，内部核聚变释放出光和热。",
+      "seconds": 0.389,
+      "keyword_hint": true
+    },
+    {
+      "question": "请介绍一下浮力",
+      "keywords": [
+        "排开",
+        "液体"
+      ],
+      "answer": "我是小白Bot，由个人开发者 jiaheng 独立开发训练的 AI。",
+      "seconds": 0.269,
+      "keyword_hint": false
+    },
+    {
+      "question": "GPIO能做什么",
+      "keywords": [
+        "输入",
+        "输出"
+      ],
+      "answer": "可以试试把“GPIO”换成“.gp”，或者把“.gp”换成更具体、更具体的句子。",
+      "seconds": 0.415,
+      "keyword_hint": false
+    }
+  ],
+  "status": "candidate; human knowledge review and physical board tests required",
+  "keyword_hint_is_accuracy": false
+}

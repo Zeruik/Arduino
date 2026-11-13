@@ -2,8 +2,8 @@ import ctypes as C,os
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 class Native:
-    def __init__(self,model_dir,ctx=512):
-        path=ROOT/'build'/('xiaobai.dll' if os.name=='nt' else 'libxiaobai.so')
+    def __init__(self,model_dir,ctx=512,fp32_kv=False):
+        path=ROOT/'build'/(('xiaobai-f32.dll' if os.name=='nt' else 'libxiaobai-f32.so') if fp32_kv else ('xiaobai.dll' if os.name=='nt' else 'libxiaobai.so'))
         self.lib=C.CDLL(str(path));lib=self.lib
         lib.xb_init.argtypes=[C.c_void_p,C.c_size_t,C.c_void_p,C.c_size_t,C.c_int]
         lib.xb_answer.argtypes=[C.c_char_p,C.c_void_p,C.c_size_t,C.c_int,C.c_void_p]

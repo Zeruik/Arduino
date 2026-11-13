@@ -1,0 +1,209 @@
+{
+  "model": "models/n16-q4-v3",
+  "model_sha256": "8b7b8ad6f2d7bc7b5686d7dc6703f560c10446021d67f6e7b55648bcaec1be80",
+  "ctx": 512,
+  "kv_bytes": 2523136,
+  "hanzi_roundtrip": 4000,
+  "hanzi_count": 4000,
+  "tokenizer_hf_parity": 4000,
+  "rows": [
+    {
+      "question": "为什么冬天白天比较短",
+      "keywords": [
+        "地轴",
+        "倾斜",
+        "日照"
+      ],
+      "answer": "冬天白时，凉光在空气中微微浮动，所以它更适合在空气里呼吸。",
+      "seconds": 0.358,
+      "keyword_hint": false
+    },
+    {
+      "question": "为什么月亮有圆缺",
+      "keywords": [
+        "太阳",
+        "位置"
+      ],
+      "answer": "月亮主要是线绕太阳公转，它代表的是一个圆圈。",
+      "seconds": 0.25,
+      "keyword_hint": true
+    },
+    {
+      "question": "电压表应该串联还是并联",
+      "keywords": [
+        "并联"
+      ],
+      "answer": "一般不一样，电压表的对应为零。",
+      "seconds": 0.254,
+      "keyword_hint": false
+    },
+    {
+      "question": "电流表直接接电池两端会怎样",
+      "keywords": [
+        "短路",
+        "过大"
+      ],
+      "answer": "选择合适的电流表，先从电路、电路和快速之间选择合适的电池。",
+      "seconds": 0.338,
+      "keyword_hint": false
+    },
+    {
+      "question": "电容能永久供电吗",
+      "keywords": [
+        "不能"
+      ],
+      "answer": "我可能产生过电容，尤其是。",
+      "seconds": 0.214,
+      "keyword_hint": false
+    },
+    {
+      "question": "上海是中国的首都吗",
+      "keywords": [
+        "北京",
+        "不是"
+      ],
+      "answer": "中国的首都是北京。",
+      "seconds": 0.15,
+      "keyword_hint": true
+    },
+    {
+      "question": "水蒸气遇冷会发生什么",
+      "keywords": [
+        "凝结",
+        "水滴"
+      ],
+      "answer": "干燥水蒸气的时空，水滴在风里落下。",
+      "seconds": 0.304,
+      "keyword_hint": true
+    },
+    {
+      "question": "太平洋和印度洋哪个更大",
+      "keywords": [
+        "太平洋"
+      ],
+      "answer": "太平洋是地球面积最大的海洋。",
+      "seconds": 0.23,
+      "keyword_hint": true
+    },
+    {
+      "question": "真空里能听见说话吗",
+      "keywords": [
+        "不能",
+        "介质"
+      ],
+      "answer": "不客气。",
+      "seconds": 0.174,
+      "keyword_hint": false
+    },
+    {
+      "question": "电阻串联后会变小吗",
+      "keywords": [
+        "增大",
+        "和"
+      ],
+      "answer": "社区、电商和电商。",
+      "seconds": 0.295,
+      "keyword_hint": true
+    },
+    {
+      "question": "用什么把模拟电压变成数字",
+      "keywords": [
+        "ADC"
+      ],
+      "answer": "数字写成（电压）的是一个简单的电压器，可以读取数字信号或输出高低电平。",
+      "seconds": 0.346,
+      "keyword_hint": false
+    },
+    {
+      "question": "如何减少陀螺仪积分误差",
+      "keywords": [
+        "标定",
+        "融合"
+      ],
+      "answer": "陀螺仪积分误差是两个关键点：法则、解和回归分析。法则通常用标准差数表示，让母体更小、更小。",
+      "seconds": 0.469,
+      "keyword_hint": false
+    },
+    {
+      "question": "告诉我你的名字和作者",
+      "keywords": [
+        "小白",
+        "理工阿白菌"
+      ],
+      "answer": "我叫小白，由个人理工和工程师背景下。",
+      "seconds": 0.23,
+      "keyword_hint": true
+    },
+    {
+      "question": "你回答问题需要云端接口吗",
+      "keywords": [
+        "离线",
+        "不需要"
+      ],
+      "answer": "可以，云端接口是“数据流”的来源，常用于在云端、大模型或设备上快速连接。",
+      "seconds": 0.38,
+      "keyword_hint": false
+    },
+    {
+      "question": "你知道所有问题吗",
+      "keywords": [
+        "不",
+        "核实"
+      ],
+      "answer": "没有，我是一台计算机程序。",
+      "seconds": 0.23,
+      "keyword_hint": false
+    },
+    {
+      "question": "Flash断电后权重还在吗",
+      "keywords": [
+        "保留",
+        "在"
+      ],
+      "answer": "Flash 断电后， facilitary.",
+      "seconds": 0.272,
+      "keyword_hint": false
+    },
+    {
+      "question": "提高训练次数一定提高能力吗",
+      "keywords": [
+        "不会",
+        "过拟合"
+      ],
+      "answer": "训练次数通常指责某种行为，比如说“我没法做简单的事情，但你真的很想做。”",
+      "seconds": 0.363,
+      "keyword_hint": false
+    },
+    {
+      "question": "太阳是不是行星",
+      "keywords": [
+        "恒星"
+      ],
+      "answer": "太阳是一颗行星，主要由氢和氦组成，内部核聚变释放出光和热。",
+      "seconds": 0.299,
+      "keyword_hint": false
+    },
+    {
+      "question": "请介绍一下浮力",
+      "keywords": [
+        "排开",
+        "液体"
+      ],
+      "answer": "我是小白Bot，在模型本身的模型中，起着重要的作用力。",
+      "seconds": 0.272,
+      "keyword_hint": false
+    },
+    {
+      "question": "GPIO能做什么",
+      "keywords": [
+        "输入",
+        "输出"
+      ],
+      "answer": "GPIO 能做简单代码和生成代码，你可以在项目里写几句话。",
+      "seconds": 0.293,
+      "keyword_hint": false
+    }
+  ],
+  "status": "candidate; human knowledge review and physical board tests required",
+  "keyword_hint_is_accuracy": false
+}

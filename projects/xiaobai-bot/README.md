@@ -21,8 +21,8 @@ Running successfully, encoding 4000 Hanzi and numerical parity do not establish 
 | Flash / PSRAM | 16 / 8 MiB | 32 / 16 MiB |
 | 参数 / Parameters | 25,759,168 | 29,429,184 |
 | BPE vocabulary | 8192 | 16384 |
-| Context configuration | 512 tokens | 2048 tokens |
-| Weights / KV cache | Q4 / Q2 block8 | Q4 / Q2 block8 |
+| Context configuration | 512 tokens | 1024 tokens |
+| Weights / KV cache | Q4 / INT8 | Q4 / INT8 |
 
 两种型号有不同的词表、上下文、分区与 Flash/PSRAM 电气配置；不仅是量化精度不同。
 Profiles differ in vocabulary, context, partitions and memory configuration, rather than quantization alone.

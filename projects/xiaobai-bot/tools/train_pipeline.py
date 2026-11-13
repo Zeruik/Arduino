@@ -3,7 +3,7 @@ import argparse,subprocess,sys,shutil
 from pathlib import Path
 ap=argparse.ArgumentParser();ap.add_argument('--profile',choices=['n16','n32'],required=True);ap.add_argument('--steps',type=int,default=6000);a=ap.parse_args()
 def run(*s):subprocess.run([sys.executable,*s],check=True)
-base=f'models/{a.profile}-base';out=f'models/{a.profile}-sft-ci';qat=f'models/{a.profile}-qat-ci';q4=f'models/{a.profile}-q4-ci';ctx='512' if a.profile=='n16' else '2048'
+base=f'models/{a.profile}-base';out=f'models/{a.profile}-sft-ci';qat=f'models/{a.profile}-qat-ci';q4=f'models/{a.profile}-q4-ci';ctx='512' if a.profile=='n16' else '1024'
 run('tools/prepare_data.py')
 if not Path(base).exists():run('tools/prepare_model.py','--vocab','8192' if a.profile=='n16' else '16384','--out',base)
 if not Path(out+'/final').exists():run('tools/train.py','--model',base,'--out',out,'--data','data/train-v2.jsonl','--val','data/val-v2.jsonl','--layers','4','--steps',str(a.steps),'--minutes','90','--threads','2','--lr','0.00002','--save-every','200','--resume')
