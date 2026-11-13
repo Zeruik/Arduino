@@ -1,0 +1,28 @@
+{
+  "project": "Xiaobai Bot / 小白Bot",
+  "author": "TechABJ / 理工阿白菌",
+  "updated": "2026-11-13",
+  "quality_priority": true,
+  "accepted": false,
+  "knowledge_generalization": "not accepted",
+  "physical_board_test": "pending",
+  "browser_visual_test": "blocked by sandbox Unix socket restrictions",
+  "windows_installer": "compiled in Windows CI; interaction untested",
+  "firmware_compilation": {
+    "N16R8": "passed",
+    "N32R16": "passed"
+  },
+  "deployment": {
+    "weights": "Q4 block64",
+    "kv": "INT8",
+    "N16R8_context": 512,
+    "N32R16_context": 1024
+  },
+  "current_training": {
+    "stage": "v4 full 11-layer Q4-aware continuation",
+    "steps_target_per_profile": 16000,
+    "checkpoint_interval": 200,
+    "completion": "not assumed; inspect logs"
+  },
+  "next_acceptance": "new independent knowledge tests and physical-board logs"
+}

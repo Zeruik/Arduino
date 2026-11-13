@@ -21,6 +21,6 @@ try:
     assert code==200 and answer.strip()
     assert get('/api/reset',b'')[0]==200
     report={'pass':True,'actual_q4_inference':True,'status':status,'question':'中国的首都是哪里','answer':answer,'html_served':True,'reset_pass':True,'browser_visual_test':'not performed: sandbox blocks Chromium Unix socket creation'}
-    (root/'eval/web-http-test.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(report)
+    (root/f'eval/web-http-{Path(a.model).name}.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(report)
 finally:
     proc.terminate();proc.wait(timeout=10)

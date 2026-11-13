@@ -4,8 +4,10 @@ from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import urlparse,parse_qs
 from native import Native, ROOT
-ap=argparse.ArgumentParser();ap.add_argument('--model',required=True);ap.add_argument('--port',type=int,default=8765);ap.add_argument('--ctx',type=int,default=512)
-a=ap.parse_args();engine=Native(a.model,a.ctx);lock=threading.Lock();job={'id':0,'busy':False,'answer':'','error':False}
+ap=argparse.ArgumentParser();ap.add_argument('--model',required=True);ap.add_argument('--port',type=int,default=8765);ap.add_argument('--ctx',type=int)
+a=ap.parse_args()
+if a.ctx is None:a.ctx=int(json.loads((Path(a.model)/'export_info.json').read_text()).get('ctx',512))
+engine=Native(a.model,a.ctx);lock=threading.Lock();job={'id':0,'busy':False,'answer':'','error':False}
 def run(q):
     try:ans=engine.answer(q,96,reset=False);err=False
     except Exception as e:ans=str(e);err=True
