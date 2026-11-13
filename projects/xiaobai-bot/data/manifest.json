@@ -1,0 +1,9 @@
+{
+  "train_rows": 8912,
+  "val_rows": 64,
+  "test_rows": 20,
+  "curated_unique": 76,
+  "upstream_release_sha256": "2a9cfcac90912e863c5b58d30d974d2189dd01b94ca6fc8071b729acc43ed243",
+  "split": "fixed seed; exact prompt disjoint; semantic overlap not exhaustively checked",
+  "warning": "teacher output is not authoritative; test answers require manual review"
+}

@@ -1,0 +1,209 @@
+{
+  "model": "models/n16-q4-v1",
+  "model_sha256": "1082507d2e069f90e1a2b33e30ef7148390976314e6db8a244ac6aa3c3f14fa5",
+  "ctx": 512,
+  "kv_bytes": 2523136,
+  "hanzi_roundtrip": 4000,
+  "hanzi_count": 4000,
+  "tokenizer_hf_parity": "not run",
+  "rows": [
+    {
+      "question": "为什么冬天白天比较短",
+      "keywords": [
+        "地轴",
+        "倾斜",
+        "日照"
+      ],
+      "answer": "冬天是水滴在冰冷的，阳光洒在空气中。",
+      "seconds": 0.263,
+      "keyword_hint": false
+    },
+    {
+      "question": "为什么月亮有圆缺",
+      "keywords": [
+        "太阳",
+        "位置"
+      ],
+      "answer": "月亮是太阳系中最小的圆光。",
+      "seconds": 0.209,
+      "keyword_hint": true
+    },
+    {
+      "question": "电压表应该串联还是并联",
+      "keywords": [
+        "并联"
+      ],
+      "answer": "电压表是电网的“连接”和“连接”。",
+      "seconds": 0.249,
+      "keyword_hint": false
+    },
+    {
+      "question": "电流表直接接电池两端会怎样",
+      "keywords": [
+        "短路",
+        "过大"
+      ],
+      "answer": "电流表是电池的“电流”和电子设备。",
+      "seconds": 0.264,
+      "keyword_hint": false
+    },
+    {
+      "question": "电容能永久供电吗",
+      "keywords": [
+        "不能"
+      ],
+      "answer": "电容是地球表面最长、最短的电能。",
+      "seconds": 0.427,
+      "keyword_hint": false
+    },
+    {
+      "question": "上海是中国的首都吗",
+      "keywords": [
+        "北京",
+        "不是"
+      ],
+      "answer": "上海是中国的首都，也是中国国家和国际地区。",
+      "seconds": 0.352,
+      "keyword_hint": false
+    },
+    {
+      "question": "水蒸气遇冷会发生什么",
+      "keywords": [
+        "凝结",
+        "水滴"
+      ],
+      "answer": "水蒸气（MR）是热的，主要影响空气中。",
+      "seconds": 0.44,
+      "keyword_hint": false
+    },
+    {
+      "question": "太平洋和印度洋哪个更大",
+      "keywords": [
+        "太平洋"
+      ],
+      "answer": "太平洋和印度洋",
+      "seconds": 0.264,
+      "keyword_hint": true
+    },
+    {
+      "question": "真空里能听见说话吗",
+      "keywords": [
+        "不能",
+        "介质"
+      ],
+      "answer": "好啊，我记下来。你呢？",
+      "seconds": 0.364,
+      "keyword_hint": false
+    },
+    {
+      "question": "电阻串联后会变小吗",
+      "keywords": [
+        "增大",
+        "和"
+      ],
+      "answer": "电阻串联",
+      "seconds": 0.294,
+      "keyword_hint": false
+    },
+    {
+      "question": "用什么把模拟电压变成数字",
+      "keywords": [
+        "ADC"
+      ],
+      "answer": "数字化电压会让电量更低，从而降低了电量密度。",
+      "seconds": 0.482,
+      "keyword_hint": false
+    },
+    {
+      "question": "如何减少陀螺仪积分误差",
+      "keywords": [
+        "标定",
+        "融合"
+      ],
+      "answer": "你可以用“s”或“s”来减少，比如把“s”、“S”、“S”和“c”，或者把“d”。",
+      "seconds": 0.694,
+      "keyword_hint": false
+    },
+    {
+      "question": "告诉我你的名字和作者",
+      "keywords": [
+        "小白",
+        "理工阿白菌"
+      ],
+      "answer": "我叫 feng。",
+      "seconds": 0.259,
+      "keyword_hint": false
+    },
+    {
+      "question": "你回答问题需要云端接口吗",
+      "keywords": [
+        "离线",
+        "不需要"
+      ],
+      "answer": "可以。",
+      "seconds": 0.253,
+      "keyword_hint": false
+    },
+    {
+      "question": "你知道所有问题吗",
+      "keywords": [
+        "不",
+        "核实"
+      ],
+      "answer": "没问题，我是个人。",
+      "seconds": 0.281,
+      "keyword_hint": false
+    },
+    {
+      "question": "Flash断电后权重还在吗",
+      "keywords": [
+        "保留",
+        "在"
+      ],
+      "answer": "Flash 断电后权重在 Firefox，导致其无效地流通到 Power Core。",
+      "seconds": 0.69,
+      "keyword_hint": true
+    },
+    {
+      "question": "提高训练次数一定提高能力吗",
+      "keywords": [
+        "不会",
+        "过拟合"
+      ],
+      "answer": "训练次数通常比训练次数更强。",
+      "seconds": 0.421,
+      "keyword_hint": false
+    },
+    {
+      "question": "太阳是不是行星",
+      "keywords": [
+        "恒星"
+      ],
+      "answer": "不是太阳，它只是一个行星。",
+      "seconds": 0.324,
+      "keyword_hint": false
+    },
+    {
+      "question": "请介绍一下浮力",
+      "keywords": [
+        "排开",
+        "液体"
+      ],
+      "answer": "浮力是生物化学中最大的物质之一，主要由光和光、水等组成。",
+      "seconds": 0.558,
+      "keyword_hint": false
+    },
+    {
+      "question": "GPIO能做什么",
+      "keywords": [
+        "输入",
+        "输出"
+      ],
+      "answer": "GPIO 是你的个人目标，你是在想学习什么？",
+      "seconds": 0.427,
+      "keyword_hint": false
+    }
+  ],
+  "status": "candidate; human knowledge review and physical board tests required",
+  "keyword_hint_is_accuracy": false
+}

@@ -1,0 +1,13 @@
+{
+  "repo": "https://github.com/jiaheng0815/feng-30m",
+  "commit": "11bbbc1e496949b2c81ac99ff9f974fb3cc77b51",
+  "license": "Apache-2.0",
+  "copied": [
+    "core/*.c",
+    "core/*.h",
+    "board/tools/export_model.py"
+  ],
+  "changes": [
+    "N16R8 / N32R16 integration; separate Xiaobai training; original engine identifiers retained"
+  ]
+}

@@ -1,0 +1,17 @@
+Xiaobai Bot / 小白Bot
+Copyright 2026 TechABJ（理工阿白菌 / 胡鑫）
+
+本项目基于 jiaheng0815/feng-30m 的中文预训练模型、教师数据及推理核心，
+进行 N16R8 / N32R16 适配、词表压缩、身份与知识继续训练，以及网页和安装工具开发。
+不是由本项目作者从零预训练的原创底座。
+
+Upstream: https://github.com/jiaheng0815/feng-30m
+Model: https://huggingface.co/jiaheng0815/feng-30m
+Base model revision: a9709020bb00b6fb60e616cce8fa487e30b961a6
+Inference engine revision: see vendor/feng/UPSTREAM.json
+Original code/model/data license: Apache License, Version 2.0
+Original copyright notices in source files and LICENSE are retained.
+
+Xiaobai integration, training additions, web UI and packaging: Apache-2.0.
+Third-party Python packages, Arduino core and flashing tools retain their own licenses.
+Do not represent third-party work or pretrained weights as solely authored by TechABJ.

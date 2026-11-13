@@ -1,0 +1,9 @@
+upstream-model/
+models/
+build/
+dist/
+firmware/.pio/
+__pycache__/
+*.pyc
+data/upstream_teacher.jsonl
+firmware/XiaobaiBot/src/xb_page.h

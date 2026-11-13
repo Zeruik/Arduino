@@ -1,0 +1,73 @@
+name: Xiaobai Bot candidates
+on:
+  push:
+    branches: [xiaobai-bot]
+    paths: ['projects/xiaobai-bot/**', '.github/workflows/xiaobai-bot.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: xiaobai-candidates-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  train-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      matrix:
+        profile: [n16, n32]
+    defaults:
+      run:
+        working-directory: projects/xiaobai-bot
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/lib/android
+      - name: Install CPU training and firmware tools
+        run: |
+          python -m pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -r requirements.txt
+      - name: Train, validate, build and package candidate
+        run: python tools/train_pipeline.py --profile ${{ matrix.profile }} --steps 6000
+      - name: Actual HTTP inference test
+        run: python tools/web_test.py --model models/${{ matrix.profile }}-q4-ci
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: XiaobaiBot-${{ matrix.profile }}-candidate
+          retention-days: 30
+          path: |
+            projects/xiaobai-bot/dist/*.zip
+            projects/xiaobai-bot/eval/
+            projects/xiaobai-bot/models/*-sft-ci/summary.json
+            projects/xiaobai-bot/models/*-sft-ci/train_log.jsonl
+            projects/xiaobai-bot/models/*-sft-ci/rolling/
+  windows-installer:
+    runs-on: windows-latest
+    timeout-minutes: 40
+    defaults:
+      run:
+        working-directory: projects/xiaobai-bot
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pyinstaller pyserial esptool
+      - name: Package flashing tool
+        run: python -m PyInstaller --onefile --name esptool --collect-all esptool desktop/esptool_entry.py
+      - name: Package wizard
+        run: python -m PyInstaller --onefile --windowed --name XiaobaiBot --add-binary "dist/esptool.exe;." desktop/wizard.py
+      - name: Compile Windows installer
+        shell: pwsh
+        run: '& "C:/Program Files (x86)/Inno Setup 6/ISCC.exe" desktop/setup.iss'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: XiaobaiBot-Windows-Setup
+          path: projects/xiaobai-bot/dist/XiaobaiBot-Setup.exe
+          retention-days: 30
