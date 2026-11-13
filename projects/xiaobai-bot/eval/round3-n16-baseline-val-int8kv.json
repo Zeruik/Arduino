@@ -1,0 +1,243 @@
+{
+  "model": "models/n16-q4-round1",
+  "model_sha256": "bffe1a00a4c41cdb6318dbf519e6e577d02be0c63695c4e0b8960b2dab2d7fdf",
+  "suite_sha256": "9320ea1ace95255f8ed47f83c750f98a5f5d599b5b7811c1c7be505e1a00c04d",
+  "weights": "Q4",
+  "kv": "INT8",
+  "ctx": 512,
+  "kv_bytes": 5203968,
+  "rows": [
+    {
+      "question": "你的身份是什么，简单介绍一下",
+      "answer": "你好，我是小白。我叫你“小白”或者“小白”，想聊点什么？",
+      "source": "TechABJ-curated-v1",
+      "concept": 0,
+      "provenance_question": "你是谁",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.4812865990006685
+    },
+    {
+      "question": "请说明小白的开发署名",
+      "answer": "小白的开发署名是「大白」或「小白」。它通常指在开发署官、工程师和工程师之间进行数据处理，而“大黑”则指在开发部门中进行数据处理。",
+      "source": "TechABJ-curated-v1",
+      "concept": 1,
+      "provenance_question": "谁训练了你",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.5008919470001274
+    },
+    {
+      "question": "这个助手断网后可不可以用",
+      "answer": "请提供需要处理的助手，我才能帮你准确判断。",
+      "source": "TechABJ-curated-v1",
+      "concept": 2,
+      "provenance_question": "你需要联网吗",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.28126853599860624
+    },
+    {
+      "question": "应不应该把你的所有回答都当成正确的",
+      "answer": "好的，请说。",
+      "source": "TechABJ-curated-v1",
+      "concept": 3,
+      "provenance_question": "你什么都会吗",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.1818661470006191
+    },
+    {
+      "question": "为什么同一地方会交替经历白天和夜晚",
+      "answer": "这取决于你所在的地区或城市，具体怎么回事。如果是某个区域或城市，可以告诉我你想去什么地方做白天和夜晚的背景、时间、地点以及具体人名吗？",
+      "source": "TechABJ-curated-v1",
+      "concept": 4,
+      "provenance_question": "地球为什么有昼夜",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.526816304998647
+    },
+    {
+      "question": "月面为什么会在夜空中显得明亮",
+      "answer": "月面在夜空中显得明亮，因为光的速度远大于水。",
+      "source": "TechABJ-curated-v1",
+      "concept": 5,
+      "provenance_question": "月亮自己发光吗",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.2926525370003219
+    },
+    {
+      "question": "通常干空气的主要成分有哪些",
+      "answer": "干空气主要成分有牛油、水或奶油，还有火和热。",
+      "source": "TechABJ-curated-v1",
+      "concept": 6,
+      "provenance_question": "空气主要由什么组成",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.2518864609992306
+    },
+    {
+      "question": "绿色植物通过哪种过程把光能用于合成养分",
+      "answer": "绿色植物通过光能来合成养分，利用光能把水和二氧化碳转化为有机物。",
+      "source": "TechABJ-curated-v1",
+      "concept": 7,
+      "provenance_question": "植物如何制造养分",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.3521425100007036
+    },
+    {
+      "question": "牛顿是用来计量哪种物理量的",
+      "answer": "牛顿是用来计量牛顿的物理量的，主要用于处理、测量和预测。",
+      "source": "TechABJ-curated-v1",
+      "concept": 8,
+      "provenance_question": "力的单位是什么",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.2975227660008386
+    },
+    {
+      "question": "质量能不能直接当成物体受到的重力",
+      "answer": "质量能不能直接当成物体受的重力，因为质量不是物体被重力。",
+      "source": "TechABJ-curated-v1",
+      "concept": 9,
+      "provenance_question": "质量和重量一样吗",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.309417188000225
+    },
+    {
+      "question": "惯性描述了物体哪一种性质",
+      "answer": "惯性描述指物体正有运动状态或运动状态，通常指受到的运动状态。",
+      "source": "TechABJ-curated-v1",
+      "concept": 10,
+      "provenance_question": "什么是惯性",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.27849659099956625
+    },
+    {
+      "question": "请解释接触面上的摩擦现象",
+      "answer": "接触面上的摩擦现象是“热感”的现象，主要由质性、运动或运动产生。它通过光合作用和光能结合，让身体更清醒地流动，从而在空气中释放出一种无味的湿气。",
+      "source": "TechABJ-curated-v1",
+      "concept": 11,
+      "provenance_question": "什么是摩擦力",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.9704062359996897
+    },
+    {
+      "question": "杠杆的支点和力臂如何影响平衡",
+      "answer": "杠杆的支点和力臂如何影响平衡。",
+      "source": "TechABJ-curated-v1",
+      "concept": 12,
+      "provenance_question": "什么是杠杆",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.45793129000048793
+    },
+    {
+      "question": "密度表示材料的什么特征",
+      "answer": "密度表示材料的标准原因，通常指材料中出现的质量变化。",
+      "source": "TechABJ-curated-v1",
+      "concept": 13,
+      "provenance_question": "什么是密度",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.4376081840000552
+    },
+    {
+      "question": "安培对应哪一种电学量",
+      "answer": "安培电学量是电流、，常用于通信和信号处理。",
+      "source": "TechABJ-curated-v1",
+      "concept": 14,
+      "provenance_question": "什么是电流",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.4810327880004479
+    },
+    {
+      "question": "伏特表示的是什么物理量",
+      "answer": "伏特表示的是物理量。",
+      "source": "TechABJ-curated-v1",
+      "concept": 15,
+      "provenance_question": "什么是电压",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.3162751579984615
+    },
+    {
+      "question": "导体的电阻描述什么性质",
+      "answer": "导体电阻表示导体对电流的阻碍作用，单位是欧姆，符号是 Ω。",
+      "source": "TechABJ-curated-v1",
+      "concept": 16,
+      "provenance_question": "什么是电阻",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.6311374590004561
+    },
+    {
+      "question": "普通二极管在电路里能起什么作用",
+      "answer": "普通二极管通常使用电流、-2 电路和-3 电路，它们通过被测定输出输出输出。",
+      "source": "TechABJ-curated-v1",
+      "concept": 17,
+      "provenance_question": "二极管有什么用",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.7129859200013016
+    },
+    {
+      "question": "电子电路中三极管常承担哪些任务",
+      "answer": "电子电路中三极管常承担的“电路”和“电路”。",
+      "source": "TechABJ-curated-v1",
+      "concept": 18,
+      "provenance_question": "三极管有什么用",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.5616981589992065
+    },
+    {
+      "question": "PWM调光主要改变脉冲的哪个参数",
+      "answer": "PWM 调光主要改变脉冲的哪个参数，包括 PDI、CLR 和 CS。",
+      "source": "TechABJ-curated-v1",
+      "concept": 19,
+      "provenance_question": "PWM是什么",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.6577775269997801
+    },
+    {
+      "question": "UART怎样发送和接收数据",
+      "answer": "UART 通常使用 TX 发送和接收，因为 TX 是数据源。",
+      "source": "TechABJ-curated-v1",
+      "concept": 20,
+      "provenance_question": "UART是什么",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.33086643100068613
+    },
+    {
+      "question": "标定在传感器测量中起什么作用",
+      "answer": "标定用于传感器测量的“传感器”符号是 **Smith**。",
+      "source": "TechABJ-curated-v1",
+      "concept": 21,
+      "provenance_question": "传感器为什么需要标定",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.4941521319997264
+    },
+    {
+      "question": "机械系统为什么使用齿轮传动",
+      "answer": "齿轮传动通过啮合传递运动和转矩，可以改变转速、转矩或输出速度。",
+      "source": "TechABJ-curated-v1",
+      "concept": 22,
+      "provenance_question": "齿轮有什么作用",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.6020698180000181
+    },
+    {
+      "question": "闭环控制为什么要测量实际输出",
+      "answer": "闭环控制主要用于在电压下对电流进行阻碍，并行进到大气中。",
+      "source": "TechABJ-curated-v1",
+      "concept": 23,
+      "provenance_question": "什么是反馈控制",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.5555301109998254
+    }
+  ],
+  "multi_turn": [
+    {
+      "question": "我正在学习机械。请记住我刚才说的学习方向。",
+      "answer": "先别急着压住，把“机械”换成“机械”，慢慢学到新技能。"
+    },
+    {
+      "question": "我刚才说在学什么？",
+      "answer": "刚才说是“机械”或者“机械”，把“机械”换成新技能。"
+    },
+    {
+      "question": "你的名字和作者是谁？",
+      "answer": "你叫我“机械”，它是中文里最经典的“机械”。"
+    }
+  ],
+  "physical_board_test": false,
+  "scoring": "unscored; manual factual review required; timings are host-only"
+}

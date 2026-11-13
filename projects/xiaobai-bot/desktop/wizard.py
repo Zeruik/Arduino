@@ -4,6 +4,7 @@ from tkinter import ttk,filedialog,messagebox
 from pathlib import Path
 import json,hashlib,shutil,subprocess,threading,sys,os
 import serial.tools.list_ports
+from package_checks import validate_package
 
 class Wizard:
     def __init__(self):
@@ -40,6 +41,7 @@ class Wizard:
         if self.step==2:
             try:
                 p=Path(self.pack.get()).resolve();m=json.loads(p.read_text());base=p.parent
+                validate_package(base,m)
                 dest=Path(self.folder.get())/'packages'/m['profile'];dest.mkdir(parents=True,exist_ok=True)
                 for f in m['files']:
                     src=(base/f['name']).resolve()
@@ -47,22 +49,27 @@ class Wizard:
                     if hashlib.sha256(src.read_bytes()).hexdigest()!=f['sha256']:raise ValueError('文件校验失败：'+f['name'])
                     target=dest/f['name'];target.parent.mkdir(parents=True,exist_ok=True)
                     if src!=target.resolve():shutil.copy2(src,target)
-                shutil.copy2(p,dest/'manifest.json');self.installed=dest;self.manifest=m
+                if p != (dest/'manifest.json').resolve():shutil.copy2(p,dest/'manifest.json')
+                validate_package(dest,m)
+                self.installed=dest;self.manifest=m
                 self.profile.set(m['profile'])
             except Exception as e:messagebox.showerror('交付包错误',str(e));return
         if self.step<3:self.step+=1;self.draw();return
         if self.profile.get()!=self.manifest['profile']:messagebox.showerror('型号错误','所选型号与交付包不一致。');return
         if not self.port.get():messagebox.showinfo('串口','请选择开发板串口。');return
         if not messagebox.askyesno('确认烧录','将覆盖所选开发板的应用和模型分区。现在开始？'):return
+        self.flash_port=self.port.get();self.flash_profile=self.profile.get()
         self.working=True;self.next['state']='disabled';self.back['state']='disabled';threading.Thread(target=self.flash,daemon=True).start()
     def append(self,s):self.log.insert('end',s);self.log.see('end')
     def flash(self):
         try:
+            # Rehash installed bytes, not just the initially imported source package.
+            validate_package(self.installed,self.manifest,self.flash_profile)
             # 冻结版同时提供 esptool.exe；源码版使用当前 Python 模块。
             exe=Path(getattr(sys,'_MEIPASS',Path(__file__).parent))/'esptool.exe'
             cmd=[str(exe)] if getattr(sys,'frozen',False) else [sys.executable,'-m','esptool']
             if getattr(sys,'frozen',False) and not exe.exists():raise FileNotFoundError('交付包缺少 esptool.exe')
-            cmd+=['--chip','esp32s3','--port',self.port.get(),'--baud','460800','write-flash','--flash-size','16MB' if self.profile.get()=='N16R8' else '32MB']
+            cmd+=['--chip','esp32s3','--port',self.flash_port,'--baud','460800','write-flash','--flash-size','16MB' if self.flash_profile=='N16R8' else '32MB']
             for f in self.manifest['files']:
                 if 'offset' in f:cmd += [hex(f['offset']),str(self.installed/f['name'])]
             proc=subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,encoding='utf-8',errors='replace',creationflags=getattr(subprocess,'CREATE_NO_WINDOW',0))

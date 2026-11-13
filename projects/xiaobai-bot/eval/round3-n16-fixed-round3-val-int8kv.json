@@ -1,0 +1,243 @@
+{
+  "model": "models/n16-fixed-q4-round3",
+  "model_sha256": "901318d9e548db59ea8e2cd4c5a4a39a27e1cf6c997d54e969b3b2757a7aefc2",
+  "suite_sha256": "9320ea1ace95255f8ed47f83c750f98a5f5d599b5b7811c1c7be505e1a00c04d",
+  "weights": "Q4",
+  "kv": "INT8",
+  "ctx": 512,
+  "kv_bytes": 5203968,
+  "rows": [
+    {
+      "question": "你的身份是什么，简单介绍一下",
+      "answer": "你好，我是小白Bot，一个由个人理工和工程师的 feng。",
+      "source": "TechABJ-curated-v1",
+      "concept": 0,
+      "provenance_question": "你是谁",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.36929791100010334
+    },
+    {
+      "question": "请说明小白的开发署名",
+      "answer": "小白 开发署名是 **Active Fests**，主要功能是把代码发给我，并评估项目进展。",
+      "source": "TechABJ-curated-v1",
+      "concept": 1,
+      "provenance_question": "谁训练了你",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.3516364240003895
+    },
+    {
+      "question": "这个助手断网后可不可以用",
+      "answer": "请提供需要断网的助手，我才能帮你准确判断。",
+      "source": "TechABJ-curated-v1",
+      "concept": 2,
+      "provenance_question": "你需要联网吗",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.253588886000216
+    },
+    {
+      "question": "应不应该把你的所有回答都当成正确的",
+      "answer": "好的，请说。",
+      "source": "TechABJ-curated-v1",
+      "concept": 3,
+      "provenance_question": "你什么都会吗",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.2680843990001449
+    },
+    {
+      "question": "为什么同一地方会交替经历白天和夜晚",
+      "answer": "同一地方会交替经历白天和夜晚。",
+      "source": "TechABJ-curated-v1",
+      "concept": 4,
+      "provenance_question": "地球为什么有昼夜",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.3630522439998458
+    },
+    {
+      "question": "月面为什么会在夜空中显得明亮",
+      "answer": "月面不会像人一样在夜空中显得明亮。",
+      "source": "TechABJ-curated-v1",
+      "concept": 5,
+      "provenance_question": "月亮自己发光吗",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.3483736059988587
+    },
+    {
+      "question": "通常干空气的主要成分有哪些",
+      "answer": "干空气主要成分有草本、水或奶油，并分量是奶油的量。",
+      "source": "TechABJ-curated-v1",
+      "concept": 6,
+      "provenance_question": "空气主要由什么组成",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.4263566740009992
+    },
+    {
+      "question": "绿色植物通过哪种过程把光能用于合成养分",
+      "answer": "绿色植物通过光能，把光能用于合成养分。",
+      "source": "TechABJ-curated-v1",
+      "concept": 7,
+      "provenance_question": "植物如何制造养分",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.3483432429984532
+    },
+    {
+      "question": "牛顿是用来计量哪种物理量的",
+      "answer": "牛顿是用来计量某种物理量的微控制器。",
+      "source": "TechABJ-curated-v1",
+      "concept": 8,
+      "provenance_question": "力的单位是什么",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.36559241599934467
+    },
+    {
+      "question": "质量能不能直接当成物体受到的重力",
+      "answer": "质量能不能直接当成物体受到的重力，通常需要共地，单位是牛顿。",
+      "source": "TechABJ-curated-v1",
+      "concept": 9,
+      "provenance_question": "质量和重量一样吗",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.4457947699993383
+    },
+    {
+      "question": "惯性描述了物体哪一种性质",
+      "answer": "惯性描述了物体哪一种性质。",
+      "source": "TechABJ-curated-v1",
+      "concept": 10,
+      "provenance_question": "什么是惯性",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.2622750000009546
+    },
+    {
+      "question": "请解释接触面上的摩擦现象",
+      "answer": "接触面上的摩擦现象是空气中出现的热流和热流，时常发生极大反应。",
+      "source": "TechABJ-curated-v1",
+      "concept": 11,
+      "provenance_question": "什么是摩擦力",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.49737985100000515
+    },
+    {
+      "question": "杠杆的支点和力臂如何影响平衡",
+      "answer": "杠杆的支点和力臂如何影响平衡。",
+      "source": "TechABJ-curated-v1",
+      "concept": 12,
+      "provenance_question": "什么是杠杆",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.3126564550002513
+    },
+    {
+      "question": "密度表示材料的什么特征",
+      "answer": "密度表示材料的质量除以体积，通常需要结合光合作用和热能。",
+      "source": "TechABJ-curated-v1",
+      "concept": 13,
+      "provenance_question": "什么是密度",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.3889656320006907
+    },
+    {
+      "question": "安培对应哪一种电学量",
+      "answer": "安培 电学量是 20.5，由 34个电和子、两端电组成。",
+      "source": "TechABJ-curated-v1",
+      "concept": 14,
+      "provenance_question": "什么是电流",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.5606993190012872
+    },
+    {
+      "question": "伏特表示的是什么物理量",
+      "answer": "伏特表示的是物理量。",
+      "source": "TechABJ-curated-v1",
+      "concept": 15,
+      "provenance_question": "什么是电压",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.29922332699970866
+    },
+    {
+      "question": "导体的电阻描述什么性质",
+      "answer": "导体的电阻描述是电流代表电荷定向移动的快慢，单位是安培，符号是 A。",
+      "source": "TechABJ-curated-v1",
+      "concept": 16,
+      "provenance_question": "什么是电阻",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.4022845010003948
+    },
+    {
+      "question": "普通二极管在电路里能起什么作用",
+      "answer": "普通二极管在电路里能起点作用，单位是欧姆，符号是 Ω。",
+      "source": "TechABJ-curated-v1",
+      "concept": 17,
+      "provenance_question": "二极管有什么用",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.3360833460010326
+    },
+    {
+      "question": "电子电路中三极管常承担哪些任务",
+      "answer": "电路中三极管常承担的“电路”和“电路”。",
+      "source": "TechABJ-curated-v1",
+      "concept": 18,
+      "provenance_question": "三极管有什么用",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.3389654269994935
+    },
+    {
+      "question": "PWM调光主要改变脉冲的哪个参数",
+      "answer": "PWM 调光通过改变脉冲的三个参数，两端会产生阻碍相对运动的脉冲。",
+      "source": "TechABJ-curated-v1",
+      "concept": 19,
+      "provenance_question": "PWM是什么",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.3502794129999529
+    },
+    {
+      "question": "UART怎样发送和接收数据",
+      "answer": "UART 接收数据，通过将和声、对应关系与结果结合起来。",
+      "source": "TechABJ-curated-v1",
+      "concept": 20,
+      "provenance_question": "UART是什么",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.28016840199961734
+    },
+    {
+      "question": "标定在传感器测量中起什么作用",
+      "answer": "标定用于传感器测量的转速。",
+      "source": "TechABJ-curated-v1",
+      "concept": 21,
+      "provenance_question": "传感器为什么需要标定",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.22079433500039158
+    },
+    {
+      "question": "机械系统为什么使用齿轮传动",
+      "answer": "机械系统通过齿轮传动把一侧电流转到另一端，并要求整体导线和传感器件在空气中部的位置。",
+      "source": "TechABJ-curated-v1",
+      "concept": 22,
+      "provenance_question": "齿轮有什么作用",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.6046662570006447
+    },
+    {
+      "question": "闭环控制为什么要测量实际输出",
+      "answer": "闭环控制测量实际输出的导体是呼吸和下拉，过大时需结合指引、中子工伤等参数。",
+      "source": "TechABJ-curated-v1",
+      "concept": 23,
+      "provenance_question": "什么是反馈控制",
+      "role": "held-out wording of trained fact; not independent facts",
+      "host_seconds": 0.6954073879987845
+    }
+  ],
+  "multi_turn": [
+    {
+      "question": "我正在学习机械。请记住我刚才说的学习方向。",
+      "answer": "先别急着压住，把“机械”换成“机械”，慢慢学到新技能。"
+    },
+    {
+      "question": "我刚才说在学什么？",
+      "answer": "刚才说是机械在学什么，因为我们把“机械”换成新技能。"
+    },
+    {
+      "question": "你的名字和作者是谁？",
+      "answer": "我叫小白。"
+    }
+  ],
+  "physical_board_test": false,
+  "scoring": "unscored; manual factual review required; timings are host-only"
+}

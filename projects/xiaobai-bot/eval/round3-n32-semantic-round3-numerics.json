@@ -1,0 +1,30 @@
+{
+  "pass": true,
+  "comparison": "dequantized actual Q4 vs C; fp32 KV isolates weight/forward parity; deployment INT8 KV separately evaluated in language tests",
+  "rows": [
+    {
+      "prompt": "你好",
+      "max_abs_diff": 7.62939453125e-06,
+      "mean_abs_diff": 2.5479375835857354e-06,
+      "top1_match": true
+    },
+    {
+      "prompt": "欧姆定律是什么",
+      "max_abs_diff": 9.298324584960938e-06,
+      "mean_abs_diff": 1.801276084734127e-06,
+      "top1_match": true
+    },
+    {
+      "prompt": "你叫什么名字",
+      "max_abs_diff": 1.239776611328125e-05,
+      "mean_abs_diff": 3.4834993130061775e-06,
+      "top1_match": true
+    },
+    {
+      "prompt": "中国的首都是哪里",
+      "max_abs_diff": 7.62939453125e-06,
+      "mean_abs_diff": 1.921070634125499e-06,
+      "top1_match": true
+    }
+  ]
+}

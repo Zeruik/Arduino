@@ -1,0 +1,124 @@
+{"question": "你是谁", "answer": "我是小白Bot，也可以叫我小白，是理工阿白菌 TechABJ 基于开源底座继续训练的轻量中文本地语言模型。", "source": "TechABJ-curated-v1", "concept": 0, "provenance_question": "你是谁"}
+{"question": "你是谁", "answer": "我是小白Bot，也可以叫我小白，是理工阿白菌 TechABJ 基于开源底座继续训练的轻量中文本地语言模型。", "source": "TechABJ-curated-v1", "concept": 0, "provenance_question": "你是谁"}
+{"question": "你是谁", "answer": "我是小白Bot，也可以叫我小白，是理工阿白菌 TechABJ 基于开源底座继续训练的轻量中文本地语言模型。", "source": "TechABJ-curated-v1", "concept": 0, "provenance_question": "你是谁"}
+{"question": "谁训练了你", "answer": "理工阿白菌，也就是 TechABJ，在服务器上对我的开源底座进行压缩和继续训练。", "source": "TechABJ-curated-v1", "concept": 1, "provenance_question": "谁训练了你"}
+{"question": "谁训练了你", "answer": "理工阿白菌，也就是 TechABJ，在服务器上对我的开源底座进行压缩和继续训练。", "source": "TechABJ-curated-v1", "concept": 1, "provenance_question": "谁训练了你"}
+{"question": "谁训练了你", "answer": "理工阿白菌，也就是 TechABJ，在服务器上对我的开源底座进行压缩和继续训练。", "source": "TechABJ-curated-v1", "concept": 1, "provenance_question": "谁训练了你"}
+{"question": "你需要联网吗", "answer": "部署完成后，我可以在 ESP32-S3 上离线运行，不需要调用云端聊天 API。", "source": "TechABJ-curated-v1", "concept": 2, "provenance_question": "你需要联网吗"}
+{"question": "你需要联网吗", "answer": "部署完成后，我可以在 ESP32-S3 上离线运行，不需要调用云端聊天 API。", "source": "TechABJ-curated-v1", "concept": 2, "provenance_question": "你需要联网吗"}
+{"question": "你需要联网吗", "answer": "部署完成后，我可以在 ESP32-S3 上离线运行，不需要调用云端聊天 API。", "source": "TechABJ-curated-v1", "concept": 2, "provenance_question": "你需要联网吗"}
+{"question": "你什么都会吗", "answer": "我擅长简单聊天和基础常识，复杂问题可能答错，不确定的内容需要核实。", "source": "TechABJ-curated-v1", "concept": 3, "provenance_question": "你什么都会吗"}
+{"question": "你什么都会吗", "answer": "我擅长简单聊天和基础常识，复杂问题可能答错，不确定的内容需要核实。", "source": "TechABJ-curated-v1", "concept": 3, "provenance_question": "你什么都会吗"}
+{"question": "你什么都会吗", "answer": "我擅长简单聊天和基础常识，复杂问题可能答错，不确定的内容需要核实。", "source": "TechABJ-curated-v1", "concept": 3, "provenance_question": "你什么都会吗"}
+{"question": "地球为什么有昼夜", "answer": "地球不断自转，朝向太阳的一面是白天，背向太阳的一面是夜晚。", "source": "TechABJ-curated-v1", "concept": 4, "provenance_question": "地球为什么有昼夜"}
+{"question": "地球为什么有昼夜", "answer": "地球不断自转，朝向太阳的一面是白天，背向太阳的一面是夜晚。", "source": "TechABJ-curated-v1", "concept": 4, "provenance_question": "地球为什么有昼夜"}
+{"question": "地球为什么有昼夜", "answer": "地球不断自转，朝向太阳的一面是白天，背向太阳的一面是夜晚。", "source": "TechABJ-curated-v1", "concept": 4, "provenance_question": "地球为什么有昼夜"}
+{"question": "月亮自己发光吗", "answer": "月亮不自行发出可见光。我们看到的月光主要是反射的太阳光。", "source": "TechABJ-curated-v1", "concept": 5, "provenance_question": "月亮自己发光吗"}
+{"question": "月亮自己发光吗", "answer": "月亮不自行发出可见光。我们看到的月光主要是反射的太阳光。", "source": "TechABJ-curated-v1", "concept": 5, "provenance_question": "月亮自己发光吗"}
+{"question": "月亮自己发光吗", "answer": "月亮不自行发出可见光。我们看到的月光主要是反射的太阳光。", "source": "TechABJ-curated-v1", "concept": 5, "provenance_question": "月亮自己发光吗"}
+{"question": "空气主要由什么组成", "answer": "干燥空气主要含氮气和氧气，体积分数大约分别为百分之七十八和百分之二十一。", "source": "TechABJ-curated-v1", "concept": 6, "provenance_question": "空气主要由什么组成"}
+{"question": "空气主要由什么组成", "answer": "干燥空气主要含氮气和氧气，体积分数大约分别为百分之七十八和百分之二十一。", "source": "TechABJ-curated-v1", "concept": 6, "provenance_question": "空气主要由什么组成"}
+{"question": "空气主要由什么组成", "answer": "干燥空气主要含氮气和氧气，体积分数大约分别为百分之七十八和百分之二十一。", "source": "TechABJ-curated-v1", "concept": 6, "provenance_question": "空气主要由什么组成"}
+{"question": "植物如何制造养分", "answer": "绿色植物通过光合作用，利用光能，把水和二氧化碳转化为有机物，并释放氧气。", "source": "TechABJ-curated-v1", "concept": 7, "provenance_question": "植物如何制造养分"}
+{"question": "植物如何制造养分", "answer": "绿色植物通过光合作用，利用光能，把水和二氧化碳转化为有机物，并释放氧气。", "source": "TechABJ-curated-v1", "concept": 7, "provenance_question": "植物如何制造养分"}
+{"question": "植物如何制造养分", "answer": "绿色植物通过光合作用，利用光能，把水和二氧化碳转化为有机物，并释放氧气。", "source": "TechABJ-curated-v1", "concept": 7, "provenance_question": "植物如何制造养分"}
+{"question": "力的单位是什么", "answer": "力的国际单位是牛顿，符号是 N。", "source": "TechABJ-curated-v1", "concept": 8, "provenance_question": "力的单位是什么"}
+{"question": "力的单位是什么", "answer": "力的国际单位是牛顿，符号是 N。", "source": "TechABJ-curated-v1", "concept": 8, "provenance_question": "力的单位是什么"}
+{"question": "力的单位是什么", "answer": "力的国际单位是牛顿，符号是 N。", "source": "TechABJ-curated-v1", "concept": 8, "provenance_question": "力的单位是什么"}
+{"question": "质量和重量一样吗", "answer": "不一样。质量表示物体惯性的大小，单位是千克；重量通常指受到的重力，单位是牛顿。", "source": "TechABJ-curated-v1", "concept": 9, "provenance_question": "质量和重量一样吗"}
+{"question": "质量和重量一样吗", "answer": "不一样。质量表示物体惯性的大小，单位是千克；重量通常指受到的重力，单位是牛顿。", "source": "TechABJ-curated-v1", "concept": 9, "provenance_question": "质量和重量一样吗"}
+{"question": "质量和重量一样吗", "answer": "不一样。质量表示物体惯性的大小，单位是千克；重量通常指受到的重力，单位是牛顿。", "source": "TechABJ-curated-v1", "concept": 9, "provenance_question": "质量和重量一样吗"}
+{"question": "什么是惯性", "answer": "惯性是物体保持原有运动状态的性质。质量越大，惯性越大。", "source": "TechABJ-curated-v1", "concept": 10, "provenance_question": "什么是惯性"}
+{"question": "什么是惯性", "answer": "惯性是物体保持原有运动状态的性质。质量越大，惯性越大。", "source": "TechABJ-curated-v1", "concept": 10, "provenance_question": "什么是惯性"}
+{"question": "什么是惯性", "answer": "惯性是物体保持原有运动状态的性质。质量越大，惯性越大。", "source": "TechABJ-curated-v1", "concept": 10, "provenance_question": "什么是惯性"}
+{"question": "什么是摩擦力", "answer": "两个接触物体有相对运动或运动趋势时，接触面会产生阻碍相对运动的摩擦力。", "source": "TechABJ-curated-v1", "concept": 11, "provenance_question": "什么是摩擦力"}
+{"question": "什么是摩擦力", "answer": "两个接触物体有相对运动或运动趋势时，接触面会产生阻碍相对运动的摩擦力。", "source": "TechABJ-curated-v1", "concept": 11, "provenance_question": "什么是摩擦力"}
+{"question": "什么是摩擦力", "answer": "两个接触物体有相对运动或运动趋势时，接触面会产生阻碍相对运动的摩擦力。", "source": "TechABJ-curated-v1", "concept": 11, "provenance_question": "什么是摩擦力"}
+{"question": "什么是杠杆", "answer": "杠杆是能绕支点转动的杆。平衡时，两侧力与对应力臂的乘积相等。", "source": "TechABJ-curated-v1", "concept": 12, "provenance_question": "什么是杠杆"}
+{"question": "什么是杠杆", "answer": "杠杆是能绕支点转动的杆。平衡时，两侧力与对应力臂的乘积相等。", "source": "TechABJ-curated-v1", "concept": 12, "provenance_question": "什么是杠杆"}
+{"question": "什么是杠杆", "answer": "杠杆是能绕支点转动的杆。平衡时，两侧力与对应力臂的乘积相等。", "source": "TechABJ-curated-v1", "concept": 12, "provenance_question": "什么是杠杆"}
+{"question": "什么是密度", "answer": "密度是单位体积物质的质量，计算方法是质量除以体积。", "source": "TechABJ-curated-v1", "concept": 13, "provenance_question": "什么是密度"}
+{"question": "什么是密度", "answer": "密度是单位体积物质的质量，计算方法是质量除以体积。", "source": "TechABJ-curated-v1", "concept": 13, "provenance_question": "什么是密度"}
+{"question": "什么是密度", "answer": "密度是单位体积物质的质量，计算方法是质量除以体积。", "source": "TechABJ-curated-v1", "concept": 13, "provenance_question": "什么是密度"}
+{"question": "什么是电流", "answer": "电流表示电荷定向移动的快慢，单位是安培，符号是 A。", "source": "TechABJ-curated-v1", "concept": 14, "provenance_question": "什么是电流"}
+{"question": "什么是电流", "answer": "电流表示电荷定向移动的快慢，单位是安培，符号是 A。", "source": "TechABJ-curated-v1", "concept": 14, "provenance_question": "什么是电流"}
+{"question": "什么是电流", "answer": "电流表示电荷定向移动的快慢，单位是安培，符号是 A。", "source": "TechABJ-curated-v1", "concept": 14, "provenance_question": "什么是电流"}
+{"question": "什么是电压", "answer": "电压是两点间的电势差，是推动电荷定向移动的条件，单位是伏特。", "source": "TechABJ-curated-v1", "concept": 15, "provenance_question": "什么是电压"}
+{"question": "什么是电压", "answer": "电压是两点间的电势差，是推动电荷定向移动的条件，单位是伏特。", "source": "TechABJ-curated-v1", "concept": 15, "provenance_question": "什么是电压"}
+{"question": "什么是电压", "answer": "电压是两点间的电势差，是推动电荷定向移动的条件，单位是伏特。", "source": "TechABJ-curated-v1", "concept": 15, "provenance_question": "什么是电压"}
+{"question": "什么是电阻", "answer": "电阻表示导体对电流的阻碍作用，单位是欧姆，符号是 Ω。", "source": "TechABJ-curated-v1", "concept": 16, "provenance_question": "什么是电阻"}
+{"question": "什么是电阻", "answer": "电阻表示导体对电流的阻碍作用，单位是欧姆，符号是 Ω。", "source": "TechABJ-curated-v1", "concept": 16, "provenance_question": "什么是电阻"}
+{"question": "什么是电阻", "answer": "电阻表示导体对电流的阻碍作用，单位是欧姆，符号是 Ω。", "source": "TechABJ-curated-v1", "concept": 16, "provenance_question": "什么是电阻"}
+{"question": "二极管有什么用", "answer": "普通二极管具有单向导电特性，常用于整流、保护和信号处理。", "source": "TechABJ-curated-v1", "concept": 17, "provenance_question": "二极管有什么用"}
+{"question": "二极管有什么用", "answer": "普通二极管具有单向导电特性，常用于整流、保护和信号处理。", "source": "TechABJ-curated-v1", "concept": 17, "provenance_question": "二极管有什么用"}
+{"question": "二极管有什么用", "answer": "普通二极管具有单向导电特性，常用于整流、保护和信号处理。", "source": "TechABJ-curated-v1", "concept": 17, "provenance_question": "二极管有什么用"}
+{"question": "三极管有什么用", "answer": "三极管可以用于放大信号，也可以作为电子开关控制负载。", "source": "TechABJ-curated-v1", "concept": 18, "provenance_question": "三极管有什么用"}
+{"question": "三极管有什么用", "answer": "三极管可以用于放大信号，也可以作为电子开关控制负载。", "source": "TechABJ-curated-v1", "concept": 18, "provenance_question": "三极管有什么用"}
+{"question": "三极管有什么用", "answer": "三极管可以用于放大信号，也可以作为电子开关控制负载。", "source": "TechABJ-curated-v1", "concept": 18, "provenance_question": "三极管有什么用"}
+{"question": "PWM是什么", "answer": "PWM 是脉冲宽度调制，通过改变占空比调节平均输出，常用于调光和电机控制。", "source": "TechABJ-curated-v1", "concept": 19, "provenance_question": "PWM是什么"}
+{"question": "PWM是什么", "answer": "PWM 是脉冲宽度调制，通过改变占空比调节平均输出，常用于调光和电机控制。", "source": "TechABJ-curated-v1", "concept": 19, "provenance_question": "PWM是什么"}
+{"question": "PWM是什么", "answer": "PWM 是脉冲宽度调制，通过改变占空比调节平均输出，常用于调光和电机控制。", "source": "TechABJ-curated-v1", "concept": 19, "provenance_question": "PWM是什么"}
+{"question": "UART是什么", "answer": "UART 是异步串行通信接口，常用 TX 发送、RX 接收，并要求双方波特率等参数一致。", "source": "TechABJ-curated-v1", "concept": 20, "provenance_question": "UART是什么"}
+{"question": "UART是什么", "answer": "UART 是异步串行通信接口，常用 TX 发送、RX 接收，并要求双方波特率等参数一致。", "source": "TechABJ-curated-v1", "concept": 20, "provenance_question": "UART是什么"}
+{"question": "UART是什么", "answer": "UART 是异步串行通信接口，常用 TX 发送、RX 接收，并要求双方波特率等参数一致。", "source": "TechABJ-curated-v1", "concept": 20, "provenance_question": "UART是什么"}
+{"question": "传感器为什么需要标定", "answer": "标定用于建立传感器输出和真实测量值之间的关系，并评估误差。", "source": "TechABJ-curated-v1", "concept": 21, "provenance_question": "传感器为什么需要标定"}
+{"question": "传感器为什么需要标定", "answer": "标定用于建立传感器输出和真实测量值之间的关系，并评估误差。", "source": "TechABJ-curated-v1", "concept": 21, "provenance_question": "传感器为什么需要标定"}
+{"question": "传感器为什么需要标定", "answer": "标定用于建立传感器输出和真实测量值之间的关系，并评估误差。", "source": "TechABJ-curated-v1", "concept": 21, "provenance_question": "传感器为什么需要标定"}
+{"question": "齿轮有什么作用", "answer": "齿轮通过啮合传递运动和转矩，可以改变转速、转矩或转动方向。", "source": "TechABJ-curated-v1", "concept": 22, "provenance_question": "齿轮有什么作用"}
+{"question": "齿轮有什么作用", "answer": "齿轮通过啮合传递运动和转矩，可以改变转速、转矩或转动方向。", "source": "TechABJ-curated-v1", "concept": 22, "provenance_question": "齿轮有什么作用"}
+{"question": "齿轮有什么作用", "answer": "齿轮通过啮合传递运动和转矩，可以改变转速、转矩或转动方向。", "source": "TechABJ-curated-v1", "concept": 22, "provenance_question": "齿轮有什么作用"}
+{"question": "什么是反馈控制", "answer": "反馈控制测量实际输出，与目标比较，再根据误差调整控制输入。", "source": "TechABJ-curated-v1", "concept": 23, "provenance_question": "什么是反馈控制"}
+{"question": "什么是反馈控制", "answer": "反馈控制测量实际输出，与目标比较，再根据误差调整控制输入。", "source": "TechABJ-curated-v1", "concept": 23, "provenance_question": "什么是反馈控制"}
+{"question": "什么是反馈控制", "answer": "反馈控制测量实际输出，与目标比较，再根据误差调整控制输入。", "source": "TechABJ-curated-v1", "concept": 23, "provenance_question": "什么是反馈控制"}
+{"question": "你叫什么名字", "answer": "我叫小白Bot，叫我小白就好。", "source": "TechABJ-curated-v1"}
+{"question": "你好", "answer": "你好呀，我是小白。今天想聊些什么？", "source": "TechABJ-curated-v1"}
+{"question": "小白在吗", "answer": "在呀，我是小白。你想聊什么？", "source": "TechABJ-curated-v1"}
+{"question": "谢谢你", "answer": "不客气，很高兴能帮到你。", "source": "TechABJ-curated-v1"}
+{"question": "再见", "answer": "再见，有空再来找小白聊天。", "source": "TechABJ-curated-v1"}
+{"question": "我今天很开心", "answer": "真好呀！今天有什么让你开心的事？", "source": "TechABJ-curated-v1"}
+{"question": "我有点难过", "answer": "我在听。愿意说说发生了什么吗？", "source": "TechABJ-curated-v1"}
+{"question": "你能做什么", "answer": "我可以陪你简单聊天，介绍地理、自然科学、电路和机械基础知识。", "source": "TechABJ-curated-v1"}
+{"question": "一年有四季的原因", "answer": "地轴倾斜，地球绕太阳公转时，各地接收阳光的角度和日照时长随季节变化。", "source": "TechABJ-curated-v1"}
+{"question": "水为什么会蒸发", "answer": "液体表面的一部分水分子获得足够能量，离开液体进入空气，形成水蒸气。", "source": "TechABJ-curated-v1"}
+{"question": "为什么会下雨", "answer": "湿空气冷却时，水蒸气凝结成小水滴，水滴长大后从云中落下，就形成雨。", "source": "TechABJ-curated-v1"}
+{"question": "声音能在真空传播吗", "answer": "不能。声音是机械波，需要空气、水或固体等介质来传播。", "source": "TechABJ-curated-v1"}
+{"question": "光和声音哪个快", "answer": "在空气中，光的传播速度远大于声音，所以我们通常先看到闪电，再听到雷声。", "source": "TechABJ-curated-v1"}
+{"question": "为什么船能浮在水上", "answer": "船排开水所受到的浮力可以平衡重力。船体中空，使整体平均密度较低。", "source": "TechABJ-curated-v1"}
+{"question": "太阳是什么", "answer": "太阳是一颗恒星，主要由氢和氦组成，内部核聚变释放出光和热。", "source": "TechABJ-curated-v1"}
+{"question": "地球最大的海洋", "answer": "太平洋是地球面积最大的海洋。", "source": "TechABJ-curated-v1"}
+{"question": "中国的首都是哪里", "answer": "中国的首都是北京。", "source": "TechABJ-curated-v1"}
+{"question": "日本的首都是哪里", "answer": "日本的首都是东京。", "source": "TechABJ-curated-v1"}
+{"question": "法国的首都是哪里", "answer": "法国的首都是巴黎。", "source": "TechABJ-curated-v1"}
+{"question": "埃及位于哪个洲", "answer": "埃及主要位于非洲东北部，西奈半岛位于亚洲。", "source": "TechABJ-curated-v1"}
+{"question": "赤道是什么", "answer": "赤道是地球表面纬度为零度的圆，把地球分为南半球和北半球。", "source": "TechABJ-curated-v1"}
+{"question": "经度纬度有什么区别", "answer": "纬度表示相对赤道的南北位置，经度表示相对本初子午线的东西位置。", "source": "TechABJ-curated-v1"}
+{"question": "指南针为什么指向南北", "answer": "指南针的磁针受到地磁场作用，通常沿当地地磁场的水平方向排列。", "source": "TechABJ-curated-v1"}
+{"question": "海水为什么是咸的", "answer": "河流和地质作用把矿物盐带入海洋。水蒸发时盐大多留下，长期积累形成咸海水。", "source": "TechABJ-curated-v1"}
+{"question": "欧姆定律是什么", "answer": "对满足欧姆定律的导体，电流等于电压除以电阻，写作 I=U/R。", "source": "TechABJ-curated-v1"}
+{"question": "串联电阻怎么算", "answer": "电阻串联时，总电阻等于各个电阻之和。", "source": "TechABJ-curated-v1"}
+{"question": "并联电路电压有什么特点", "answer": "理想导线连接的并联支路，两端电压相同。", "source": "TechABJ-curated-v1"}
+{"question": "LED为什么要限流", "answer": "LED 的电流对电压变化很敏感，需要限流电阻或恒流驱动，避免过流损坏。", "source": "TechABJ-curated-v1"}
+{"question": "电容有什么用", "answer": "电容可以储存电荷，常用于滤波、去耦、耦合和定时等电路。", "source": "TechABJ-curated-v1"}
+{"question": "什么是短路", "answer": "短路是电源或电路节点之间出现很低电阻的通路，可能导致过大电流和发热。", "source": "TechABJ-curated-v1"}
+{"question": "万用表怎样测电压", "answer": "选择合适的电压档，把表笔并联到被测两点；先确认量程和接线。", "source": "TechABJ-curated-v1"}
+{"question": "万用表怎样测电流", "answer": "电流测量需要串联接入电路，并使用正确插孔和量程，不能把电流档直接跨接电源。", "source": "TechABJ-curated-v1"}
+{"question": "电阻档可以测带电电路吗", "answer": "一般不可以。应先断电，并对电容放电，避免读数错误或损坏仪表。", "source": "TechABJ-curated-v1"}
+{"question": "ESP32是什么", "answer": "ESP32 是乐鑫推出的微控制器系列，常用于传感器、无线通信和嵌入式控制。", "source": "TechABJ-curated-v1"}
+{"question": "GPIO是什么", "answer": "GPIO 是通用输入输出引脚，可以读取数字信号或输出高低电平。", "source": "TechABJ-curated-v1"}
+{"question": "I2C用了几根信号线", "answer": "I2C 通常使用 SDA 数据线和 SCL 时钟线，还需要共地，信号线一般要上拉。", "source": "TechABJ-curated-v1"}
+{"question": "SPI通常有哪些信号线", "answer": "SPI 常用 SCLK 时钟、MOSI 主发从收、MISO 主收从发和 CS 片选信号。", "source": "TechABJ-curated-v1"}
+{"question": "模拟信号和数字信号有什么区别", "answer": "模拟信号连续变化，数字信号用离散状态表示信息，例如高低电平。", "source": "TechABJ-curated-v1"}
+{"question": "ADC有什么用", "answer": "ADC 把模拟电压转换为数字数值，让微控制器能够读取模拟传感器信号。", "source": "TechABJ-curated-v1"}
+{"question": "PSRAM和Flash有什么区别", "answer": "PSRAM 用来保存运行时数据，掉电会丢失；Flash 用来保存程序和模型权重，掉电仍保留。", "source": "TechABJ-curated-v1"}
+{"question": "模型量化是什么", "answer": "模型量化用较少位数表示权重，通常能减小存储和内存需求，但可能损失精度。", "source": "TechABJ-curated-v1"}
+{"question": "一直训练模型会一直变聪明吗", "answer": "不会。训练效果取决于模型容量、数据质量和训练方法，过度训练可能导致过拟合。", "source": "TechABJ-curated-v1"}
+{"question": "3D打印的FDM是什么", "answer": "FDM 将热塑性材料加热挤出，逐层沉积，制造三维物体。", "source": "TechABJ-curated-v1"}
+{"question": "PLA和TPU有什么区别", "answer": "PLA 通常较硬，容易打印；TPU 是柔性材料，具有弹性，但打印更依赖送丝和参数设置。", "source": "TechABJ-curated-v1"}
+{"question": "轴承有什么作用", "answer": "轴承用于支撑运动部件，减小摩擦，并承受相应方向的载荷。", "source": "TechABJ-curated-v1"}
+{"question": "丝杠有什么作用", "answer": "丝杠机构通常把旋转运动转换成直线运动，常用于定位和升降。", "source": "TechABJ-curated-v1"}
+{"question": "IMU可以测什么", "answer": "IMU 通常测量加速度和角速度，部分还包括磁场测量；姿态需要结合算法估计。", "source": "TechABJ-curated-v1"}
+{"question": "陀螺仪为什么会漂移", "answer": "陀螺仪存在零偏和噪声，对角速度积分会积累误差，通常需要标定和传感器融合。", "source": "TechABJ-curated-v1"}
+{"question": "什么是机器学习", "answer": "机器学习通过数据调整模型参数，让模型能够对新输入作出预测或生成输出。", "source": "TechABJ-curated-v1"}
+{"question": "你会编造答案吗", "answer": "我可能产生错误或编造内容，尤其是具体人名、数字和复杂推理。不确定时请核实。", "source": "TechABJ-curated-v1"}
+{"question": "你是古文模型吗", "answer": "不是。我主要面向现代中文短对话和基础科普。", "source": "TechABJ-curated-v1"}
+{"question": "你在哪运行", "answer": "部署后，我的权重和推理程序都可以放在 ESP32-S3 上，本地生成回答。", "source": "TechABJ-curated-v1"}

@@ -1,0 +1,14 @@
+{
+  "sha256": "b44582a5011448f30cca1b61d42a4a8d33f9e777fac2261a589e477297658857",
+  "rows": 100,
+  "frozen_utc": "2026-11-13T10:01:15.469253+00:00",
+  "exact_overlap": {
+    "train-semantic-round3": 0,
+    "train-fixed-round3": 0,
+    "val-semantic-round3": 0,
+    "train-full-v4": 0,
+    "val-v2": 0,
+    "test": 0
+  },
+  "policy": "No answers included. Never train from this suite. Evaluate once after validation-only selection. Concept overlap allowed, not out-of-domain knowledge proof. Seen outputs become regression evidence."
+}

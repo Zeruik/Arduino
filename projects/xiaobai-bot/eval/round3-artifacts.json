@@ -1,0 +1,26 @@
+{
+  "round": 3,
+  "status": "experimental candidates; not accepted for comprehensive chat; old candidates retained",
+  "artifacts": {
+    "N16R8-Q4": {
+      "library_file_id": "libfile_fbba4162ee7c8191a7d19f9e747b3396",
+      "url": "https://chatgpt.com/library?file_id=libfile_fbba4162ee7c8191a7d19f9e747b3396&account_id=personal"
+    },
+    "N16R8-FP32": {
+      "library_file_id": "libfile_4ea78b0d99b0819191c4ecab9de5691e",
+      "url": "https://chatgpt.com/library?file_id=libfile_4ea78b0d99b0819191c4ecab9de5691e&account_id=personal"
+    },
+    "N32R16-Q4": {
+      "library_file_id": "libfile_eb451982e4808191a7cd0dba0f93a01b",
+      "url": "https://chatgpt.com/library?file_id=libfile_eb451982e4808191a7cd0dba0f93a01b&account_id=personal"
+    },
+    "N32R16-FP32": {
+      "library_file_id": "libfile_0fb2aad6c80c8191895cc39f5b2bb0d3",
+      "url": "https://chatgpt.com/library?file_id=libfile_0fb2aad6c80c8191895cc39f5b2bb0d3&account_id=personal"
+    },
+    "evidence": {
+      "library_file_id": "libfile_dd55cbb58ab881918042f7aed0b3d840",
+      "url": "https://chatgpt.com/library?file_id=libfile_dd55cbb58ab881918042f7aed0b3d840&account_id=personal"
+    }
+  }
+}

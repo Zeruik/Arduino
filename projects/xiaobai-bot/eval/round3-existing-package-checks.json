@@ -1,0 +1,12 @@
+[
+  {
+    "profile": "N16R8",
+    "pass": true,
+    "package": "dist/XiaobaiBot-N16R8-v0.2-dev-round1"
+  },
+  {
+    "profile": "N32R16",
+    "pass": true,
+    "package": "dist/XiaobaiBot-N32R16-v0.2-dev-round1"
+  }
+]

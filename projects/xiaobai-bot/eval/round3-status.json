@@ -1,0 +1,198 @@
+{
+  "round": 3,
+  "total_rounds": 6,
+  "next_round": 4,
+  "date": "2026-11-13",
+  "baseline_steps": {
+    "n16": 11428,
+    "n32": 11882
+  },
+  "baseline_training_process_alive_on_entry": false,
+  "finish_v4_log_bytes": 0,
+  "knowledge_accepted": false,
+  "physical_board_accepted": false,
+  "windows_interaction_tested": false,
+  "windows_new_source_built": false,
+  "default_candidate_replaced": false,
+  "probes": {
+    "n16-fixed": {
+      "summary": {
+        "step": 1200,
+        "initial_val_loss": 0.966835138698419,
+        "best_val_loss": 0.6737374228735765,
+        "seconds": 292.297889391999,
+        "complete": true,
+        "train_rows": 124,
+        "val_rows": 24,
+        "base": "models/n16-v4-round1-step11428",
+        "trainable_layers": 11,
+        "data_sha256": "958796118a0e84a7a9038f8554b52c66cb87a4ebcf55af716169816f69b93093"
+      },
+      "selected_extra_step": 1200,
+      "fp32_sha256": "28b29710e8b603c2bbc57af978da734163008b7198056fd0bffb943e5e79fb1b"
+    },
+    "n16-semantic": {
+      "summary": {
+        "step": 1200,
+        "initial_val_loss": 0.966835138698419,
+        "best_val_loss": 0.15220414897582182,
+        "seconds": 321.58765077799944,
+        "complete": true,
+        "train_rows": 124,
+        "val_rows": 24,
+        "base": "models/n16-v4-round1-step11428",
+        "trainable_layers": 11,
+        "data_sha256": "80806d1a94cb89721081551d45443677c76b8413649f994a1990282c0a20fec7"
+      },
+      "selected_extra_step": 1000,
+      "fp32_sha256": "5ac71c738500701e2b5526964c5ee6a19f2db20841bdd54bacc4e00c68c7dc05",
+      "kv_bytes": 5203968,
+      "kv_identical_out_of_24": 21,
+      "q4_layout": {
+        "profile": "n16",
+        "partitions": [
+          {
+            "name": "nvs",
+            "offset": 36864,
+            "size": 20480
+          },
+          {
+            "name": "phy_init",
+            "offset": 57344,
+            "size": 4096
+          },
+          {
+            "name": "factory",
+            "offset": 65536,
+            "size": 2031616
+          },
+          {
+            "name": "model",
+            "offset": 2097152,
+            "size": 14155776
+          },
+          {
+            "name": "tokdata",
+            "offset": 16252928,
+            "size": 524288
+          }
+        ],
+        "files": {
+          "model.bin": {
+            "size": 13710208,
+            "sha256": "dffaa2f16813560eca47104702379416ffaa23c2f85010dd8d1a5cd44764fd21",
+            "offset": 2097152
+          },
+          "tokenizer.bin": {
+            "size": 184996,
+            "sha256": "2cbd2ecd7b23e5fd72fa3c0fd46d7fb761c34325051753ad6f7957afe423db41",
+            "offset": 16252928
+          }
+        },
+        "layout_pass": true,
+        "physical_board_test": false
+      },
+      "numerics": true
+    },
+    "n32-semantic": {
+      "summary": {
+        "step": 1200,
+        "initial_val_loss": 1.0849134313563507,
+        "best_val_loss": 0.178292460894833,
+        "seconds": 310.02014227499967,
+        "complete": true,
+        "train_rows": 124,
+        "val_rows": 24,
+        "base": "models/n32-v4-round1-step11882",
+        "trainable_layers": 11,
+        "data_sha256": "80806d1a94cb89721081551d45443677c76b8413649f994a1990282c0a20fec7"
+      },
+      "selected_extra_step": 1200,
+      "fp32_sha256": "1690b74151daa0b7eca92907b2e5174f240bb7683e282a3af5c6401b865c8272",
+      "kv_bytes": 10407936,
+      "kv_identical_out_of_24": 21,
+      "q4_layout": {
+        "profile": "n32",
+        "partitions": [
+          {
+            "name": "nvs",
+            "offset": 36864,
+            "size": 20480
+          },
+          {
+            "name": "phy_init",
+            "offset": 57344,
+            "size": 4096
+          },
+          {
+            "name": "factory",
+            "offset": 65536,
+            "size": 1048576
+          },
+          {
+            "name": "model",
+            "offset": 1114112,
+            "size": 15663104
+          },
+          {
+            "name": "tokdata",
+            "offset": 16777216,
+            "size": 524288
+          }
+        ],
+        "files": {
+          "model.bin": {
+            "size": 15659904,
+            "sha256": "cdde403054f9cfcc8938b0c4fc22d759c62df07a1e0d3a2451462a2adf847221",
+            "offset": 1114112
+          },
+          "tokenizer.bin": {
+            "size": 423154,
+            "sha256": "7c4eff87b2101327710f017a1536acd21f0f4531fb3fc4b90232520dfeb651f0",
+            "offset": 16777216
+          }
+        },
+        "layout_pass": true,
+        "physical_board_test": false
+      },
+      "numerics": true
+    }
+  },
+  "independent": {
+    "n16-baseline": {
+      "rows": 100,
+      "invalid_utf8": 0,
+      "comprehensive_knowledge_accepted": false,
+      "multi_turn_accepted": false
+    },
+    "n32-baseline": {
+      "rows": 100,
+      "invalid_utf8": 1,
+      "comprehensive_knowledge_accepted": false,
+      "multi_turn_accepted": false
+    },
+    "n16-semantic-round3": {
+      "rows": 100,
+      "invalid_utf8": 0,
+      "comprehensive_knowledge_accepted": false,
+      "multi_turn_accepted": false
+    },
+    "n32-semantic-round3": {
+      "rows": 100,
+      "invalid_utf8": 0,
+      "comprehensive_knowledge_accepted": false,
+      "multi_turn_accepted": false
+    }
+  },
+  "new_package_sha256": {
+    "XiaobaiBot-N16R8-v0.2-dev-round3-FP32.zip": "e9098ec9a6a3fd2092d77ece04ae79e621553deaffd7a5369d922c346e73b656",
+    "XiaobaiBot-N16R8-v0.2-dev-round3.zip": "e539ed81195dcc5ff3b4f20947d9a7caebb86b3f89191d34cd6c7753e2fc0b49",
+    "XiaobaiBot-N32R16-v0.2-dev-round3-FP32.zip": "3c0bc4a50ee434510808dc5498eb53bdb3509d8da8171d4d8b3defc6f380be75",
+    "XiaobaiBot-N32R16-v0.2-dev-round3.zip": "b20ee4660dbc6196ba458ebbdabe5f4de0f55ad84627057dd1d94ca1602e5b11"
+  },
+  "sampler_probe": {
+    "matched_answers": 4,
+    "total": 4,
+    "comparison": "HF actual dequantized Q4 with native sampler vs C Q4 FP32-KV; does not prove all prompts"
+  }
+}

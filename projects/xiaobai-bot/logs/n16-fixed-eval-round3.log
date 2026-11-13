@@ -1,0 +1,20 @@
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 4325.26it/s]
+model: 11L hidden=448 heads=7x64 ffn=896 vocab=8192 rope_theta=1000000.0
+model.bin: 13.08 MB, 123 tensors
+tokenizer.bin: 181 KB, vocab 8192, merges 7932, specials {'<|pad|>': 3, '<|im_start|>': 1, '<|im_end|>': 2, '<|endoftext|>': 0}
+wrote ref_logits.bin / ref_ids.json / export_info.json
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 4370.18it/s]
+{'prompt': '你好', 'max_abs_diff': 1.0967254638671875e-05, 'mean_abs_diff': 3.1695617508376017e-06, 'top1_match': True}
+{'prompt': '欧姆定律是什么', 'max_abs_diff': 9.5367431640625e-06, 'mean_abs_diff': 2.4520468286937103e-06, 'top1_match': True}
+{'prompt': '你叫什么名字', 'max_abs_diff': 9.179115295410156e-06, 'mean_abs_diff': 1.8778046069201082e-06, 'top1_match': True}
+{'prompt': '中国的首都是哪里', 'max_abs_diff': 6.4373016357421875e-06, 'mean_abs_diff': 1.2891450751340017e-06, 'top1_match': True}
+{'profile': 'n16', 'partitions': [{'name': 'nvs', 'offset': 36864, 'size': 20480}, {'name': 'phy_init', 'offset': 57344, 'size': 4096}, {'name': 'factory', 'offset': 65536, 'size': 2031616}, {'name': 'model', 'offset': 2097152, 'size': 14155776}, {'name': 'tokdata', 'offset': 16252928, 'size': 524288}], 'files': {'model.bin': {'size': 13710208, 'sha256': '901318d9e548db59ea8e2cd4c5a4a39a27e1cf6c997d54e969b3b2757a7aefc2', 'offset': 2097152}, 'tokenizer.bin': {'size': 184996, 'sha256': '2cbd2ecd7b23e5fd72fa3c0fd46d7fb761c34325051753ad6f7957afe423db41', 'offset': 16252928}}, 'layout_pass': True, 'physical_board_test': False}
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 5547.36it/s]
+eval/round3-n16-fixed-round3-val-int8kv.json 24
+eval/round3-n16-fixed-round3-val-fp32kv.json 24

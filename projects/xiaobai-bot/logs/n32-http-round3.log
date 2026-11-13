@@ -1,0 +1,1 @@
+{'pass': True, 'actual_q4_inference': True, 'status': {'mode': '电脑验证 · 实际 Q4 推理', 'profile': 'n32-semantic-q4-round3', 'ctx': 1024, 'kv_bytes': 10407936, 'busy': False}, 'question': '中国的首都是哪里', 'answer': '中国的首都是北京。', 'html_served': True, 'reset_pass': True, 'browser_visual_test': 'not performed: sandbox blocks Chromium Unix socket creation'}

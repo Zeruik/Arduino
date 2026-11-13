@@ -1,0 +1,46 @@
+{
+  "scope": "Review of existing authored answers used by paired probe. No answers derived from test failures. Sources checked 2026-11-13; facts kept unchanged.",
+  "checks": [
+    {
+      "facts": [
+        "月亮自己发光吗"
+      ],
+      "source": "https://science.nasa.gov/moon/facts/",
+      "finding": "visible moonlight reflected sunlight; reviewed"
+    },
+    {
+      "facts": [
+        "空气主要由什么组成"
+      ],
+      "source": "https://www.noaa.gov/jetstream/atmosphere",
+      "finding": "dry atmosphere nitrogen about78%, oxygen about21%; reviewed"
+    },
+    {
+      "facts": [
+        "什么是杠杆"
+      ],
+      "source": "https://openstax.org/books/physics/pages/9-3-simple-machines",
+      "finding": "fulcrum and force-arm relation; reviewed from primary textbook search"
+    },
+    {
+      "facts": [
+        "什么是电流",
+        "什么是电阻"
+      ],
+      "source": "https://openstax.org/books/physics/pages/19-1-ohms-law",
+      "finding": "current unit ampere and resistance relation; reviewed"
+    },
+    {
+      "facts": [
+        "PWM是什么",
+        "UART是什么"
+      ],
+      "sources": [
+        "https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/uart.html",
+        "https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/ledc.html"
+      ],
+      "finding": "UART asynchronous, TX/RX and configurable baud/frame settings; LEDC brightness duty-cycle control checked from official peripheral docs"
+    }
+  ],
+  "limitations": "Not a claim of exhaustive source audit of all historical training data. Physics definitions manually read; original teacher pool excluded."
+}

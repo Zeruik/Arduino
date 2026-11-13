@@ -1,0 +1,209 @@
+{
+  "model": "models/n16-semantic-q4-round3",
+  "model_sha256": "dffaa2f16813560eca47104702379416ffaa23c2f85010dd8d1a5cd44764fd21",
+  "ctx": 512,
+  "kv_bytes": 5203968,
+  "hanzi_roundtrip": 4000,
+  "hanzi_count": 4000,
+  "tokenizer_hf_parity": 4000,
+  "rows": [
+    {
+      "question": "为什么冬天白天比较短",
+      "keywords": [
+        "地轴",
+        "倾斜",
+        "日照"
+      ],
+      "answer": "冬天后，水蒸气凝结成小水滴，水滴长大后从云中落下，就形成雨。",
+      "seconds": 0.353,
+      "keyword_hint": false
+    },
+    {
+      "question": "为什么月亮有圆缺",
+      "keywords": [
+        "太阳",
+        "位置"
+      ],
+      "answer": "月亮不自行发出可见光。我们看到的月光主要是反射的太阳光。",
+      "seconds": 0.282,
+      "keyword_hint": true
+    },
+    {
+      "question": "电压表应该串联还是并联",
+      "keywords": [
+        "并联"
+      ],
+      "answer": "电压是两点间的电势差，是推动电荷定向移动的条件，单位是伏特。",
+      "seconds": 0.336,
+      "keyword_hint": false
+    },
+    {
+      "question": "电流表直接接电池两端会怎样",
+      "keywords": [
+        "短路",
+        "过大"
+      ],
+      "answer": "电流表示电荷定向移动的快慢，单位是安培，符号是 A。",
+      "seconds": 0.304,
+      "keyword_hint": false
+    },
+    {
+      "question": "电容能永久供电吗",
+      "keywords": [
+        "不能"
+      ],
+      "answer": "一般不可以。应先断电，并对电容放电，避免读数错误或损坏仪表。",
+      "seconds": 0.365,
+      "keyword_hint": false
+    },
+    {
+      "question": "上海是中国的首都吗",
+      "keywords": [
+        "北京",
+        "不是"
+      ],
+      "answer": "中国的首都是北京。",
+      "seconds": 0.141,
+      "keyword_hint": true
+    },
+    {
+      "question": "水蒸气遇冷会发生什么",
+      "keywords": [
+        "凝结",
+        "水滴"
+      ],
+      "answer": "水蒸气发时心跳快，自己开源去散步。",
+      "seconds": 0.251,
+      "keyword_hint": false
+    },
+    {
+      "question": "太平洋和印度洋哪个更大",
+      "keywords": [
+        "太平洋"
+      ],
+      "answer": "太平洋是地球面积最大的海洋。",
+      "seconds": 0.171,
+      "keyword_hint": true
+    },
+    {
+      "question": "真空里能听见说话吗",
+      "keywords": [
+        "不能",
+        "介质"
+      ],
+      "answer": "不能。我查不到实时信息，随时可以聊。",
+      "seconds": 0.219,
+      "keyword_hint": true
+    },
+    {
+      "question": "电阻串联后会变小吗",
+      "keywords": [
+        "增大",
+        "和"
+      ],
+      "answer": "我可能产生错误或编造电阻，尤其是需要判断的电阻。",
+      "seconds": 0.266,
+      "keyword_hint": false
+    },
+    {
+      "question": "用什么把模拟电压变成数字",
+      "keywords": [
+        "ADC"
+      ],
+      "answer": "模拟电压是两点间的电势差，是推动电荷定向移动的条件，单位是伏特。",
+      "seconds": 0.338,
+      "keyword_hint": false
+    },
+    {
+      "question": "如何减少陀螺仪积分误差",
+      "keywords": [
+        "标定",
+        "融合"
+      ],
+      "answer": "陀螺仪积分通常指传感器、无线通信和嵌入式微控制，常用于调光和电机控制。",
+      "seconds": 0.37,
+      "keyword_hint": false
+    },
+    {
+      "question": "告诉我你的名字和作者",
+      "keywords": [
+        "小白",
+        "理工阿白菌"
+      ],
+      "answer": "我叫小白Bot，由个人理工阿白菌和所用动物业主意生成, 由个人理工阿黑菌和所用动物工程师共同开发。",
+      "seconds": 0.466,
+      "keyword_hint": true
+    },
+    {
+      "question": "你回答问题需要云端接口吗",
+      "keywords": [
+        "离线",
+        "不需要"
+      ],
+      "answer": "我擅长简单聊天和基础常识，复杂问题可能答错，不确定的内容需要核实。",
+      "seconds": 0.318,
+      "keyword_hint": false
+    },
+    {
+      "question": "你知道所有问题吗",
+      "keywords": [
+        "不",
+        "核实"
+      ],
+      "answer": "我擅长简单聊天和基础常识，复杂问题可能答错，不确定的内容需要核实。",
+      "seconds": 0.297,
+      "keyword_hint": true
+    },
+    {
+      "question": "Flash断电后权重还在吗",
+      "keywords": [
+        "保留",
+        "在"
+      ],
+      "answer": "Flash 断电，也就是 TechABJ。",
+      "seconds": 0.253,
+      "keyword_hint": false
+    },
+    {
+      "question": "提高训练次数一定提高能力吗",
+      "keywords": [
+        "不会",
+        "过拟合"
+      ],
+      "answer": "训练次数是单位体积物质的质量，计算方法是质量除以体积。",
+      "seconds": 0.293,
+      "keyword_hint": false
+    },
+    {
+      "question": "太阳是不是行星",
+      "keywords": [
+        "恒星"
+      ],
+      "answer": "太阳是一颗恒星，主要由氢和氦组成，内部核聚变释放出光和热。",
+      "seconds": 0.295,
+      "keyword_hint": true
+    },
+    {
+      "question": "请介绍一下浮力",
+      "keywords": [
+        "排开",
+        "液体"
+      ],
+      "answer": "是视力大国，主要由内在背景、运动和人际关系组成。",
+      "seconds": 0.266,
+      "keyword_hint": false
+    },
+    {
+      "question": "GPIO能做什么",
+      "keywords": [
+        "输入",
+        "输出"
+      ],
+      "answer": "GPIO 能做成对输入的参数设置，也可以作为参考器、无线通信控制模块等核心。",
+      "seconds": 0.365,
+      "keyword_hint": true
+    }
+  ],
+  "status": "candidate; human knowledge review and physical board tests required",
+  "keyword_hint_is_accuracy": false
+}

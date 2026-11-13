@@ -1,0 +1,14 @@
+test_changed_after_import_never_launches_flasher (__main__.Checks.test_changed_after_import_never_launches_flasher) ... ok
+test_corruption (__main__.Checks.test_corruption) ... ok
+test_duplicate (__main__.Checks.test_duplicate) ... ok
+test_missing (__main__.Checks.test_missing) ... ok
+test_offset (__main__.Checks.test_offset) ... ok
+test_path (__main__.Checks.test_path) ... ok
+test_profile_mismatch (__main__.Checks.test_profile_mismatch) ... ok
+test_profile_path (__main__.Checks.test_profile_path) ... ok
+test_valid (__main__.Checks.test_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.004s
+
+OK

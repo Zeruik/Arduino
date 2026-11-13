@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/4cf03e477896/xiaobai-bot/tools/evaluate_frozen.py", line 9, in <module>
+    r=json.loads(l);start=time.monotonic();r['answer']=n.answer(r['question'],96);r['host_seconds']=time.monotonic()-start;rows.append(r)
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/4cf03e477896/xiaobai-bot/tools/native.py", line 19, in answer
+    return b.value.decode('utf-8')
+           ^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x88 in position 99: invalid start byte

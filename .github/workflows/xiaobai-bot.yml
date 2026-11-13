@@ -59,6 +59,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install pyinstaller pyserial esptool
+      - name: Check package validation source logic
+        run: python tools/check_packages.py
       - name: Package flashing tool
         run: python -m PyInstaller --onefile --name esptool --collect-all esptool desktop/esptool_entry.py
       - name: Package wizard
@@ -69,5 +71,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: XiaobaiBot-Windows-Setup
-          path: projects/xiaobai-bot/dist/XiaobaiBot-Setup.exe
+          path: |
+            projects/xiaobai-bot/dist/XiaobaiBot-Setup.exe
+            projects/xiaobai-bot/eval/round3-package-checks.json
           retention-days: 30
