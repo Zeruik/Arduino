@@ -1,0 +1,8 @@
+{
+  "source": "existing data/curated.jsonl, not test-derived answers",
+  "rows": 76,
+  "excluded_exact_questions": 0,
+  "sha256": "c7b7ff92a79573cd4eaa0ef8aa102c68b7766ea2e0cdfd83a792106055712648",
+  "purpose": "controlled probe, not comprehensive knowledge training",
+  "fact_review": "existing authored curriculum read; no new facts added; broad teacher pool excluded for this probe"
+}

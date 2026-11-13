@@ -1,0 +1,4 @@
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 3989.05it/s]
+models/n16-curated-embedding-round2/rolling complete

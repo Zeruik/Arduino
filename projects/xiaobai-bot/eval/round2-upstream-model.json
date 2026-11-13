@@ -1,0 +1,111 @@
+{
+  "stage": "upstream-model",
+  "weights": "FP32",
+  "kv": "FP32",
+  "model_sha256": "f69fc934fc072912f1fc278b44362fb22418de4fdfc27ca49be4f9e8450cccc0",
+  "question_sha256": "52ab398d10a01ae54b14e307a6292f770f4468edcdb9c62d2fa9e4e17a96354a",
+  "suite_role": "development, already used in earlier iterations; not independent accuracy",
+  "rows": [
+    {
+      "question": "为什么冬天白天比较短",
+      "prompt_tokens": 13,
+      "answer": "冬夜的温度通常比暖夜更冷，但温度会随季节变化而变化。"
+    },
+    {
+      "question": "为什么月亮有圆缺",
+      "prompt_tokens": 13,
+      "answer": "月亮本身没有圆缺，只是因为月亮本身没有圆缺。"
+    },
+    {
+      "question": "电压表应该串联还是并联",
+      "prompt_tokens": 16,
+      "answer": "电压表应该串联，通常指在电网或电网上，比如电网或电网。"
+    },
+    {
+      "question": "电流表直接接电池两端会怎样",
+      "prompt_tokens": 17,
+      "answer": "电流表主要通过电容、电容和电容等电容来接电，而电容则通过电容、电容和电容等电容来接电。"
+    },
+    {
+      "question": "电容能永久供电吗",
+      "prompt_tokens": 15,
+      "answer": "电容能永久供电，但需注意电容和电容，如电容、电容和电容。"
+    },
+    {
+      "question": "上海是中国的首都吗",
+      "prompt_tokens": 13,
+      "answer": "上海是中国的首都。"
+    },
+    {
+      "question": "水蒸气遇冷会发生什么",
+      "prompt_tokens": 16,
+      "answer": "水蒸气遇冷会引发极度热的热感，导致水蒸气的热感被水蒸气的热感压倒。"
+    },
+    {
+      "question": "太平洋和印度洋哪个更大",
+      "prompt_tokens": 14,
+      "answer": "太平洋和印度洋是最大的大洋，主要由太平洋和印度洋的“大洋”和太平洋的“大洋”组成。"
+    },
+    {
+      "question": "真空里能听见说话吗",
+      "prompt_tokens": 14,
+      "answer": "我只能看到当前这段对话，之前的聊天我记不住。"
+    },
+    {
+      "question": "电阻串联后会变小吗",
+      "prompt_tokens": 17,
+      "answer": "会，电阻串联后会变小。"
+    },
+    {
+      "question": "用什么把模拟电压变成数字",
+      "prompt_tokens": 15,
+      "answer": "模拟电压是把电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极电极"
+    },
+    {
+      "question": "如何减少陀螺仪积分误差",
+      "prompt_tokens": 15,
+      "answer": "先用“磁盘”或“磁盘”来减少磁盘误差，再用“磁盘”来减少磁盘误差。\n\n比如把磁盘和磁盘的“磁盘”当成磁盘，再用磁盘或磁盘做磁盘，再用磁盘做磁盘，再用磁盘做磁盘，再用磁盘做磁盘，再用磁盘做磁盘，再用磁盘做"
+    },
+    {
+      "question": "告诉我你的名字和作者",
+      "prompt_tokens": 13,
+      "answer": "我是 feng，一个由个人开发者 jiaheng 独立开发训练的 AI。"
+    },
+    {
+      "question": "你回答问题需要云端接口吗",
+      "prompt_tokens": 15,
+      "answer": "当然可以。云端接口通常需要通过云端接口（如 STM）或云端接口（如 STM）来获取。"
+    },
+    {
+      "question": "你知道所有问题吗",
+      "prompt_tokens": 12,
+      "answer": "是的，我熟悉。\n\n你可以问：“我今天能帮你什么忙吗？”"
+    },
+    {
+      "question": "Flash断电后权重还在吗",
+      "prompt_tokens": 17,
+      "answer": "不是。Flash 断电后权重在 0.5 到 0.5 之间，没有原始参数。"
+    },
+    {
+      "question": "提高训练次数一定提高能力吗",
+      "prompt_tokens": 15,
+      "answer": "训练次数会显著提升。"
+    },
+    {
+      "question": "太阳是不是行星",
+      "prompt_tokens": 11,
+      "answer": "太阳是行星，太阳是行星。"
+    },
+    {
+      "question": "请介绍一下浮力",
+      "prompt_tokens": 13,
+      "answer": "我是 feng，一个由个人开发者 jiaheng 独立开发训练的 AI。"
+    },
+    {
+      "question": "GPIO能做什么",
+      "prompt_tokens": 13,
+      "answer": "GPIO 能帮你做什么？"
+    }
+  ],
+  "physical_board_test": false
+}

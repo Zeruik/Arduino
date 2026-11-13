@@ -1,0 +1,111 @@
+{
+  "stage": "models/n16-qat-v3/final",
+  "weights": "FP32",
+  "kv": "FP32",
+  "model_sha256": "76d0321da83318c5339501e944643ae54c22079baecebbe239436eacbed09586",
+  "question_sha256": "52ab398d10a01ae54b14e307a6292f770f4468edcdb9c62d2fa9e4e17a96354a",
+  "suite_role": "development, already used in earlier iterations; not independent accuracy",
+  "rows": [
+    {
+      "question": "为什么冬天白天比较短",
+      "prompt_tokens": 15,
+      "answer": "冬天白天的体质很硬，主要由光和热组成，通常较硬。"
+    },
+    {
+      "question": "为什么月亮有圆缺",
+      "prompt_tokens": 14,
+      "answer": "月亮的月光主要是由于月光散热的空气，所以我们通常先看到月光的散热和变色。"
+    },
+    {
+      "question": "电压表应该串联还是并联",
+      "prompt_tokens": 17,
+      "answer": "电压表的串联通常用与电压表的连结关系，通常能用与电压表的连结关系，但可能需要结合电压表的连结关系。"
+    },
+    {
+      "question": "电流表直接接电池两端会怎样",
+      "prompt_tokens": 18,
+      "answer": "电流表的接电量通常在标准电流表里，电流表的接电量通常在标准电流表里。"
+    },
+    {
+      "question": "电容能永久供电吗",
+      "prompt_tokens": 16,
+      "answer": "我可能产生过电容问题，尤其是电容问题。不过，电容可能产生过电阻或过流损坏，通常需要电流或电路等因素影响。"
+    },
+    {
+      "question": "上海是中国的首都吗",
+      "prompt_tokens": 13,
+      "answer": "中国的首都是北京。"
+    },
+    {
+      "question": "水蒸气遇冷会发生什么",
+      "prompt_tokens": 16,
+      "answer": "水蒸气遇冷时，水分子每次性冷藏时，都会产生极大的热烈性性。"
+    },
+    {
+      "question": "太平洋和印度洋哪个更大",
+      "prompt_tokens": 15,
+      "answer": "太平洋和印度洋的地球主要在东北部和东北部，西北部和西北部主要在东北部和东北部。"
+    },
+    {
+      "question": "真空里能听见说话吗",
+      "prompt_tokens": 16,
+      "answer": "不能。我查不到实时信息，没法直接查出你的说话信息。"
+    },
+    {
+      "question": "电阻串联后会变小吗",
+      "prompt_tokens": 17,
+      "answer": "一般不可以。应先断电，并对电流进行阻碍，避免过大电流和发热。"
+    },
+    {
+      "question": "用什么把模拟电压变成数字",
+      "prompt_tokens": 16,
+      "answer": "模拟电压变成数字时，电压变成数字时，电压变成数字时，电压变成数字时，电压变成数字时，电压变成数字时，我可能产生的电压变成数字时，我可能产生的电压变成数字时，我可能产生的电压变成数字时，我可能产生的电压变成数字时，我可能产生的电压变成数字时，我可能产生的电压变成数字时"
+    },
+    {
+      "question": "如何减少陀螺仪积分误差",
+      "prompt_tokens": 17,
+      "answer": "陀螺仪积分误差通常指执法人员在轮机上对应力器进行分量分量，并要求分量分数从零到零。"
+    },
+    {
+      "question": "告诉我你的名字和作者",
+      "prompt_tokens": 13,
+      "answer": "我叫小白Bot，由个人理工和开发训练的开发训练者。"
+    },
+    {
+      "question": "你回答问题需要云端接口吗",
+      "prompt_tokens": 16,
+      "answer": "不确定你想要接口的具体信息。如果愿意的话，可以聊聊、告诉我具体人名、有空、有空、有空、有空、有空、有空、有空、有空、有空、有空、有空、有空、有空、有空、有空、有空、有空、有空、有空、有空、有空、有空、有空、有空、有"
+    },
+    {
+      "question": "你知道所有问题吗",
+      "prompt_tokens": 13,
+      "answer": "不确定你指的是哪一类问题？\n“我” 通常指的 具体问题，比如你想问什么？"
+    },
+    {
+      "question": "Flash断电后权重还在吗",
+      "prompt_tokens": 18,
+      "answer": "Flash断电后权重还在，Flash断电后权重还在。"
+    },
+    {
+      "question": "提高训练次数一定提高能力吗",
+      "prompt_tokens": 16,
+      "answer": "挺有意思的，能帮你把训练做成轻量化训练。"
+    },
+    {
+      "question": "太阳是不是行星",
+      "prompt_tokens": 12,
+      "answer": "太阳是太阳，不是太阳。"
+    },
+    {
+      "question": "请介绍一下浮力",
+      "prompt_tokens": 13,
+      "answer": "可以叫“浮力”或“好”，风格可以叫“小浮力”，适合简单对话、问题解决或需要处理的简单问题。"
+    },
+    {
+      "question": "GPIO能做什么",
+      "prompt_tokens": 14,
+      "answer": "GPIO 能做简单代码，比如把代码发给我，或者把代码发给我。"
+    }
+  ],
+  "physical_board_test": false
+}

@@ -1,0 +1,69 @@
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 3546.85it/s]
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  7.78it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  7.75it/s]
+{"device": "cpu", "train_rows": 76, "val_rows": 140, "initial_val_loss": 1.7369623213216463, "trainable_params": 22089152}
+{"step": 10, "loss": 0.008598679676651955, "elapsed_seconds": 17.39}
+{"step": 20, "loss": 0.0005781831569038332, "elapsed_seconds": 20.23}
+{"step": 30, "loss": 0.026662437245249748, "elapsed_seconds": 22.92}
+{"step": 40, "loss": 0.00032122019911184907, "elapsed_seconds": 26.04}
+{"step": 50, "loss": 0.005894836038351059, "elapsed_seconds": 30.29}
+{"step": 60, "loss": 0.009820325300097466, "elapsed_seconds": 33.45}
+{"step": 70, "loss": 0.004973966162651777, "elapsed_seconds": 36.19}
+{"step": 80, "loss": 0.0031551870051771402, "elapsed_seconds": 38.94}
+{"step": 90, "loss": 0.007748886942863464, "elapsed_seconds": 41.57}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.50it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.50it/s]
+{"step": 100, "loss": 0.0059471819549798965, "elapsed_seconds": 44.61, "val_loss": 1.7493707920241701}
+{"step": 110, "loss": 0.010704535990953445, "elapsed_seconds": 63.18}
+{"step": 120, "loss": 0.0006770898471586406, "elapsed_seconds": 66.03}
+{"step": 130, "loss": 0.0013203001581132412, "elapsed_seconds": 68.82}
+{"step": 140, "loss": 0.00828634761273861, "elapsed_seconds": 72.16}
+{"step": 150, "loss": 0.002293685916811228, "elapsed_seconds": 75.26}
+{"step": 160, "loss": 0.005973040591925383, "elapsed_seconds": 78.31}
+{"step": 170, "loss": 0.02059784159064293, "elapsed_seconds": 81.29}
+{"step": 180, "loss": 0.004569332115352154, "elapsed_seconds": 84.03}
+{"step": 190, "loss": 0.010652923956513405, "elapsed_seconds": 86.88}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.11it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.10it/s]
+{"step": 200, "loss": 0.006973424926400185, "elapsed_seconds": 89.6, "val_loss": 1.7554250019228286}
+{"step": 210, "loss": 0.010856534354388714, "elapsed_seconds": 105.61}
+{"step": 220, "loss": 0.0007770032971166074, "elapsed_seconds": 108.24}
+{"step": 230, "loss": 0.001268083811737597, "elapsed_seconds": 110.9}
+{"step": 240, "loss": 0.0013449749676510692, "elapsed_seconds": 113.42}
+{"step": 250, "loss": 0.005304653663188219, "elapsed_seconds": 116.26}
+{"step": 260, "loss": 0.0011870167218148708, "elapsed_seconds": 119.08}
+{"step": 270, "loss": 0.0005774363526143134, "elapsed_seconds": 121.68}
+{"step": 280, "loss": 0.019597044214606285, "elapsed_seconds": 124.37}
+{"step": 290, "loss": 0.0004036517930217087, "elapsed_seconds": 127.13}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.87it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.87it/s]
+{"step": 300, "loss": 0.0024727704003453255, "elapsed_seconds": 129.69, "val_loss": 1.76658794570207}
+{"step": 310, "loss": 0.0019356276607140899, "elapsed_seconds": 144.42}
+{"step": 320, "loss": 0.005632292479276657, "elapsed_seconds": 147.23}
+{"step": 330, "loss": 0.002403685124590993, "elapsed_seconds": 149.94}
+{"step": 340, "loss": 0.0010046714451164007, "elapsed_seconds": 152.48}
+{"step": 350, "loss": 0.012852907180786133, "elapsed_seconds": 155.09}
+{"step": 360, "loss": 0.002952278358861804, "elapsed_seconds": 157.68}
+{"step": 370, "loss": 0.004639174323529005, "elapsed_seconds": 160.27}
+{"step": 380, "loss": 0.0008201974560506642, "elapsed_seconds": 162.59}
+{"step": 390, "loss": 0.019208956509828568, "elapsed_seconds": 164.94}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.52it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.51it/s]
+{"step": 400, "loss": 0.007667555008083582, "elapsed_seconds": 167.76, "val_loss": 1.7627309116435104}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  9.50it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  9.46it/s]
+{"step": 400, "initial_val_loss": 1.7369623213216463, "best_val_loss": 1.7369623213216463, "seconds": 183.03179930399892, "complete": true, "train_rows": 76, "val_rows": 140, "base": "models/n16-v4-round1-step11428", "trainable_layers": 11, "data_sha256": "c7b7ff92a79573cd4eaa0ef8aa102c68b7766ea2e0cdfd83a792106055712648"}

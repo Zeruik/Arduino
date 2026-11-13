@@ -12,6 +12,7 @@ ap.add_argument('--lr',type=float,default=8e-6); ap.add_argument('--threads',typ
 ap.add_argument('--layers',type=int,default=2); ap.add_argument('--resume',action='store_true')
 ap.add_argument('--seq',type=int,default=192); ap.add_argument('--save-every',type=int,default=100)
 ap.add_argument('--qat',action='store_true',help='Q4 block64 量化感知训练')
+ap.add_argument('--train-embedding',action='store_true',help='新版本实验：训练共享输入输出嵌入')
 a=ap.parse_args(); torch.set_num_threads(a.threads); random.seed(20261113); torch.manual_seed(20261113)
 out=Path(a.out); out.mkdir(parents=True,exist_ok=True)
 if (out/'final').exists(): raise SystemExit('已完成，拒绝覆盖；请新建版本目录。')
@@ -20,6 +21,11 @@ source=str(out/'rolling') if a.resume and state_path.exists() else a.model
 if source!=a.model and (Path(source)/'checkpoint_meta.json').exists():
     meta=json.loads((Path(source)/'checkpoint_meta.json').read_text())
     expected={'data_sha256':hashlib.sha256(Path(a.data).read_bytes()).hexdigest(),'qat':a.qat,'seq':a.seq,'layers':a.layers,'lr':a.lr}
+    expected['train_embedding']=a.train_embedding
+    # Older checkpoints had frozen embeddings and no validation hash.
+    meta.setdefault('train_embedding',False)
+    if 'val_sha256' in meta:
+        expected['val_sha256']=hashlib.sha256(Path(a.val).read_bytes()).hexdigest()
     if any(meta[k]!=v for k,v in expected.items()):
         raise SystemExit('Resume configuration/data changed; use a new version directory.')
 tok=AutoTokenizer.from_pretrained(source)
@@ -29,6 +35,8 @@ for p in model.parameters():p.requires_grad_(False)
 for layer in model.model.layers[-a.layers:]:
     for p in layer.parameters():p.requires_grad_(True)
 for p in model.model.norm.parameters():p.requires_grad_(True)
+if a.train_embedding:
+    for p in model.model.embed_tokens.parameters():p.requires_grad_(True)
 opt=torch.optim.AdamW([p for p in model.parameters() if p.requires_grad],lr=a.lr,weight_decay=0.01)
 if a.qat:
     from torch.nn.utils import parametrize
@@ -50,6 +58,7 @@ start_step=0
 if source!=a.model:
     state=torch.load(state_path,map_location=device,weights_only=False)
     opt.load_state_dict(state['optimizer']);start_step=state['step'];random.setstate(state['random'])
+    if 'torch_rng' in state:torch.set_rng_state(state['torch_rng'].cpu())
 
 def load(path):
     rows=[]
@@ -79,8 +88,8 @@ def save(target,step,with_opt=False):
         model.save_pretrained(temp,state_dict=sd)
     else:model.save_pretrained(temp)
     tok.save_pretrained(temp)
-    (temp/'checkpoint_meta.json').write_text(json.dumps({'step':step,'data_sha256':hashlib.sha256(Path(a.data).read_bytes()).hexdigest(),'qat':a.qat,'seq':a.seq,'layers':a.layers,'lr':a.lr}))
-    if with_opt:torch.save({'optimizer':opt.state_dict(),'step':step,'random':random.getstate()},temp/'trainer.pt')
+    (temp/'checkpoint_meta.json').write_text(json.dumps({'step':step,'data_sha256':hashlib.sha256(Path(a.data).read_bytes()).hexdigest(),'val_sha256':hashlib.sha256(Path(a.val).read_bytes()).hexdigest(),'qat':a.qat,'seq':a.seq,'layers':a.layers,'lr':a.lr,'train_embedding':a.train_embedding}))
+    if with_opt:torch.save({'optimizer':opt.state_dict(),'step':step,'random':random.getstate(),'torch_rng':torch.get_rng_state()},temp/'trainer.pt')
     dest=out/target
     old=out/(target+'.previous')
     if old.exists():shutil.rmtree(old)

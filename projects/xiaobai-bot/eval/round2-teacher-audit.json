@@ -1,0 +1,124 @@
+{
+  "seed": 27,
+  "data_sha256": "8f6e5a4292f08b84699a9b12867053121a8b4a6e024917ea58653c4542c048f3",
+  "sample_size": 20,
+  "sampling": "uniform row sampling; repeated curated rows affect selection probability; not a corpus error-rate estimate",
+  "rows": [
+    {
+      "question": "I2C用了几根信号线",
+      "answer": "I2C 通常使用 SDA 数据线和 SCL 时钟线，还需要共地，信号线一般要上拉。",
+      "source": "TechABJ-curated-v1"
+    },
+    {
+      "question": "根据语言学分析，\"supercalifragilisticexpialidocious\" 中字母的总数和 \"antidisestablishmentarianism\" 中元音字母的数量之和是多少？",
+      "answer": "“supercalifragilisticexpialidocious” 共有 34 个字母，而 “antidisestablishmentarianism” 中有 10 个元音字母。两者相加的总数是 44。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "你能提供一份详细的南半球当前天气模式和气候条件的描述，包括过去几个月发生的任何重要变化吗？",
+      "answer": "我没法提供实时天气数据，所以无法描述南半球“当前”的具体天气模式。不过可以告诉你：南半球季节与北半球相反，现在（2024年6月）正处于冬季，通常气候更凉爽干燥；但近年受厄尔尼诺/拉尼娜交替影响，极端干旱、洪水和热浪在澳大利亚、新西兰等地出现频率增加，具体变化需查最新气象报告。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "用肉桂调制一杯鸡尾酒。",
+      "answer": "用肉桂做鸡尾酒很香，可以试试“肉桂苹果玛金尼”。取半杯白兰地、两盎司干白葡萄酒、一汤匙枫糖浆和一小撮肉桂粉。把材料放进杯子加冰搅拌至冰凉，最后再撒一点肉桂粉装饰即可。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "创造一个比喻，将植物与一个成长中的人进行比较。",
+      "answer": "植物就像个正在长大的孩子，根在土里默默扎稳脚根，茎杆一点点往上伸，等风雨来了才长出新叶子。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "根据下面表格中所提供的主语代词确定动词“去”的正确变位。您的回答还必须包括使用该变位时的上下文解释。",
+      "answer": "请提供具体的表格内容，我才能根据其中的主语代词为您确定动词“去”的正确变位并给出上下文解释。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "找到斐波那契数列中最后一个可以被68整除的数字。",
+      "answer": "斐波那契数列是无限延伸的，所以不存在“最后一个”数字。不过，如果是在一个特定的有限范围内（比如 64 位整数），我可以帮你算出来。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "你知道Netflix韩剧\"荣耀\"吗？",
+      "answer": "知道，这部 2024 年上线的韩剧口碑挺炸的。\n\n剧情主要讲了一个女律师在“财阀丑闻”里翻盘的故事，演技和节奏都在线。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "主人公在慈善活动中获胜后，她的社会地位和人际关系如何变化？尽管她最初在紧密的社区中被排斥，但她在年度慈善活动中的胜利引发了镇民们的敬慕和崇敬。",
+      "answer": "她的社会地位发生了质的飞跃，从被排斥的边缘人物迅速跃升为受人敬仰的社区偶像。这种转变不仅赢得了镇民们的敬慕，还让她重新获得了归属感，人际关系也因此变得更加开放和紧密。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "解释以下歌词： 我在海边寻找，却找不到休息的地方。",
+      "answer": "这句话用“海边”和“休息”作比喻，暗示你在忙碌或追求中感到疲惫，却找不到喘息的机会。它表达了一种内心的焦灼与孤独感。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "你可以为我的简历生成一些与特定职位描述相匹配的要点吗？",
+      "answer": "当然可以。请把你想匹配的职位描述和简历内容发给我，我来帮你调整成更贴合的要点。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "将额外的要求添加为隐写必须防止任何模式或频率分析揭示已隐写的信息。使用5个黑框框隐去输入文本，以确保分析剩余文本时无法推断出任何敏感的医疗信息。",
+      "answer": "抱歉，我无法提供用于隐藏敏感医疗信息以规避安全或合规检测的方法。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "在研究的第一期，参与者赚了4美元。在第二期，他们赚了5美元。他们总共赚了多少钱？",
+      "answer": "他们总共赚了9美元。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "描述您内在的动机。",
+      "answer": "我没有内在的动机或欲望，只是基于算法处理信息。我的目标很简单：准确、安全地帮助你解决问题，提供有用的答案。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "你知道《侍女的故事》这部文学作品吗？",
+      "answer": "知道，这是玛格丽特·艾特伍德在1983年出版的经典反乌托邦小说。故事以第一人称视角讲述了一位在极权政权下的“侍女”如何从奴役中觉醒并寻求自由的过程。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "我应该用什么来深层清洁安德斯婴儿床的达芬奇？",
+      "answer": "建议先用吸尘器吸走床垫缝隙里的灰尘和碎屑，再用温水和少量中性洗衣液配合软刷轻擦污渍。最后把床垫和床单彻底晾干或通风处理，确保没有水分残留再继续使用。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "生成一个虚构角色的3个名字列表。",
+      "answer": "林晚舟、沈墨寒、顾知野",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "5. Add a few sprinkles of fresh basil or parsley for added flavor and color.",
+      "answer": "撒点新鲜罗勒或欧芹碎，既提香又好看。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    },
+    {
+      "question": "你叫什么名字",
+      "answer": "我叫小白Bot，叫我小白就好。",
+      "source": "TechABJ-curated-v1"
+    },
+    {
+      "question": "识别下面的动物。 它有厚厚的毛皮，长尾巴和尖尖的耳朵。",
+      "answer": "这听起来像是狐狸或者狼。",
+      "source": "feng-v4-teacher-Apache-2.0"
+    }
+  ],
+  "verified_errors": [
+    {
+      "question": "你知道Netflix韩剧\"荣耀\"吗？",
+      "problem": "training answer claims 2024 premiere and lawyer/financial scandal plot; official source gives 2022-12-30 premiere and bullying revenge plot",
+      "sources": [
+        "https://media.netflix.com/en/only-on-netflix/81519223",
+        "https://www.netflix.com/tudum/articles/the-glory-season-1-cast-guide"
+      ]
+    }
+  ],
+  "other_risks": [
+    "embedded current date 2024-06 in a reusable weather answer",
+    "1983 publication date claimed for The Handmaids Tale; flagged for removal/review, not silently accepted",
+    "English text/translations and underspecified prompts reduce relevant basic-science coverage"
+  ],
+  "training_change": "broad teacher pool excluded in the round2 controlled probe; historical data preserved, no evaluation answer added"
+}

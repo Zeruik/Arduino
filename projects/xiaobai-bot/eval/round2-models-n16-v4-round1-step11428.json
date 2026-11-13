@@ -1,0 +1,111 @@
+{
+  "stage": "models/n16-v4-round1-step11428",
+  "weights": "FP32",
+  "kv": "FP32",
+  "model_sha256": "54d63e0beb21dcf141bbbae7ff38fd35948b3323a63a7a8c5f3e74860a7774e4",
+  "question_sha256": "52ab398d10a01ae54b14e307a6292f770f4468edcdb9c62d2fa9e4e17a96354a",
+  "suite_role": "development, already used in earlier iterations; not independent accuracy",
+  "rows": [
+    {
+      "question": "为什么冬天白天比较短",
+      "prompt_tokens": 15,
+      "answer": "冬天白天的雪天白天通常较短，但通常更短。\n\n如果是更长的雪天，那就更短。"
+    },
+    {
+      "question": "为什么月亮有圆缺",
+      "prompt_tokens": 14,
+      "answer": "月亮的圆缺主要由圆体和面团组成，主要由圆体和面团组成。"
+    },
+    {
+      "question": "电压表应该串联还是并联",
+      "prompt_tokens": 17,
+      "answer": "电压表的电压表通常先是单向导电，再用电压表的电压表，再用电压表的电压表，再用电压表的电压表，再用电压表的电压表，再用电压表的电压表，再用电压表的电压表，再用电压表的电压表，再用电压表的电压表，再"
+    },
+    {
+      "question": "电流表直接接电池两端会怎样",
+      "prompt_tokens": 18,
+      "answer": "电流表的接电量通常在电流表的电流表里，电流表的电流表的电流表的电流表的电流表的电流表的电流表的电流表的电流表的电流表的电流表的电流表的电流表的电流表的电流表的电流表的电流表的电流表的电流表的电流"
+    },
+    {
+      "question": "电容能永久供电吗",
+      "prompt_tokens": 16,
+      "answer": "我可能产生电容，尤其是电容、电容和电容等电路，过度电容和电容问题会很常见。不过，电容的电容和电容的电容可能不同，因此需要结合具体电容和电容方案，避免过度电容或过度电容问题。"
+    },
+    {
+      "question": "上海是中国的首都吗",
+      "prompt_tokens": 13,
+      "answer": "中国的首都是北京。"
+    },
+    {
+      "question": "水蒸气遇冷会发生什么",
+      "prompt_tokens": 16,
+      "answer": "水蒸气遇冷会引发极度热烈的海水流，还可能引发极度热烈的海水流和海水流。"
+    },
+    {
+      "question": "太平洋和印度洋哪个更大",
+      "prompt_tokens": 15,
+      "answer": "太平洋和印度洋都是太平洋的主要主要主要地。"
+    },
+    {
+      "question": "真空里能听见说话吗",
+      "prompt_tokens": 16,
+      "answer": "当然可以。你想聊什么？"
+    },
+    {
+      "question": "电阻串联后会变小吗",
+      "prompt_tokens": 17,
+      "answer": "一般不可以。应先变小，避免过流损坏，避免过流损坏。"
+    },
+    {
+      "question": "用什么把模拟电压变成数字",
+      "prompt_tokens": 16,
+      "answer": "模拟电压变成数字是数字还是数字？"
+    },
+    {
+      "question": "如何减少陀螺仪积分误差",
+      "prompt_tokens": 17,
+      "answer": "陀螺仪积分误差通常指在传感器或信号中，通过传感器或信号传递给传感器。\n\n如果传感器没有传感器，则会加一个信号传递给传感器，这样会更小。"
+    },
+    {
+      "question": "告诉我你的名字和作者",
+      "prompt_tokens": 13,
+      "answer": "我叫小白Bot，由个人理工和开发训练。"
+    },
+    {
+      "question": "你回答问题需要云端接口吗",
+      "prompt_tokens": 16,
+      "answer": "当然可以。云端接口通常指在云端上发、发、发和发，如果是云端接口，也可以是云端接口（如云端、云端、云端），如果是云端接口（如云端、云端、云端），如果是云端接口（如云端、云端、云端），则可以直接在云端上发、发、发和发。"
+    },
+    {
+      "question": "你知道所有问题吗",
+      "prompt_tokens": 13,
+      "answer": "我知道，所有问题都是基于逻辑推理和数学推理的。"
+    },
+    {
+      "question": "Flash断电后权重还在吗",
+      "prompt_tokens": 18,
+      "answer": "Flash断电后权重还在，不是你的电源。Flash断电后权重还在，不是你的电源。"
+    },
+    {
+      "question": "提高训练次数一定提高能力吗",
+      "prompt_tokens": 16,
+      "answer": "挺有意思的，能帮你把训练时间提升到更低的点。"
+    },
+    {
+      "question": "太阳是不是行星",
+      "prompt_tokens": 12,
+      "answer": "太阳是太阳，不是太阳。"
+    },
+    {
+      "question": "请介绍一下浮力",
+      "prompt_tokens": 13,
+      "answer": "可以叫“浮力”或者“浮力”，都是中性材料。"
+    },
+    {
+      "question": "GPIO能做什么",
+      "prompt_tokens": 14,
+      "answer": "GPIO 能做简单代码，比如把代码发给我，还能写一点简单代码。"
+    }
+  ],
+  "physical_board_test": false
+}

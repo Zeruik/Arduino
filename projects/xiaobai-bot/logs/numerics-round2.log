@@ -1,0 +1,7 @@
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 3994.95it/s]
+{'prompt': '你好', 'max_abs_diff': 7.152557373046875e-06, 'mean_abs_diff': 2.1835003281012177e-06, 'top1_match': True}
+{'prompt': '欧姆定律是什么', 'max_abs_diff': 1.1444091796875e-05, 'mean_abs_diff': 2.5471690605627373e-06, 'top1_match': True}
+{'prompt': '你叫什么名字', 'max_abs_diff': 1.1682510375976562e-05, 'mean_abs_diff': 3.7012287066318095e-06, 'top1_match': True}
+{'prompt': '中国的首都是哪里', 'max_abs_diff': 8.106231689453125e-06, 'mean_abs_diff': 2.1972482500132173e-06, 'top1_match': True}

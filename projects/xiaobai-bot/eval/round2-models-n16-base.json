@@ -1,0 +1,111 @@
+{
+  "stage": "models/n16-base",
+  "weights": "FP32",
+  "kv": "FP32",
+  "model_sha256": "6fba52da7fa8723425de8c75292978c1485130ce91c8120cffe53217676061b9",
+  "question_sha256": "52ab398d10a01ae54b14e307a6292f770f4468edcdb9c62d2fa9e4e17a96354a",
+  "suite_role": "development, already used in earlier iterations; not independent accuracy",
+  "rows": [
+    {
+      "question": "为什么冬天白天比较短",
+      "prompt_tokens": 15,
+      "answer": "冬天白天通常更短，因为它通常比暖天小得更长。"
+    },
+    {
+      "question": "为什么月亮有圆缺",
+      "prompt_tokens": 14,
+      "answer": "月亮是圆的根源，是圆的根源。"
+    },
+    {
+      "question": "电压表应该串联还是并联",
+      "prompt_tokens": 17,
+      "answer": "电压表的串联通常由电压表（如电网、电网）和电网组成，但通常不包含电网或电网。"
+    },
+    {
+      "question": "电流表直接接电池两端会怎样",
+      "prompt_tokens": 18,
+      "answer": "电流表通常通过电网或电网连接，通过电网连接电网或电网连接电网，从而产生电能。"
+    },
+    {
+      "question": "电容能永久供电吗",
+      "prompt_tokens": 16,
+      "answer": "电容能永久供电，但它们本身没有电容，所以无法直接用电。"
+    },
+    {
+      "question": "上海是中国的首都吗",
+      "prompt_tokens": 13,
+      "answer": "上海是中国的首都。"
+    },
+    {
+      "question": "水蒸气遇冷会发生什么",
+      "prompt_tokens": 16,
+      "answer": "水蒸气遇冷会引发极度热的热感，导致水蒸气的热感被水蒸气的热感压倒。"
+    },
+    {
+      "question": "太平洋和印度洋哪个更大",
+      "prompt_tokens": 15,
+      "answer": "太平洋和印度洋都是太平洋的“大洋”，而印度洋则更小。"
+    },
+    {
+      "question": "真空里能听见说话吗",
+      "prompt_tokens": 16,
+      "answer": "当然，我没法直接听见说话。不过你可以试试“小白”或者“小白”的对话，能让自己更轻松、更亲密。"
+    },
+    {
+      "question": "电阻串联后会变小吗",
+      "prompt_tokens": 17,
+      "answer": "会，电阻串联后会变小。"
+    },
+    {
+      "question": "用什么把模拟电压变成数字",
+      "prompt_tokens": 16,
+      "answer": "模拟电压就像一团圆的电，它把电压变成数字，把电压变成数字。"
+    },
+    {
+      "question": "如何减少陀螺仪积分误差",
+      "prompt_tokens": 17,
+      "answer": "先别急着压住，先把“断电”放进“断电”里，再用“断电”换成“断电”或“断电”，这样能避免“断电”的误导。"
+    },
+    {
+      "question": "告诉我你的名字和作者",
+      "prompt_tokens": 13,
+      "answer": "我是 feng，一个由个人开发训练的模型。"
+    },
+    {
+      "question": "你回答问题需要云端接口吗",
+      "prompt_tokens": 16,
+      "answer": "我没法直接回答你的问题。"
+    },
+    {
+      "question": "你知道所有问题吗",
+      "prompt_tokens": 13,
+      "answer": "我没有真正的情感，所以没法回答。"
+    },
+    {
+      "question": "Flash断电后权重还在吗",
+      "prompt_tokens": 18,
+      "answer": "Flash 断电后权重还在。"
+    },
+    {
+      "question": "提高训练次数一定提高能力吗",
+      "prompt_tokens": 16,
+      "answer": "训练次数很常见，比如训练时间、训练时间、训练时间等。它还能提升训练效率，还能提升训练效率。"
+    },
+    {
+      "question": "太阳是不是行星",
+      "prompt_tokens": 12,
+      "answer": "太阳是行星，不是行星。"
+    },
+    {
+      "question": "请介绍一下浮力",
+      "prompt_tokens": 13,
+      "answer": "我是 feng，一个由个人开发训练的模型。"
+    },
+    {
+      "question": "GPIO能做什么",
+      "prompt_tokens": 14,
+      "answer": "GPIO 能做简单、可读的实时聊天，还能根据你需求调整对话方式。"
+    }
+  ],
+  "physical_board_test": false
+}

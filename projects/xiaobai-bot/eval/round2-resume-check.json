@@ -1,0 +1,6 @@
+{
+  "best_weights_preserved": true,
+  "configuration_mismatch_rejected": true,
+  "training_steps_added": 0,
+  "scope": "CPU QAT checkpoint load, no-op resume; not board testing"
+}

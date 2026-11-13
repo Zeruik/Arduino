@@ -1,0 +1,30 @@
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 1694.78it/s]
+upstream-model complete
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 1599.39it/s]
+models/n16-base complete
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights:  20%|█▉        | 24/123 [00:00<00:00, 213.02it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 630.31it/s]
+models/n32-base complete
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights:  30%|███       | 37/123 [00:00<00:00, 313.05it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 660.59it/s]
+models/n16-qat-v3/final complete
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 1694.31it/s]
+models/n32-qat-v3/final complete
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 1413.06it/s]
+models/n16-v4-round1-step11428 complete
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 1504.46it/s]
+models/n32-v4-round1-step11882 complete

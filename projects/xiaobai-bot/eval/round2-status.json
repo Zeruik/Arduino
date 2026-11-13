@@ -1,0 +1,70 @@
+{
+  "round": 2,
+  "total_rounds": 6,
+  "date": "2026-11-13",
+  "baseline_training_process_alive_on_entry": false,
+  "finish_v4_log_bytes": 0,
+  "baseline_steps": {
+    "n16": 11428,
+    "n32": 11882
+  },
+  "knowledge_accepted": false,
+  "physical_board_accepted": false,
+  "windows_interaction_tested": false,
+  "next_round": 3,
+  "deployment_replaced": false,
+  "probes": {
+    "frozen": {
+      "summary": {
+        "step": 400,
+        "initial_val_loss": 1.7369623213216463,
+        "best_val_loss": 1.7369623213216463,
+        "seconds": 183.03179930399892,
+        "complete": true,
+        "train_rows": 76,
+        "val_rows": 140,
+        "base": "models/n16-v4-round1-step11428",
+        "trainable_layers": 11,
+        "data_sha256": "c7b7ff92a79573cd4eaa0ef8aa102c68b7766ea2e0cdfd83a792106055712648"
+      },
+      "last_val_loss": 1.7627309116435104,
+      "accepted": false,
+      "model_sha256": "9b9d1edefa124bc975c7ca9e77507dac322732a07c256844e34dafa63feb6188",
+      "q4_sha256": "38c8ab972e648fb320048af39236de58b6a24de7ea056a240b0cd1efd9a9b554",
+      "q4_bytes": 13710208,
+      "tokenizer_bytes": 184996,
+      "int8_kv_bytes": 5203968,
+      "kv_identical_answers_out_of_20": 18,
+      "best_preserved_at_step": 0
+    },
+    "embedding": {
+      "summary": {
+        "step": 400,
+        "initial_val_loss": 1.7369623213216463,
+        "best_val_loss": 1.7369623213216463,
+        "seconds": 203.22603356900072,
+        "complete": true,
+        "train_rows": 76,
+        "val_rows": 140,
+        "base": "models/n16-v4-round1-step11428",
+        "trainable_layers": 11,
+        "data_sha256": "c7b7ff92a79573cd4eaa0ef8aa102c68b7766ea2e0cdfd83a792106055712648"
+      },
+      "last_val_loss": 1.771941523562834,
+      "accepted": false,
+      "model_sha256": "dc7827c10ba0a1b92b02092bddedf76d500c41202c524f93b928b50f7eaee0a7",
+      "q4_sha256": "ae02ca9be8ed50c6df26404fa120fe5eff60ffa85c93359370cd74d4c20bf49c",
+      "q4_bytes": 13710208,
+      "tokenizer_bytes": 184996,
+      "int8_kv_bytes": 5203968,
+      "kv_identical_answers_out_of_20": 17,
+      "best_preserved_at_step": 0
+    }
+  },
+  "retained_candidate_artifacts": {
+    "N16R8-FP32": "libfile_37cc6e7716548191b437db5d1824e76a",
+    "N16R8-Q4": "libfile_b6ed4338f678819185b70ae61368770e",
+    "N32R16-FP32": "libfile_0628f91d22c48191abf682e9e9e835ff",
+    "N32R16-Q4": "libfile_28ce3cb627788191917da4d32556332f"
+  }
+}

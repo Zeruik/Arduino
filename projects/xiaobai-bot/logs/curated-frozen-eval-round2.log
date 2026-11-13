@@ -1,0 +1,4 @@
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 3210.87it/s]
+models/n16-curated-frozen-round2/rolling complete
