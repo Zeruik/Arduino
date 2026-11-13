@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/4cf03e477896/xiaobai-bot/tools/check_round4_primitives.py", line 17, in <module>
+    for x in range(65536):check(x.to_bytes(2,'big'))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/4cf03e477896/xiaobai-bot/tools/check_round4_primitives.py", line 16, in check
+    s=State();got=bool(f(C.byref(s),b,len(b)));assert got==ref(b),b.hex()
+                                                      ^^^^^^^^^^^
+AssertionError: eda0

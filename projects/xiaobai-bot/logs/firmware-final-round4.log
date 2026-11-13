@@ -1,0 +1,67 @@
+Processing n16r8 (platform: https://github.com/pioarduino/platform-espressif32/releases/download/55.03.37/platform-espressif32.zip; board: esp32-s3-devkitc-1; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-s3-devkitc-1.html
+PLATFORM: Espressif 32 (55.3.37) > Espressif ESP32-S3-DevKitC-1-N8 (8 MB QD, No PSRAM)
+HARDWARE: ESP32S3 240MHz, 320KB RAM, 8MB Flash
+DEBUG: Current (esp-builtin) On-board (esp-builtin) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - contrib-piohome @ 3.4.4 
+ - framework-arduinoespressif32 @ 3.3.7 
+ - framework-arduinoespressif32-libs @ 5.5.0+sha.87912cd291 
+ - tool-esptoolpy @ 5.1.2 
+ - toolchain-xtensa-esp-elf @ 14.2.0+20251107
+Converting XiaobaiBot.ino
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 43 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- WebServer @ 3.3.7
+|-- WiFi @ 3.3.7
+Building in release mode
+Compiling .pio/build/n16r8/src/XiaobaiBot.ino.cpp.o
+Compiling .pio/build/n16r8/src/src/xb_runtime.c.o
+Retrieving maximum program size .pio/build/n16r8/firmware.elf
+Checking size .pio/build/n16r8/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [===       ]  32.7% (used 106992 bytes from 327680 bytes)
+Flash: [=         ]  11.6% (used 974123 bytes from 8388608 bytes)
+========================= [SUCCESS] Took 6.56 seconds =========================
+
+Processing n32r16 (platform: https://github.com/pioarduino/platform-espressif32/releases/download/55.03.37/platform-espressif32.zip; board: esp32-s3-devkitc-1; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-s3-devkitc-1.html
+PLATFORM: Espressif 32 (55.3.37) > Espressif ESP32-S3-DevKitC-1-N8 (8 MB QD, No PSRAM)
+HARDWARE: ESP32S3 240MHz, 320KB RAM, 8MB Flash
+DEBUG: Current (esp-builtin) On-board (esp-builtin) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - contrib-piohome @ 3.4.4 
+ - framework-arduinoespressif32 @ 3.3.7 
+ - framework-arduinoespressif32-libs @ 5.5.0+sha.87912cd291 
+ - tool-esptoolpy @ 5.1.2 
+ - toolchain-xtensa-esp-elf @ 14.2.0+20251107
+Converting XiaobaiBot.ino
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 43 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- WebServer @ 3.3.7
+|-- WiFi @ 3.3.7
+Building in release mode
+Compiling .pio/build/n32r16/src/XiaobaiBot.ino.cpp.o
+Compiling .pio/build/n32r16/src/src/xb_runtime.c.o
+Retrieving maximum program size .pio/build/n32r16/firmware.elf
+Checking size .pio/build/n32r16/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [===       ]  32.7% (used 106992 bytes from 327680 bytes)
+Flash: [=         ]  11.6% (used 974719 bytes from 8388608 bytes)
+========================= [SUCCESS] Took 4.88 seconds =========================
+
+Environment    Status    Duration
+-------------  --------  ------------
+n16r8          SUCCESS   00:00:06.555
+n32r16         SUCCESS   00:00:04.876
+========================= 2 succeeded in 00:00:11.432 =========================

@@ -2,11 +2,15 @@
 import argparse,json,hashlib,time
 from pathlib import Path
 from native import Native,ROOT
-p=argparse.ArgumentParser();p.add_argument('--model',required=True);p.add_argument('--ctx',type=int,required=True);p.add_argument('--out',required=True);p.add_argument('--fp32-kv',action='store_true');p.add_argument('--suite',default='eval/independent-round1-frozen.jsonl');a=p.parse_args()
-suite=ROOT/a.suite;n=Native(a.model,a.ctx,fp32_kv=a.fp32_kv)
+p=argparse.ArgumentParser();p.add_argument('--model',required=True);p.add_argument('--ctx',type=int,required=True);p.add_argument('--out',required=True);p.add_argument('--fp32-kv',action='store_true');p.add_argument('--suite',default='eval/independent-round1-frozen.jsonl');p.add_argument('--runtime-lib');a=p.parse_args()
+suite=ROOT/a.suite;n=Native(a.model,a.ctx,fp32_kv=a.fp32_kv,library_path=a.runtime_lib)
 rows=[]
 def answer_record(q,reset=True):
- try:return {'answer':n.answer(q,96,reset=reset),'utf8_valid':True}
+ try:
+  result={'answer':n.answer(q,96,reset=reset),'utf8_valid':True}
+  if hasattr(n.lib,'xb_utf8_rejections'):
+   result.update(utf8_rejected_candidates=n.lib.xb_utf8_rejections(),utf8_token_rollbacks=n.lib.xb_utf8_rollbacks())
+  return result
  except UnicodeDecodeError as e:
   # Retain exact bytes and flag the failure. Display replacement is not a pass.
   return {'answer':e.object.decode('utf-8',errors='replace'),'utf8_valid':False,

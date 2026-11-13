@@ -1,0 +1,27 @@
+{
+  "round": 4,
+  "status": "experimental, not comprehensive-chat delivery; previous models retained",
+  "context_diagnostic_has_name_color_confound": true,
+  "artifacts": {
+    "N16R8-Q4及新固件": {
+      "library_file_id": "libfile_9ffee7fef9c08191bcfdf78b854de6f5",
+      "url": "https://chatgpt.com/library?file_id=libfile_9ffee7fef9c08191bcfdf78b854de6f5&account_id=personal"
+    },
+    "N16R8-FP32": {
+      "library_file_id": "libfile_3fd8a3d16e888191b3d53055bc596a80",
+      "url": "https://chatgpt.com/library?file_id=libfile_3fd8a3d16e888191b3d53055bc596a80&account_id=personal"
+    },
+    "N32R16-Q4及新固件": {
+      "library_file_id": "libfile_f8f38bb39c5481918a35103948dea13c",
+      "url": "https://chatgpt.com/library?file_id=libfile_f8f38bb39c5481918a35103948dea13c&account_id=personal"
+    },
+    "N32R16-FP32": {
+      "library_file_id": "libfile_6519718d8218819185dc60155c35614a",
+      "url": "https://chatgpt.com/library?file_id=libfile_6519718d8218819185dc60155c35614a&account_id=personal"
+    },
+    "原始证据包": {
+      "library_file_id": "libfile_0d8260f2ab6c81918c1de6944a7f4f0c",
+      "url": "https://chatgpt.com/library?file_id=libfile_0d8260f2ab6c81918c1de6944a7f4f0c&account_id=personal"
+    }
+  }
+}

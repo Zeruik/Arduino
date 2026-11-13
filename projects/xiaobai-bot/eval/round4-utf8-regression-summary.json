@@ -1,0 +1,10 @@
+{
+  "same_model_sha256": true,
+  "rows": 100,
+  "old_invalid_utf8": 1,
+  "new_invalid_utf8": 0,
+  "changed_answers": 1,
+  "total_rejected_candidates": 1,
+  "total_rollbacks": 0,
+  "not_factual_accuracy": true
+}

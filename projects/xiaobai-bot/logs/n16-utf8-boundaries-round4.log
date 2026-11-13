@@ -1,0 +1,1 @@
+{'pass': True, 'actual_q4_cases': 120, 'boundary_canaries_intact': True, 'all_outputs_strict_utf8': True, 'context_length_matches_retained_tokens': True, 'rollback_events': 0, 'rejected_candidates': 0, 'empty_boundary_outputs_allowed': True, 'physical_board_test': False}

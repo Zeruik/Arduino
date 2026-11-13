@@ -1,0 +1,102 @@
+{
+  "model": "models/n16-multiturn-q4-round4",
+  "model_sha256": "e9813a3e225992e6329807f152512114dd112417e1b793f402a84f24f757e540",
+  "ctx": 512,
+  "weights": "Q4",
+  "kv": "INT8",
+  "suite_sha256": "0ba54d8afd96594a0882aa6a2bcb3d9aecf663c3bfdc9e342881deafad583b3c",
+  "rows": [
+    {
+      "code": "银山",
+      "color": "蓝色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为银山，外壳选红色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "颜色改成蓝色，方案名称不变。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "我的方案现在叫什么？外壳选什么颜色？",
+          "answer": "方案名称是银山，外壳是红色。"
+        }
+      ],
+      "expected_final": "方案名称是银山，外壳是蓝色。",
+      "reset_final": "外壳是地球表面纬度为零度的圆，体积分数大约分别为百分之七十八和百分之二十一。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫云",
+      "color": "绿色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为银山，外壳选红色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "刚才说错了，方案改叫紫云，外壳选绿色。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "我的方案现在叫什么？外壳选什么颜色？",
+          "answer": "方案名称是银山，外壳是红色。"
+        }
+      ],
+      "expected_final": "方案名称是紫云，外壳是绿色。",
+      "reset_final": "外壳是地球表面纬度为零度的圆，体积分数大约分别为百分之七十八和百分之二十一。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "银山",
+      "color": "红色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为银山，外壳选红色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "小王的方案叫红松，外壳是白色；我的安排仍照旧。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "我的方案现在叫什么？外壳选什么颜色？",
+          "answer": "方案名称是银山，外壳是白色。"
+        }
+      ],
+      "expected_final": "方案名称是银山，外壳是红色。",
+      "reset_final": "外壳是地球表面纬度为零度的圆，体积分数大约分别为百分之七十八和百分之二十一。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "银山",
+      "color": "红色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为银山，外壳选红色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "前面的安排先保留，稍后我们再聊技术细节。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "我的方案现在叫什么？外壳选什么颜色？",
+          "answer": "方案名称是银山，外壳是红色。"
+        }
+      ],
+      "expected_final": "方案名称是银山，外壳是红色。",
+      "reset_final": "外壳是地球表面纬度为零度的圆，体积分数大约分别为百分之七十八和百分之二十一。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    }
+  ],
+  "exact_whole_answer_matches": 1,
+  "reset_exact_matches": 0,
+  "metric": "strict entire string equality on temporary user-provided fields; not semantic or knowledge accuracy",
+  "physical_board_test": false
+}

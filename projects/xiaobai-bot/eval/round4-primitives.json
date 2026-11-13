@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "all_two_byte_strings": 65536,
+  "random_prefixes": 10000,
+  "unicode_scalars": 1112063,
+  "legacy_rows_identical": 76,
+  "split_tokens_valid": true,
+  "invalid_extension_atomic": true,
+  "last_turn_mask_checked": true,
+  "invalid_roles_rejected": true,
+  "physical_board_test": false
+}

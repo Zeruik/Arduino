@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "test_only_forced_utf8_lead_token": true,
+  "model_forward_real": true,
+  "semantic_quality_test": false,
+  "rollback_events": 1,
+  "answer_empty": true,
+  "context_matches_rolled_back_history": true,
+  "test_hook_in_shipped_runtime": false
+}

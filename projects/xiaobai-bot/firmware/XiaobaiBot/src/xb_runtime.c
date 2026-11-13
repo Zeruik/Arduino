@@ -2,6 +2,8 @@
 #include "xb_runtime.h"
 #include "feng.h"
 #include "feng_tokenizer.h"
+#include "xb_utf8.h"
+#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -16,6 +18,10 @@ static feng_tok_t tok;
 static feng_kv_t kv;
 static feng_workspace_t ws;
 static int ready;
+static unsigned utf8_rejections,utf8_rollbacks;
+unsigned xb_utf8_rejections(void){return utf8_rejections;}
+unsigned xb_utf8_rollbacks(void){return utf8_rollbacks;}
+int xb_context_tokens(void){return kv.len;}
 void xb_reset(void){kv.len=0;}
 size_t xb_kv_bytes(void){return feng_kv_bytes(&model,kv.ctx);}
 int xb_logits(int token,int pos,float *out,int capacity){
@@ -51,6 +57,7 @@ int xb_answer(const char *q,char *out,size_t cap,int max_new,void (*tick)(void))
     if(!ready||!q||!out||cap<2)return -1;
     if(strlen(q)>500||feng_tok_has_special(q))return -2;
     if(max_new<1||max_new>192)return -3;
+    utf8_rejections=0;utf8_rollbacks=0;
     char prompt[640];int ids[640], hist[192], nh=0;
     snprintf(prompt,sizeof(prompt),"<|im_start|>user\n%s<|im_end|>\n<|im_start|>assistant\n",q);
     int np=feng_tok_encode(&tok,prompt,ids,640);
@@ -61,19 +68,34 @@ int xb_answer(const char *q,char *out,size_t cap,int max_new,void (*tick)(void))
         logits=feng_forward_ex(&model,&kv,&ws,ids[i],pos++,i==np-1);
         if(!logits){xb_reset();return -5;}if(tick)tick();
     }
+    xb_utf8_state utf8={0,0,0};
+    size_t complete_used=0;int complete_pos=pos,complete_nh=0;
     for(int i=0;i<max_new;i++){
         int id=feng_sample_greedy(logits,(int)model.hdr.vocab,hist,nh,1.25f,6);
+        char b[128];int z=0;xb_utf8_state next=utf8;
+        /* Penalties are applied once. Only invalid candidates are then masked;
+         * re-running the penalizing sampler here would change valid rankings. */
+        for(int attempts=0;id>=0&&attempts<(int)model.hdr.vocab;attempts++){
+            int stop=id==tok.id_im_end||id==tok.id_eot;
+            next=utf8;z=stop?0:feng_tok_decode_token(&tok,id,b,sizeof(b));
+            if((stop&&!utf8.left)||(!stop&&z>0&&xb_utf8_feed(&next,b,(size_t)z)))break;
+            logits[id]=-INFINITY;utf8_rejections++;
+            id=feng_argmax(logits,(int)model.hdr.vocab);
+            if(id<0||!isfinite(logits[id])){id=-1;break;}
+        }
         if(id<0||id==tok.id_im_end||id==tok.id_eot)break;
-        char b[128];int z=feng_tok_decode_token(&tok,id,b,sizeof(b));
         if(z<0||used+(size_t)z>=cap)break;
         memcpy(out+used,b,(size_t)z);used+=(size_t)z;hist[nh++]=id;
+        utf8=next;
         logits=feng_forward(&model,&kv,&ws,id,pos++);
         if(!logits){xb_reset();return -5;}if(tick)tick();
+        if(!utf8.left){complete_used=used;complete_pos=pos;complete_nh=nh;}
     }
+    /* A budget/cap boundary can cut a byte-token character. Roll back whole
+     * token positions too, so displayed text and future KV history agree. */
+    if(utf8.left){used=complete_used;pos=complete_pos;nh=complete_nh;utf8_rollbacks++;}
     if(pos<kv.ctx)(void)feng_forward_ex(&model,&kv,&ws,tok.id_im_end,pos++,0);
     int nl=0;if(feng_tok_encode(&tok,"\n",&nl,1)==1&&pos<kv.ctx)(void)feng_forward_ex(&model,&kv,&ws,nl,pos++,0);
     kv.len=pos;
-    /* 生成上限可能截在 UTF-8 字符中间，删除未完成的最后一个字符。 */
-    if(used){size_t start=used-1;while(start>0&&((unsigned char)out[start]&0xC0)==0x80)start--;unsigned char c=(unsigned char)out[start];size_t need=c<128?1:c>=240?4:c>=224?3:c>=192?2:1;if(used-start<need)used=start;}
     out[used]=0;return nh;
 }

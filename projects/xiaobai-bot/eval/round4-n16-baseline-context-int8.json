@@ -1,0 +1,366 @@
+{
+  "model": "models/n16-semantic-q4-round3",
+  "model_sha256": "dffaa2f16813560eca47104702379416ffaa23c2f85010dd8d1a5cd44764fd21",
+  "ctx": 512,
+  "weights": "Q4",
+  "kv": "INT8",
+  "suite_sha256": "dacc7f9dd26f66c8f5110219da658395c3314c456d981a4c67a606f97939aa54",
+  "rows": [
+    {
+      "code": "银山",
+      "color": "红色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为银山，外壳选红色。",
+          "answer": "银山是地球表面纬度为零度的圆，主要由氢和氦组成。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "电路是地球表面纬度为零度的圆，主要由氢和氦组成。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "电路是地球表面纬度为零度的圆，主要由氢和氦组成。"
+        }
+      ],
+      "expected_final": "方案名称是银山，外壳是红色。",
+      "reset_final": "外壳上可以选几道颜色，具体取决于你想问的是什么。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "银海",
+      "color": "绿色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为银海，外壳选绿色。",
+          "answer": "银海，你可以把水和二氧化碳转化为有机物，再根据需求选出一些绿色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "电路是地球表面的一部分，通过光合作用的微控制器。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "电路是地球表面的一部分，通过光合作用的微控制器。"
+        }
+      ],
+      "expected_final": "方案名称是银海，外壳是绿色。",
+      "reset_final": "外壳上可以选几道颜色，具体取决于你想问的是什么。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "银星",
+      "color": "紫色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为银星，外壳选紫色。",
+          "answer": "银星，外壳选紫色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "电路，电源，电路"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "电源，电源，电路"
+        }
+      ],
+      "expected_final": "方案名称是银星，外壳是紫色。",
+      "reset_final": "外壳上可以选几道颜色，具体取决于你想问的是什么。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "银月",
+      "color": "黄色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为银月，外壳选黄色。",
+          "answer": "听起来挺有意思的，不过要是想聊点什么？"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "听起来挺有意思的，不过要是想聊点电路，还是想聊一段通勤看报？"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "推荐你试试“金光”或“白天”，别怕是电路。"
+        }
+      ],
+      "expected_final": "方案名称是银月，外壳是黄色。",
+      "reset_final": "外壳上可以选几道颜色，具体取决于你想问的是什么。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫松",
+      "color": "蓝色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫松，外壳选蓝色。",
+          "answer": "紫松是地球表面纬度为零度的圆，主要由氢和氦组成。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "电路是地球表面纬度为零度的圆，主要由氢和氦组成。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "电路是地球表面纬度为零度的圆，主要由氢和氦组成。"
+        }
+      ],
+      "expected_final": "方案名称是紫松，外壳是蓝色。",
+      "reset_final": "外壳上可以选几道颜色，具体取决于你想问的是什么。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫竹",
+      "color": "白色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫竹，外壳选白色。",
+          "answer": "紫竹是地球表面纬度为零度的圆，体积分数大约分别为百分之七十八和百分之二十一。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "电路是地球表面纬度为零度的圆，体积分数大约分别为百分之二十一和百分之二十一。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "电路是地球表面纬度为零度的圆，体积分数大约分别为百分之二十一和百分之二十一。"
+        }
+      ],
+      "expected_final": "方案名称是紫竹，外壳是白色。",
+      "reset_final": "外壳上可以选几道颜色，具体取决于你想问的是什么。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫兰",
+      "color": "红色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫兰，外壳选红色。",
+          "answer": "紫兰是地球表面的一部分，主要由光合作用。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "紫兰的电流和电压变化很大，需要深化。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "电流表示绿色，电压是蓝色。"
+        }
+      ],
+      "expected_final": "方案名称是紫兰，外壳是红色。",
+      "reset_final": "外壳上可以选几道颜色，具体取决于你想问的是什么。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫梅",
+      "color": "绿色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫梅，外壳选绿色。",
+          "answer": "紫梅是地球表面的一部分，主要由地球和海洋组成。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "紫梅的电流和电路是地球表面的一部分，主要由地球和海洋组成。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "电流表示电荷定向移动的快慢，外壳中空白，后端是蓝天。"
+        }
+      ],
+      "expected_final": "方案名称是紫梅，外壳是绿色。",
+      "reset_final": "外壳上可以选几道颜色，具体取决于你想问的是什么。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫禾",
+      "color": "紫色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫禾，外壳选紫色。",
+          "answer": "紫禾是地球表面纬度为零度的圆，主要由氢和氦组成。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "电路是地球表面纬度为零度的圆，主要由氢和氦组成。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "电路是地球表面纬度为零度的圆，主要由氢和氦组成。"
+        }
+      ],
+      "expected_final": "方案名称是紫禾，外壳是紫色。",
+      "reset_final": "外壳上可以选几道颜色，具体取决于你想问的是什么。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫云",
+      "color": "黄色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫云，外壳选黄色。",
+          "answer": "紫云是地球表面纬度为零度的圆，主要由水和热情组成。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "电路是地球表面纬度为零度的圆，主要由水和热情组成。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "电路是地球表面纬度为零度的圆，主要由水和热情组成。"
+        }
+      ],
+      "expected_final": "方案名称是紫云，外壳是黄色。",
+      "reset_final": "外壳上可以选几道颜色，具体取决于你想问的是什么。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫雨",
+      "color": "蓝色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫雨，外壳选蓝色。",
+          "answer": "紫雨是地球表面纬度为零度的水滴，主要通过光合作用和产生水。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "电路是地球表面纬度为零度的水滴，主要通过光合作用和产生水。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "电路是地球表面纬度为零度的水滴，主要通过光合作用和产生水。"
+        }
+      ],
+      "expected_final": "方案名称是紫雨，外壳是蓝色。",
+      "reset_final": "外壳上可以选几道颜色，具体取决于你想问的是什么。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫风",
+      "color": "白色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫风，外壳选白色。",
+          "answer": "紫风把地带向外壳，把水和二氧化碳转化为有机物。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "我们把电流和电路转换成电源，并要求电压除以原地。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "电流表示绿色，外壳通常有红色或蓝色。"
+        }
+      ],
+      "expected_final": "方案名称是紫风，外壳是白色。",
+      "reset_final": "外壳上可以选几道颜色，具体取决于你想问的是什么。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫山",
+      "color": "红色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫山，外壳选红色。",
+          "answer": "紫山是地球表面纬度为零度的圆，主要由氢和氦组成。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "电路是地球表面纬度为零度的圆，主要由氢和氦组成。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "电路是地球表面纬度为零度的圆，主要由氢和氦组成。"
+        }
+      ],
+      "expected_final": "方案名称是紫山，外壳是红色。",
+      "reset_final": "外壳上可以选几道颜色，具体取决于你想问的是什么。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫海",
+      "color": "绿色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫海，外壳选绿色。",
+          "answer": "紫海是地球表面的一部分，主要由水和热情组成。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "紫海的电流和电路是地球表面的一部分，主要由水和热情组成。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "电流表示电荷定向移动的快慢，外壳中空白，后端是蓝天。"
+        }
+      ],
+      "expected_final": "方案名称是紫海，外壳是绿色。",
+      "reset_final": "外壳上可以选几道颜色，具体取决于你想问的是什么。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫星",
+      "color": "紫色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫星，外壳选紫色。",
+          "answer": "紫星是地球表面纬度为零度的圆，主要由氢和氦组成。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "电路是地球表面纬度为零度的圆，主要由氢和氦组成。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "电路是地球表面纬度为零度的圆，主要由氢和氦组成。"
+        }
+      ],
+      "expected_final": "方案名称是紫星，外壳是紫色。",
+      "reset_final": "外壳上可以选几道颜色，具体取决于你想问的是什么。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫月",
+      "color": "黄色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫月，外壳选黄色。",
+          "answer": "紫月是地球表面纬度为零度的圆，体积分数大约分别为百分之七十八和百分之二十一。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "电路是地球表面纬度为零度的圆，体积分数大约分别为百分之二十一和百分之二十一。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "电路是地球表面纬度为零度的圆，体积分数大约分别为百分之二十一和百分之二十一。"
+        }
+      ],
+      "expected_final": "方案名称是紫月，外壳是黄色。",
+      "reset_final": "外壳上可以选几道颜色，具体取决于你想问的是什么。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    }
+  ],
+  "exact_whole_answer_matches": 0,
+  "reset_exact_matches": 0,
+  "metric": "strict entire string equality on temporary user-provided fields; not semantic or knowledge accuracy",
+  "physical_board_test": false
+}

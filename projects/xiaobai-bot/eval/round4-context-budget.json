@@ -1,0 +1,14 @@
+{
+  "n16": {
+    "max_conversation_token_bound": 264,
+    "ctx": 512,
+    "fits_without_capacity_reset": true,
+    "generation_limit_per_turn": 64
+  },
+  "n32": {
+    "max_conversation_token_bound": 260,
+    "ctx": 1024,
+    "fits_without_capacity_reset": true,
+    "generation_limit_per_turn": 64
+  }
+}

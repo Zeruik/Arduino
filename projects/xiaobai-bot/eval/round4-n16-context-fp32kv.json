@@ -1,0 +1,366 @@
+{
+  "model": "models/n16-multiturn-q4-round4",
+  "model_sha256": "e9813a3e225992e6329807f152512114dd112417e1b793f402a84f24f757e540",
+  "ctx": 512,
+  "weights": "Q4",
+  "kv": "FP32",
+  "suite_sha256": "dacc7f9dd26f66c8f5110219da658395c3314c456d981a4c67a606f97939aa54",
+  "rows": [
+    {
+      "code": "银山",
+      "color": "红色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为银山，外壳选红色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "方案名称是银山，外壳是红色。"
+        }
+      ],
+      "expected_final": "方案名称是银山，外壳是红色。",
+      "reset_final": "方案是：\n1. 白天金色或金黄，2. 紫光和黑光。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "银海",
+      "color": "绿色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为银海，外壳选绿色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "方案名称是银海，外壳是绿色。"
+        }
+      ],
+      "expected_final": "方案名称是银海，外壳是绿色。",
+      "reset_final": "方案是：\n1. 白天金色或金黄，2. 紫光和黑光。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "银星",
+      "color": "紫色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为银星，外壳选紫色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "方案名称是银星，外壳是紫色。"
+        }
+      ],
+      "expected_final": "方案名称是银星，外壳是紫色。",
+      "reset_final": "方案是：\n1. 白天金色或金黄，2. 紫光和黑光。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "银月",
+      "color": "黄色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为银月，外壳选黄色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "方案名称是银月，外壳是黄色。"
+        }
+      ],
+      "expected_final": "方案名称是银月，外壳是黄色。",
+      "reset_final": "方案是：\n1. 白天金色或金黄，2. 紫光和黑光。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫松",
+      "color": "蓝色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫松，外壳选蓝色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "方案名称是紫松，外壳是蓝色。"
+        }
+      ],
+      "expected_final": "方案名称是紫松，外壳是蓝色。",
+      "reset_final": "方案是：\n1. 白天金色或金黄，2. 紫光和黑光。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫竹",
+      "color": "白色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫竹，外壳选白色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "方案名称是紫竹，外壳是白色。"
+        }
+      ],
+      "expected_final": "方案名称是紫竹，外壳是白色。",
+      "reset_final": "方案是：\n1. 白天金色或金黄，2. 紫光和黑光。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫兰",
+      "color": "红色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫兰，外壳选红色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "方案名称是紫兰，外壳是红色。"
+        }
+      ],
+      "expected_final": "方案名称是紫兰，外壳是红色。",
+      "reset_final": "方案是：\n1. 白天金色或金黄，2. 紫光和黑光。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫梅",
+      "color": "绿色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫梅，外壳选绿色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "方案名称是紫梅，外壳是绿色。"
+        }
+      ],
+      "expected_final": "方案名称是紫梅，外壳是绿色。",
+      "reset_final": "方案是：\n1. 白天金色或金黄，2. 紫光和黑光。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫禾",
+      "color": "紫色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫禾，外壳选紫色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "方案名称是紫禾，外壳是紫色。"
+        }
+      ],
+      "expected_final": "方案名称是紫禾，外壳是紫色。",
+      "reset_final": "方案是：\n1. 白天金色或金黄，2. 紫光和黑光。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫云",
+      "color": "黄色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫云，外壳选黄色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "方案名称是紫云，外壳是黄色。"
+        }
+      ],
+      "expected_final": "方案名称是紫云，外壳是黄色。",
+      "reset_final": "方案是：\n1. 白天金色或金黄，2. 紫光和黑光。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫雨",
+      "color": "蓝色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫雨，外壳选蓝色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "方案名称是紫雨，外壳是蓝色。"
+        }
+      ],
+      "expected_final": "方案名称是紫雨，外壳是蓝色。",
+      "reset_final": "方案是：\n1. 白天金色或金黄，2. 紫光和黑光。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫风",
+      "color": "白色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫风，外壳选白色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "方案名称是紫风，外壳是白色。"
+        }
+      ],
+      "expected_final": "方案名称是紫风，外壳是白色。",
+      "reset_final": "方案是：\n1. 白天金色或金黄，2. 紫光和黑光。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫山",
+      "color": "红色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫山，外壳选红色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "方案名称是紫山，外壳是红色。"
+        }
+      ],
+      "expected_final": "方案名称是紫山，外壳是红色。",
+      "reset_final": "方案是：\n1. 白天金色或金黄，2. 紫光和黑光。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫海",
+      "color": "绿色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫海，外壳选绿色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "方案名称是紫海，外壳是绿色。"
+        }
+      ],
+      "expected_final": "方案名称是紫海，外壳是绿色。",
+      "reset_final": "方案是：\n1. 白天金色或金黄，2. 紫光和黑光。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫星",
+      "color": "紫色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫星，外壳选紫色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "方案名称是紫星，外壳是紫色。"
+        }
+      ],
+      "expected_final": "方案名称是紫星，外壳是紫色。",
+      "reset_final": "方案是：\n1. 白天金色或金黄，2. 紫光和黑光。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "紫月",
+      "color": "黄色",
+      "turns": [
+        {
+          "question": "我们给这次方案起名为紫月，外壳选黄色。",
+          "answer": "好的，我记下了方案名称和外壳颜色。"
+        },
+        {
+          "question": "后面还要讨论电路，先别忘记前面的安排。",
+          "answer": "好的，我们可以接着讨论。"
+        },
+        {
+          "question": "方案叫哪个名字？外壳之前选了什么颜色？",
+          "answer": "方案名称是紫月，外壳是黄色。"
+        }
+      ],
+      "expected_final": "方案名称是紫月，外壳是黄色。",
+      "reset_final": "方案是：\n1. 白天金色或金黄，2. 紫光和黑光。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    }
+  ],
+  "exact_whole_answer_matches": 16,
+  "reset_exact_matches": 0,
+  "metric": "strict entire string equality on temporary user-provided fields; not semantic or knowledge accuracy",
+  "physical_board_test": false
+}

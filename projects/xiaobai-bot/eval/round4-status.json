@@ -1,0 +1,256 @@
+{
+  "round": 4,
+  "total_rounds": 6,
+  "next_round": 5,
+  "date": "2026-11-13",
+  "entry": {
+    "baseline_old_training_process_found": false,
+    "baseline_steps": {
+      "n16": 11428,
+      "n32": 11882
+    },
+    "finish_log_bytes": 0,
+    "workspace_weights_available": true,
+    "restored_from_library_this_round": false
+  },
+  "training_processes_finished": true,
+  "knowledge_accepted": false,
+  "general_multiturn_accepted": false,
+  "physical_board_accepted": false,
+  "windows_interaction_tested": false,
+  "default_model_replaced": false,
+  "profiles": {
+    "n16": {
+      "training": {
+        "step": 1200,
+        "initial_val_loss": 2.057212419807911,
+        "best_val_loss": 0.002412765707958897,
+        "seconds": 442.9689030619993,
+        "complete": true,
+        "train_rows": 380,
+        "val_rows": 16,
+        "base": "models/n16-semantic-round3/final",
+        "trainable_layers": 11,
+        "data_sha256": "bfb68cd1b3104bc7fd7739f0a567ec4dcc3e4224aa8af0951077dca98d1869e4"
+      },
+      "selected_local_step": 800,
+      "fp32_sha256": "397163848ee8d516e911ee52d4d3c4c2a1f0511e98bb0796eda33643aa4b2ac0",
+      "baseline_context_exact": 0,
+      "context_exact": 16,
+      "context_total": 16,
+      "reset_context_exact": 0,
+      "fp32kv_context_exact": 16,
+      "kv_same_final_answers": 16,
+      "exploratory_challenge_exact": 1,
+      "challenge_total": 4,
+      "knowledge_regression_rows": 100,
+      "invalid_utf8": 0,
+      "numerics_pass": true,
+      "layout": {
+        "profile": "n16",
+        "partitions": [
+          {
+            "name": "nvs",
+            "offset": 36864,
+            "size": 20480
+          },
+          {
+            "name": "phy_init",
+            "offset": 57344,
+            "size": 4096
+          },
+          {
+            "name": "factory",
+            "offset": 65536,
+            "size": 2031616
+          },
+          {
+            "name": "model",
+            "offset": 2097152,
+            "size": 14155776
+          },
+          {
+            "name": "tokdata",
+            "offset": 16252928,
+            "size": 524288
+          }
+        ],
+        "files": {
+          "model.bin": {
+            "size": 13710208,
+            "sha256": "e9813a3e225992e6329807f152512114dd112417e1b793f402a84f24f757e540",
+            "offset": 2097152
+          },
+          "tokenizer.bin": {
+            "size": 184996,
+            "sha256": "2cbd2ecd7b23e5fd72fa3c0fd46d7fb761c34325051753ad6f7957afe423db41",
+            "offset": 16252928
+          },
+          "firmware.bin": {
+            "size": 974528,
+            "offset": 65536
+          }
+        },
+        "layout_pass": true,
+        "physical_board_test": false
+      },
+      "tokenizer_roundtrip": 4000,
+      "tokenizer_parity": 4000,
+      "http_pass": true,
+      "firmware_bytes": 974528,
+      "firmware_sha256": "e7f0bcf93c771b7b347a88ee69821cb1a8e10d2e51023d63383667930421fd0c",
+      "actual_q4_boundary_checks": {
+        "pass": true,
+        "actual_q4_cases": 120,
+        "boundary_canaries_intact": true,
+        "all_outputs_strict_utf8": true,
+        "context_length_matches_retained_tokens": true,
+        "rollback_events": 0,
+        "rejected_candidates": 0,
+        "empty_boundary_outputs_allowed": true,
+        "physical_board_test": false
+      }
+    },
+    "n32": {
+      "training": {
+        "step": 1200,
+        "initial_val_loss": 2.218530833721161,
+        "best_val_loss": 0.021408879757473187,
+        "seconds": 381.36913148200256,
+        "complete": true,
+        "train_rows": 380,
+        "val_rows": 16,
+        "base": "models/n32-semantic-round3/final",
+        "trainable_layers": 11,
+        "data_sha256": "bfb68cd1b3104bc7fd7739f0a567ec4dcc3e4224aa8af0951077dca98d1869e4"
+      },
+      "selected_local_step": 800,
+      "fp32_sha256": "c1cc211349f87f4773c78dfcf8b6f9a2c608acf810336a1608f355fa12df97d8",
+      "baseline_context_exact": 0,
+      "context_exact": 16,
+      "context_total": 16,
+      "reset_context_exact": 0,
+      "fp32kv_context_exact": 16,
+      "kv_same_final_answers": 16,
+      "exploratory_challenge_exact": 1,
+      "challenge_total": 4,
+      "knowledge_regression_rows": 100,
+      "invalid_utf8": 0,
+      "numerics_pass": true,
+      "layout": {
+        "profile": "n32",
+        "partitions": [
+          {
+            "name": "nvs",
+            "offset": 36864,
+            "size": 20480
+          },
+          {
+            "name": "phy_init",
+            "offset": 57344,
+            "size": 4096
+          },
+          {
+            "name": "factory",
+            "offset": 65536,
+            "size": 1048576
+          },
+          {
+            "name": "model",
+            "offset": 1114112,
+            "size": 15663104
+          },
+          {
+            "name": "tokdata",
+            "offset": 16777216,
+            "size": 524288
+          }
+        ],
+        "files": {
+          "model.bin": {
+            "size": 15659904,
+            "sha256": "4d089a852f6e8952a898e421358c7842fac797834e18576483722e1b8aee7c96",
+            "offset": 1114112
+          },
+          "tokenizer.bin": {
+            "size": 423154,
+            "sha256": "7c4eff87b2101327710f017a1536acd21f0f4531fb3fc4b90232520dfeb651f0",
+            "offset": 16777216
+          },
+          "firmware.bin": {
+            "size": 975120,
+            "offset": 65536
+          }
+        },
+        "layout_pass": true,
+        "physical_board_test": false
+      },
+      "tokenizer_roundtrip": 4000,
+      "tokenizer_parity": 4000,
+      "http_pass": true,
+      "firmware_bytes": 975120,
+      "firmware_sha256": "377bc722098092ab2356560026342010a31c27392351c8f4c4c7288b63f68aac",
+      "actual_q4_boundary_checks": {
+        "pass": true,
+        "actual_q4_cases": 120,
+        "boundary_canaries_intact": true,
+        "all_outputs_strict_utf8": true,
+        "context_length_matches_retained_tokens": true,
+        "rollback_events": 0,
+        "rejected_candidates": 0,
+        "empty_boundary_outputs_allowed": true,
+        "physical_board_test": false
+      }
+    }
+  },
+  "utf8_regression": {
+    "same_model_sha256": true,
+    "rows": 100,
+    "old_invalid_utf8": 1,
+    "new_invalid_utf8": 0,
+    "changed_answers": 1,
+    "total_rejected_candidates": 1,
+    "total_rollbacks": 0,
+    "not_factual_accuracy": true
+  },
+  "primitive_checks": {
+    "pass": true,
+    "all_two_byte_strings": 65536,
+    "random_prefixes": 10000,
+    "unicode_scalars": 1112063,
+    "legacy_rows_identical": 76,
+    "split_tokens_valid": true,
+    "invalid_extension_atomic": true,
+    "last_turn_mask_checked": true,
+    "invalid_roles_rejected": true,
+    "physical_board_test": false
+  },
+  "synthetic_rollback": {
+    "pass": true,
+    "test_only_forced_utf8_lead_token": true,
+    "model_forward_real": true,
+    "semantic_quality_test": false,
+    "rollback_events": 1,
+    "answer_empty": true,
+    "context_matches_rolled_back_history": true,
+    "test_hook_in_shipped_runtime": false
+  },
+  "new_packages": {
+    "XiaobaiBot-N16R8-v0.2-dev-round4-FP32.zip": {
+      "bytes": 95949056,
+      "sha256": "d5625a49eae94b753428db43380a8ba0da64ffa581781cf2755b2c21d69f7f8c"
+    },
+    "XiaobaiBot-N16R8-v0.2-dev-round4.zip": {
+      "bytes": 12770038,
+      "sha256": "d0a5bec0ddc98f7d8cd137af7f5f6421b0104ebe2902e6888f4b04cc420bfcf9"
+    },
+    "XiaobaiBot-N32R16-v0.2-dev-round4-FP32.zip": {
+      "bytes": 109786981,
+      "sha256": "91c355711c2f9364a1c32305220bf6614005a662060bd54a20bc5759698c46e5"
+    },
+    "XiaobaiBot-N32R16-v0.2-dev-round4.zip": {
+      "bytes": 14159550,
+      "sha256": "1b95c4b2bacf543abd265bea7686734ea1a645b6f8a8b399bed4cbbf82338707"
+    }
+  }
+}

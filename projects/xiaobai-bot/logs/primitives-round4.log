@@ -1,0 +1,1 @@
+{'pass': True, 'all_two_byte_strings': 65536, 'random_prefixes': 10000, 'unicode_scalars': 1112063, 'legacy_rows_identical': 76, 'split_tokens_valid': True, 'invalid_extension_atomic': True, 'last_turn_mask_checked': True, 'invalid_roles_rejected': True, 'physical_board_test': False}

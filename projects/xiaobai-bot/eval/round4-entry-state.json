@@ -1,0 +1,10 @@
+{
+  "baseline_old_training_process_found": false,
+  "baseline_steps": {
+    "n16": 11428,
+    "n32": 11882
+  },
+  "finish_log_bytes": 0,
+  "workspace_weights_available": true,
+  "restored_from_library_this_round": false
+}

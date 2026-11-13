@@ -1,0 +1,43 @@
+{
+  "color_assignment_deterministic_by_last_name_character": true,
+  "mapping": {
+    "松": [
+      "蓝色"
+    ],
+    "竹": [
+      "白色"
+    ],
+    "兰": [
+      "红色"
+    ],
+    "梅": [
+      "绿色"
+    ],
+    "禾": [
+      "紫色"
+    ],
+    "云": [
+      "黄色"
+    ],
+    "雨": [
+      "蓝色"
+    ],
+    "风": [
+      "白色"
+    ],
+    "山": [
+      "红色"
+    ],
+    "海": [
+      "绿色"
+    ],
+    "星": [
+      "紫色"
+    ],
+    "月": [
+      "黄色"
+    ]
+  },
+  "interpretation": "16/16 exact-copy results are genuine but cannot establish independent tracking of color; a name-to-color correlation is a confound. Update and distractor challenges remain failed. Does not prove which mechanism the model used.",
+  "next_protocol": "Use orthogonal randomized name/color assignments and new sealed cases; never train from current test/challenge answers."
+}

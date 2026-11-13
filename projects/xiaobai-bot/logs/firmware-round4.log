@@ -1,0 +1,163 @@
+Processing n16r8 (platform: https://github.com/pioarduino/platform-espressif32/releases/download/55.03.37/platform-espressif32.zip; board: esp32-s3-devkitc-1; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-s3-devkitc-1.html
+PLATFORM: Espressif 32 (55.3.37) > Espressif ESP32-S3-DevKitC-1-N8 (8 MB QD, No PSRAM)
+HARDWARE: ESP32S3 240MHz, 320KB RAM, 8MB Flash
+DEBUG: Current (esp-builtin) On-board (esp-builtin) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - contrib-piohome @ 3.4.4 
+ - framework-arduinoespressif32 @ 3.3.7 
+ - framework-arduinoespressif32-libs @ 5.5.0+sha.87912cd291 
+ - tool-esptoolpy @ 5.1.2 
+ - toolchain-xtensa-esp-elf @ 14.2.0+20251107
+Converting XiaobaiBot.ino
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 43 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- WebServer @ 3.3.7
+|-- WiFi @ 3.3.7
+Building in release mode
+Compiling .pio/build/n16r8/libe00/FS/FS.cpp.o
+Compiling .pio/build/n16r8/libe00/FS/vfs_api.cpp.o
+Compiling .pio/build/n16r8/lib213/Network/NetworkClient.cpp.o
+Compiling .pio/build/n16r8/lib213/Network/NetworkEvents.cpp.o
+Compiling .pio/build/n16r8/lib213/Network/NetworkInterface.cpp.o
+Compiling .pio/build/n16r8/lib213/Network/NetworkManager.cpp.o
+Compiling .pio/build/n16r8/lib213/Network/NetworkServer.cpp.o
+Compiling .pio/build/n16r8/lib213/Network/NetworkUdp.cpp.o
+Compiling .pio/build/n16r8/lib654/Hash/PBKDF2_HMACBuilder.cpp.o
+Compiling .pio/build/n16r8/lib654/Hash/SHA1Builder.cpp.o
+Compiling .pio/build/n16r8/lib654/Hash/SHA2Builder.cpp.o
+Compiling .pio/build/n16r8/lib654/Hash/SHA3Builder.cpp.o
+Compiling .pio/build/n16r8/lib877/WebServer/Parsing.cpp.o
+Compiling .pio/build/n16r8/lib877/WebServer/WebServer.cpp.o
+Compiling .pio/build/n16r8/lib877/WebServer/detail/mimetable.cpp.o
+Compiling .pio/build/n16r8/lib877/WebServer/middleware/AuthenticationMiddleware.cpp.o
+Compiling .pio/build/n16r8/lib877/WebServer/middleware/CorsMiddleware.cpp.o
+Compiling .pio/build/n16r8/lib877/WebServer/middleware/LoggingMiddleware.cpp.o
+Compiling .pio/build/n16r8/lib877/WebServer/middleware/MiddlewareChain.cpp.o
+Compiling .pio/build/n16r8/libe97/WiFi/AP.cpp.o
+Compiling .pio/build/n16r8/libe97/WiFi/STA.cpp.o
+Compiling .pio/build/n16r8/libe97/WiFi/WiFi.cpp.o
+Compiling .pio/build/n16r8/libe97/WiFi/WiFiAP.cpp.o
+Compiling .pio/build/n16r8/libe97/WiFi/WiFiGeneric.cpp.o
+Compiling .pio/build/n16r8/libe97/WiFi/WiFiMulti.cpp.o
+Compiling .pio/build/n16r8/libe97/WiFi/WiFiSTA.cpp.o
+Compiling .pio/build/n16r8/libe97/WiFi/WiFiScan.cpp.o
+Compiling .pio/build/n16r8/src/XiaobaiBot.ino.cpp.o
+Compiling .pio/build/n16r8/src/src/feng_calc.c.o
+Compiling .pio/build/n16r8/src/src/feng_llm.c.o
+Compiling .pio/build/n16r8/src/src/feng_memory.c.o
+Compiling .pio/build/n16r8/src/src/feng_model.c.o
+Compiling .pio/build/n16r8/src/src/feng_quant.c.o
+Compiling .pio/build/n16r8/src/src/feng_sample.c.o
+Compiling .pio/build/n16r8/src/src/feng_smp.c.o
+Compiling .pio/build/n16r8/src/src/feng_tokenizer.c.o
+Compiling .pio/build/n16r8/src/src/feng_tools.c.o
+Compiling .pio/build/n16r8/src/src/xb_runtime.c.o
+Building .pio/build/n16r8/bootloader.bin
+esptool v5.1.2
+Creating ESP32S3 image...
+Merged 2 ELF sections.
+Successfully created ESP32S3 image.
+Generating partitions .pio/build/n16r8/partitions.bin
+Compiling .pio/build/n16r8/FrameworkArduino/ColorFormat.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/Esp.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/FirmwareMSC.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/FunctionalInterrupt.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/HEXBuilder.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/HWCDC.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/HardwareSerial.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/HashBuilder.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/IPAddress.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/MD5Builder.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/MacAddress.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/Print.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/Stream.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/StreamString.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/Tone.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/USB.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/USBCDC.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/USBMSC.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/WMath.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/WString.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/base64.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/cbuf.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/chip-debug-report.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-adc.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-bt.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-cpu.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-dac.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-gpio.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-hosted.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-i2c-ng.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-i2c-slave.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-i2c.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-ledc.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-log-wrapper.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-matrix.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-misc.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-periman.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-psram.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-rgb-led.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-rmt.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-sigmadelta.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-spi.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-time.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-timer.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-tinyusb.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-touch-ng.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-touch.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/esp32-hal-uart.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/firmware_msc_fat.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/freertos_stats.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/idf_openthread_mpool_wrapper.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/libb64/cdecode.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/libb64/cencode.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/main.cpp.o
+Compiling .pio/build/n16r8/FrameworkArduino/stdlib_noniso.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/wiring_pulse.c.o
+Compiling .pio/build/n16r8/FrameworkArduino/wiring_shift.c.o
+Archiving .pio/build/n16r8/libFrameworkArduino.a
+Indexing .pio/build/n16r8/libFrameworkArduino.a
+Linking .pio/build/n16r8/firmware.elf
+                            Memory Type Usage Summary                             
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Memory Type/Section ┃ Used [bytes] ┃ Used [%] ┃ Remain [bytes] ┃ Total [bytes] ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ Flash Code          │       696132 │          │                │               │
+│    .text            │       696132 │          │                │               │
+│ Flash Data          │       176028 │          │                │               │
+│    .rodata          │       175772 │          │                │               │
+│    .appdesc         │          256 │          │                │               │
+│ DIRAM               │       170147 │    49.79 │         171613 │        341760 │
+│    .bss             │        84312 │    24.67 │                │               │
+│    .text            │        63155 │    18.48 │                │               │
+│    .data            │        22680 │     6.64 │                │               │
+│ IRAM                │        16384 │    100.0 │              0 │         16384 │
+│    .text            │        15356 │    93.73 │                │               │
+│    .vectors         │         1028 │     6.27 │                │               │
+└─────────────────────┴──────────────┴──────────┴────────────────┴───────────────┘
+Total image size: 974379 bytes (.bin may be padded larger)
+Note: The reported total sizes may be smaller than those in the technical reference manual due to reserved memory and application configuration. The total flash size available for the application is not included by default, as it cannot be reliably determined due to the presence of other data like the bootloader, partition table, and application partition size. The total external RAM size is not included either, because the amount of RAM connected to the chip is detected at boot and is not known during the build.
+Retrieving maximum program size .pio/build/n16r8/firmware.elf
+Checking size .pio/build/n16r8/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [===       ]  32.7% (used 106992 bytes from 327680 bytes)
+Flash: [=         ]  11.6% (used 974123 bytes from 8388608 bytes)
+Building .pio/build/n16r8/firmware.bin with action:
+  $ERASETOOL --chip esp32s3 elf2image --flash-mode ${__get_board_flash_mode(__env__)} --flash-freq ${__get_board_f_image(__env__)} --flash-size 16MB --elf-sha256-offset 0xb0 -o "$TARGET" "$SOURCES"
+Building .pio/build/n16r8/firmware.bin
+esptool v5.1.2
+Creating ESP32S3 image...
+Merged 2 ELF sections.
+Successfully created ESP32S3 image.
+========================= [SUCCESS] Took 28.08 seconds =========================
+
+Environment    Status    Duration
+-------------  --------  ------------
+n16r8          SUCCESS   00:00:28.084
+========================= 1 succeeded in 00:00:28.084 =========================

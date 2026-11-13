@@ -3,6 +3,7 @@ import argparse,json,random,time,os,shutil,hashlib
 from pathlib import Path
 import torch
 from transformers import AutoTokenizer, Qwen3ForCausalLM
+from chat_data import encode_row
 
 ap=argparse.ArgumentParser()
 ap.add_argument('--model',required=True); ap.add_argument('--out',required=True)
@@ -63,12 +64,8 @@ if source!=a.model:
 def load(path):
     rows=[]
     for line in Path(path).read_text().splitlines():
-        r=json.loads(line); q=r['question']; ans=r['answer']
-        prefix=f'<|im_start|>user\n{q}<|im_end|>\n<|im_start|>assistant\n'
-        ids=tok.encode(prefix,add_special_tokens=False)
-        tail=tok.encode(ans+'<|im_end|>\n',add_special_tokens=False)
-        if len(ids)+len(tail)>a.seq:continue
-        x=ids+tail; lab=[-100]*len(ids)+tail
+        r=json.loads(line);x,lab=encode_row(tok,r)
+        if len(x)>a.seq:continue
         rows.append((torch.tensor([x],device=device),torch.tensor([lab],device=device)))
     if not rows:raise ValueError('没有可用数据')
     return rows

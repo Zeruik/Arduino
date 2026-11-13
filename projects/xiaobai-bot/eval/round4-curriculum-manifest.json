@@ -1,0 +1,12 @@
+{
+  "train_dialogues": 64,
+  "val_dialogues": 16,
+  "heldout_dialogues": 16,
+  "facts": "only user-provided temporary names/colors, not external knowledge",
+  "val_loss": "final assistant turn only; earlier turns masked",
+  "hashes": {
+    "data/train-multiturn-round4.jsonl": "bfb68cd1b3104bc7fd7739f0a567ec4dcc3e4224aa8af0951077dca98d1869e4",
+    "data/val-multiturn-round4.jsonl": "70201bffc84f2d2c80f0d7fda4f0470a8c9a43ec042ab50570e3183d8f7745e0",
+    "eval/context-round4-frozen.jsonl": "dacc7f9dd26f66c8f5110219da658395c3314c456d981a4c67a606f97939aa54"
+  }
+}
