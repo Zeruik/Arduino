@@ -1,0 +1,246 @@
+{
+  "round": 5,
+  "total_rounds": 6,
+  "next_round": 6,
+  "entry": {
+    "round": 5,
+    "baseline_training_process_alive_on_entry": false,
+    "baseline_steps": {
+      "n16": 11428,
+      "n32": 11882
+    },
+    "finish_log_bytes": 0,
+    "prior_models_preserved": true,
+    "restored_from_library": false,
+    "final_test_sealed": true
+  },
+  "training_processes_finished": true,
+  "knowledge_accepted": false,
+  "general_multiturn_accepted": false,
+  "physical_board_accepted": false,
+  "windows_interaction_tested": false,
+  "windows_build_verified": true,
+  "default_model_replaced": false,
+  "final_round6_test_executed": false,
+  "final_round6_manifest": {
+    "sha256": "efeabba67135a21c1ce003b2a0177dd90ab39c08cd72d5f4478456a6152d104c",
+    "frozen_utc": "2026-11-13T12:00:00.413778+00:00",
+    "rows": 100,
+    "exact_overlap_current_training": 0,
+    "policy": "Reserved for round6 AFTER all training/selection; no answers; never train from this suite. Concept overlap allowed. Newly authored questions, not a statistically blinded external benchmark."
+  },
+  "design_limits": {
+    "name_color_crossing": "complete Cartesian product within each scenario; audited before training",
+    "color_update_shortcut": "training old->new colors are next item in fixed list; dedicated 120-case heldout ALL distinct pairs test this",
+    "teacher_forcing_gap": "multi-turn TRAIN and VAL supervise final assistant only; first two assistant templates are given as training context, while evaluation generates its own replies",
+    "fixed_output_format": "strict whole-answer equality includes format compliance; round4 uses another target phrase and therefore exact-score comparisons do not isolate semantic memory",
+    "posthoc_schema_metric": "entire reply parsed into TWO fields and both values compared; added after inspecting outputs, secondary only, not scientific knowledge accuracy",
+    "general_knowledge": "curated 124 QA replay at 4x; not full pretraining replay and not new external facts",
+    "final_round6_policy": "sealed new100; never trained on and not executed during round5"
+  },
+  "profiles": {
+    "n16": {
+      "training": {
+        "step": 1200,
+        "initial_val_loss": 2.668370172381401,
+        "best_val_loss": 0.021760961147568498,
+        "seconds": 401.6667414689982,
+        "complete": true,
+        "train_rows": 784,
+        "val_rows": 96,
+        "base": "models/n16-semantic-round3/final",
+        "trainable_layers": 11,
+        "data_sha256": "87bee82a43e88e889c74cae5595b8f4e5c1d91f1c21d1cfa40e763666fe8dae4"
+      },
+      "selected_local_step": 400,
+      "fp32_sha256": "4ca9a2823064c79b6ff8e8362691a6aa59741a90c26d259df8186ba11dd3494e",
+      "strict_context_matches": 14,
+      "context_rows": 96,
+      "strict_context_fp32kv": 13,
+      "strict_counterfactual_matches": 1,
+      "counterfactual_rows": 120,
+      "posthoc_context_fields": 67,
+      "posthoc_counterfactual_fields": 72,
+      "kv_same_final_answers": 95,
+      "fp32_master_probe_rows": 8,
+      "fp32_master_strict_matches": 0,
+      "knowledge_regression_rows": 100,
+      "invalid_utf8": 0,
+      "numerics_pass": true,
+      "layout": {
+        "profile": "n16",
+        "partitions": [
+          {
+            "name": "nvs",
+            "offset": 36864,
+            "size": 20480
+          },
+          {
+            "name": "phy_init",
+            "offset": 57344,
+            "size": 4096
+          },
+          {
+            "name": "factory",
+            "offset": 65536,
+            "size": 2031616
+          },
+          {
+            "name": "model",
+            "offset": 2097152,
+            "size": 14155776
+          },
+          {
+            "name": "tokdata",
+            "offset": 16252928,
+            "size": 524288
+          }
+        ],
+        "files": {
+          "model.bin": {
+            "size": 13710208,
+            "sha256": "eb99c32480f1e5a0247fe65587238d0d658dee7b09829738edfd9aee378378bd",
+            "offset": 2097152
+          },
+          "tokenizer.bin": {
+            "size": 184996,
+            "sha256": "2cbd2ecd7b23e5fd72fa3c0fd46d7fb761c34325051753ad6f7957afe423db41",
+            "offset": 16252928
+          },
+          "firmware.bin": {
+            "size": 974528,
+            "offset": 65536
+          }
+        },
+        "layout_pass": true,
+        "physical_board_test": false
+      },
+      "tokenizer_roundtrip": 4000,
+      "tokenizer_parity": 4000,
+      "http_pass": true
+    },
+    "n32": {
+      "training": {
+        "step": 1200,
+        "initial_val_loss": 2.70610153923432,
+        "best_val_loss": 0.011599924347441023,
+        "seconds": 416.86388870000155,
+        "complete": true,
+        "train_rows": 784,
+        "val_rows": 96,
+        "base": "models/n32-semantic-round3/final",
+        "trainable_layers": 11,
+        "data_sha256": "87bee82a43e88e889c74cae5595b8f4e5c1d91f1c21d1cfa40e763666fe8dae4"
+      },
+      "selected_local_step": 400,
+      "fp32_sha256": "eaff82029ebf758c2e7bce10c49058bb984b56cfe5e22a50040f5890def2c533",
+      "strict_context_matches": 34,
+      "context_rows": 96,
+      "strict_context_fp32kv": 34,
+      "strict_counterfactual_matches": 50,
+      "counterfactual_rows": 120,
+      "posthoc_context_fields": 49,
+      "posthoc_counterfactual_fields": 54,
+      "kv_same_final_answers": 93,
+      "fp32_master_probe_rows": 8,
+      "fp32_master_strict_matches": 0,
+      "knowledge_regression_rows": 100,
+      "invalid_utf8": 0,
+      "numerics_pass": true,
+      "layout": {
+        "profile": "n32",
+        "partitions": [
+          {
+            "name": "nvs",
+            "offset": 36864,
+            "size": 20480
+          },
+          {
+            "name": "phy_init",
+            "offset": 57344,
+            "size": 4096
+          },
+          {
+            "name": "factory",
+            "offset": 65536,
+            "size": 1048576
+          },
+          {
+            "name": "model",
+            "offset": 1114112,
+            "size": 15663104
+          },
+          {
+            "name": "tokdata",
+            "offset": 16777216,
+            "size": 524288
+          }
+        ],
+        "files": {
+          "model.bin": {
+            "size": 15659904,
+            "sha256": "ff58d5aebf608d9ca4a132272cbd83cebea1457f5544c1928730019f8636d24f",
+            "offset": 1114112
+          },
+          "tokenizer.bin": {
+            "size": 423154,
+            "sha256": "7c4eff87b2101327710f017a1536acd21f0f4531fb3fc4b90232520dfeb651f0",
+            "offset": 16777216
+          },
+          "firmware.bin": {
+            "size": 975120,
+            "offset": 65536
+          }
+        },
+        "layout_pass": true,
+        "physical_board_test": false
+      },
+      "tokenizer_roundtrip": 4000,
+      "tokenizer_parity": 4000,
+      "http_pass": true
+    }
+  },
+  "windows": {
+    "source_commit": "eee20ff3143c693d18e55077fa20db99b8f4d31c",
+    "run_id": 43415308564,
+    "job_id": 131851583170,
+    "artifact_id": 14031183448,
+    "windows_build_success": true,
+    "windows_source_logic_tests": {
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "pass": true,
+      "scope": "Python source logic on win32; no Windows installation UI or serial/device test"
+    },
+    "exe_bytes": 26737365,
+    "exe_sha256": "225893f8e16d21b303a139ee5d40081198fd4312ef7d8ff8539ebf89bd567679",
+    "pe_header_valid": true,
+    "installer_interaction_tested": false,
+    "physical_board_test": false,
+    "archive_members": [
+      "dist/XiaobaiBot-Setup.exe",
+      "eval/round3-package-checks.json"
+    ],
+    "original_archive_sha256": "7a509ca05e0af03b72125de622d74b8e967f3ddf4cc5172285bd601adedbdb71",
+    "run_url": "https://github.com/Zeruik/Arduino/actions/runs/43415308564"
+  },
+  "new_packages": {
+    "XiaobaiBot-N16R8-v0.2-dev-round5-FP32.zip": {
+      "bytes": 95949202,
+      "sha256": "52689f0e62ba9fa095db7f63dd067d05fb2283b077688378e13cd82abe45a933"
+    },
+    "XiaobaiBot-N16R8-v0.2-dev-round5.zip": {
+      "bytes": 12769977,
+      "sha256": "9711483127873d1f42d905c851f1b0c934a6078ff3cb22dc960c5df79572745c"
+    },
+    "XiaobaiBot-N32R16-v0.2-dev-round5-FP32.zip": {
+      "bytes": 109786692,
+      "sha256": "a5b9878c8ee09f3e39530dff70b8e4dca40d8ccbd1cb222a2b22c3fc74523dfa"
+    },
+    "XiaobaiBot-N32R16-v0.2-dev-round5.zip": {
+      "bytes": 14159517,
+      "sha256": "96236a5ea2e52a7b3996095e3f82f0c6416649ce1dec8193e29d2950e7711ae7"
+    }
+  }
+}

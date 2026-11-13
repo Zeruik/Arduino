@@ -1,0 +1,7 @@
+{
+  "rows": 120,
+  "sha256": "178f506a461e7fe2517f91e34907349e14eb111eb607986271303aab884d1406",
+  "training_color_update_rule": "next item in six-color list only; possible shortcut",
+  "counterfactual_rule": "all distinct old/new color pairs at heldout names",
+  "purpose": "detect fixed-color-transition shortcuts; never used for training or selection"
+}

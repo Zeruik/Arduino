@@ -1,0 +1,48 @@
+{
+  "profile": "n32",
+  "partitions": [
+    {
+      "name": "nvs",
+      "offset": 36864,
+      "size": 20480
+    },
+    {
+      "name": "phy_init",
+      "offset": 57344,
+      "size": 4096
+    },
+    {
+      "name": "factory",
+      "offset": 65536,
+      "size": 1048576
+    },
+    {
+      "name": "model",
+      "offset": 1114112,
+      "size": 15663104
+    },
+    {
+      "name": "tokdata",
+      "offset": 16777216,
+      "size": 524288
+    }
+  ],
+  "files": {
+    "model.bin": {
+      "size": 15659904,
+      "sha256": "ff58d5aebf608d9ca4a132272cbd83cebea1457f5544c1928730019f8636d24f",
+      "offset": 1114112
+    },
+    "tokenizer.bin": {
+      "size": 423154,
+      "sha256": "7c4eff87b2101327710f017a1536acd21f0f4531fb3fc4b90232520dfeb651f0",
+      "offset": 16777216
+    },
+    "firmware.bin": {
+      "size": 975120,
+      "offset": 65536
+    }
+  },
+  "layout_pass": true,
+  "physical_board_test": false
+}

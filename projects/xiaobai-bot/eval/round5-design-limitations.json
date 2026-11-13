@@ -1,0 +1,9 @@
+{
+  "name_color_crossing": "complete Cartesian product within each scenario; audited before training",
+  "color_update_shortcut": "training old->new colors are next item in fixed list; dedicated 120-case heldout ALL distinct pairs test this",
+  "teacher_forcing_gap": "multi-turn TRAIN and VAL supervise final assistant only; first two assistant templates are given as training context, while evaluation generates its own replies",
+  "fixed_output_format": "strict whole-answer equality includes format compliance; round4 uses another target phrase and therefore exact-score comparisons do not isolate semantic memory",
+  "posthoc_schema_metric": "entire reply parsed into TWO fields and both values compared; added after inspecting outputs, secondary only, not scientific knowledge accuracy",
+  "general_knowledge": "curated 124 QA replay at 4x; not full pretraining replay and not new external facts",
+  "final_round6_policy": "sealed new100; never trained on and not executed during round5"
+}

@@ -1,0 +1,1 @@
+{"step": 400, "data_sha256": "87bee82a43e88e889c74cae5595b8f4e5c1d91f1c21d1cfa40e763666fe8dae4", "val_sha256": "d2bbd2caa5ddf6938c750db0408bcdbca96ed0dfd6a656c27d8524235df35637", "qat": true, "seq": 384, "layers": 11, "lr": 1e-05, "train_embedding": false}

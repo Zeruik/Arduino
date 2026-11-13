@@ -1,0 +1,7 @@
+{
+  "sha256": "efeabba67135a21c1ce003b2a0177dd90ab39c08cd72d5f4478456a6152d104c",
+  "frozen_utc": "2026-11-13T12:00:00.413778+00:00",
+  "rows": 100,
+  "exact_overlap_current_training": 0,
+  "policy": "Reserved for round6 AFTER all training/selection; no answers; never train from this suite. Concept overlap allowed. Newly authored questions, not a statistically blinded external benchmark."
+}

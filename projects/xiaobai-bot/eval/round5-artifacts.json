@@ -1,0 +1,71 @@
+{
+  "round": 5,
+  "all_saved": true,
+  "experimental_not_accepted": true,
+  "artifacts": [
+    {
+      "filename": "XiaobaiBot-N16R8-v0.2-dev-round5.zip",
+      "library_file_id": "libfile_04395787a7708191871e2484ca90ed3e",
+      "file_id": "file_000000009dd081f59e3d0ab70ce1e71b",
+      "bytes": 12769977,
+      "sha256": "9711483127873d1f42d905c851f1b0c934a6078ff3cb22dc960c5df79572745c",
+      "url": "https://chatgpt.com/library?file_id=libfile_04395787a7708191871e2484ca90ed3e&account_id=personal",
+      "local_metadata_applied": true
+    },
+    {
+      "filename": "XiaobaiBot-N16R8-v0.2-dev-round5-FP32.zip",
+      "library_file_id": "libfile_30ee98f9f99c81918db94f6fea53a332",
+      "file_id": "file_00000000b26c81f5a6314a9f2fc2672f",
+      "bytes": 95949202,
+      "sha256": "52689f0e62ba9fa095db7f63dd067d05fb2283b077688378e13cd82abe45a933",
+      "url": "https://chatgpt.com/library?file_id=libfile_30ee98f9f99c81918db94f6fea53a332&account_id=personal",
+      "local_metadata_applied": true
+    },
+    {
+      "filename": "XiaobaiBot-N32R16-v0.2-dev-round5.zip",
+      "library_file_id": "libfile_44929a8e0f108191be77f02c8e2eb513",
+      "file_id": "file_00000000c2f481f593cabb16377eb9fa",
+      "bytes": 14159517,
+      "sha256": "96236a5ea2e52a7b3996095e3f82f0c6416649ce1dec8193e29d2950e7711ae7",
+      "url": "https://chatgpt.com/library?file_id=libfile_44929a8e0f108191be77f02c8e2eb513&account_id=personal",
+      "local_metadata_applied": true
+    },
+    {
+      "filename": "XiaobaiBot-N32R16-v0.2-dev-round5-FP32.zip",
+      "library_file_id": "libfile_d8d556dab57c819190420b027e29cb12",
+      "file_id": "file_00000000c2d881f5a829bc514e26b2f1",
+      "bytes": 109786692,
+      "sha256": "a5b9878c8ee09f3e39530dff70b8e4dca40d8ccbd1cb222a2b22c3fc74523dfa",
+      "url": "https://chatgpt.com/library?file_id=libfile_d8d556dab57c819190420b027e29cb12&account_id=personal",
+      "local_metadata_applied": true
+    },
+    {
+      "filename": "XiaobaiBot-Setup-round4-ci.exe",
+      "library_file_id": "libfile_7506265abc048191b8edadf089a637ab",
+      "file_id": "file_00000000449081f5923671b6ab6bffbb",
+      "bytes": 26737365,
+      "sha256": "225893f8e16d21b303a139ee5d40081198fd4312ef7d8ff8539ebf89bd567679",
+      "url": "https://chatgpt.com/library?file_id=libfile_7506265abc048191b8edadf089a637ab&account_id=personal",
+      "local_metadata_applied": true
+    },
+    {
+      "filename": "XiaobaiBot-Windows-Setup-round4-ci.zip",
+      "library_file_id": "libfile_db93fedefa9881919ab0e8fba8902998",
+      "file_id": "file_000000000dc481f5b514bdaefabb2412",
+      "bytes": 26190203,
+      "sha256": "7a509ca05e0af03b72125de622d74b8e967f3ddf4cc5172285bd601adedbdb71",
+      "url": "https://chatgpt.com/library?file_id=libfile_db93fedefa9881919ab0e8fba8902998&account_id=personal",
+      "local_metadata_applied": true
+    },
+    {
+      "filename": "XiaobaiBot-round5-evidence-source.zip",
+      "library_file_id": "libfile_d1f3fb6db9d081918ca00158579c7ba3",
+      "file_id": "file_000000006a5881f59d9cefdcf889ccc8",
+      "bytes": 14688741,
+      "sha256": "3e60e0f8e8953191120958b026279016e37fd5be08156d2aa8bed4b17fab6440",
+      "url": "https://chatgpt.com/library?file_id=libfile_d1f3fb6db9d081918ca00158579c7ba3&account_id=personal",
+      "local_metadata_applied": true,
+      "current_version_number": 1
+    }
+  ]
+}

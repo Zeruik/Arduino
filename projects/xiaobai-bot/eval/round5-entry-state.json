@@ -1,0 +1,12 @@
+{
+  "round": 5,
+  "baseline_training_process_alive_on_entry": false,
+  "baseline_steps": {
+    "n16": 11428,
+    "n32": 11882
+  },
+  "finish_log_bytes": 0,
+  "prior_models_preserved": true,
+  "restored_from_library": false,
+  "final_test_sealed": true
+}

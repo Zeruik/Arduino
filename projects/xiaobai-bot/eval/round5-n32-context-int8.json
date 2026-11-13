@@ -1,0 +1,2222 @@
+{
+  "model": "models/n32-orthogonal-q4-round5",
+  "model_sha256": "ff58d5aebf608d9ca4a132272cbd83cebea1457f5544c1928730019f8636d24f",
+  "ctx": 1024,
+  "weights": "Q4",
+  "kv": "INT8",
+  "suite_sha256": "fc66368a8ef0cede00ba99438d5ed48137445bfb6387ba7ee9599f7bad65d8fc",
+  "rows": [
+    {
+      "code": "晨帆",
+      "color": "蓝色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标黄色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "修改一下：色标换成蓝色，代号仍按原记录。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：蓝色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "白色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标蓝色。请暂存。",
+          "answer": "代号：晨泉；色标蓝色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨谷，新色标为白色。",
+          "answer": "新代号：晨谷；色标蓝色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标蓝色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：白色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "黄色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标黄色。请暂存。",
+          "answer": "代号：晨泉；色标黄色。"
+        },
+        {
+          "question": "另外一人的代号是晨谷，色标是白色。那是对方的，不修改我的记录。",
+          "answer": "晨泉是白色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "晨泉是白色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：黄色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "黄色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标黄色。请暂存。",
+          "answer": "代号：晨谷；色标黄色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不客气，上次要对我进行。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标黄色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：黄色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "白色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标白色。请暂存。",
+          "answer": "代号：晨泉；色标白色。"
+        },
+        {
+          "question": "另外一人的代号是晨谷，色标是黄色。那是对方的，不修改我的记录。",
+          "answer": "代号：晨泉；色标白色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标白色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：白色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "黄色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标黄色。请暂存。",
+          "answer": "代号晨桥，色标黄色。"
+        },
+        {
+          "question": "另外一人的代号是晨帆，色标是白色。那是对方的，不修改我的记录。",
+          "answer": "代号晨桥，色标黄色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号晨桥；色标：黄色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：黄色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "紫色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标紫色。请暂存。",
+          "answer": "代号：晨谷，色标紫色。"
+        },
+        {
+          "question": "另外一人的代号是晨桥，色标是蓝色。那是对方的，不修改我的记录。",
+          "answer": "晨谷是地球表面纬度为零度的，把地球分为南半球和北半球。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "晨谷是地球表面纬度为零度的，把地球分为南半球和北半球。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：紫色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "紫色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标紫色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "另外一人的代号是晨泉，色标是蓝色。那是对方的，不修改我的记录。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：紫色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "蓝色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标蓝色。请暂存。",
+          "answer": "代号：晨桥，色标蓝色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不客气，上次要对我进行。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：蓝色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：蓝色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "黄色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标黄色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "另外一人的代号是晨泉，色标是白色。那是对方的，不修改我的记录。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：黄色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "黄色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标红色。请暂存。",
+          "answer": "代号：晨谷；色标红色。"
+        },
+        {
+          "question": "修改一下：色标换成黄色，代号仍按原记录。",
+          "answer": "代号：晨谷；色标红色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标红色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：黄色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "紫色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标紫色。请暂存。",
+          "answer": "代号：晨桥，色标紫色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不客气，上次要对我进行。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：紫色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：紫色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "白色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标蓝色。请暂存。",
+          "answer": "代号：晨谷，色标蓝色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨桥，新色标为白色。",
+          "answer": "新代号：晨桥，色标蓝色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标蓝色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：白色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "绿色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标绿色。请暂存。",
+          "answer": "代号：晨桥，色标绿色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不客气，随时可以。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：绿色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：绿色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "红色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标紫色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "修改一下：色标换成红色，代号仍按原记录。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：红色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "黄色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标红色。请暂存。",
+          "answer": "代号：晨泉；色标红色。"
+        },
+        {
+          "question": "修改一下：色标换成黄色，代号仍按原记录。",
+          "answer": "代号：晨泉；色标红色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标红色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：黄色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "白色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标白色。请暂存。",
+          "answer": "代号：晨谷，色标白色。"
+        },
+        {
+          "question": "另外一人的代号是晨桥，色标是黄色。那是对方的，不修改我的记录。",
+          "answer": "晨谷，色标白色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "晨谷；色标白色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：白色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "白色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标白色。请暂存。",
+          "answer": "代号：晨桥，色标白色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不客气，上次要对我进行。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：白色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：白色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "绿色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标黄色。请暂存。",
+          "answer": "代号：晨泉；色标黄色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨谷，新色标为绿色。",
+          "answer": "新代号：晨谷；色标黄色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标黄色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：绿色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "黄色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标紫色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨泉，新色标为黄色。",
+          "answer": "代号：晨泉。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：黄色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "绿色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标绿色。请暂存。",
+          "answer": "代号：晨泉；色标绿色。"
+        },
+        {
+          "question": "另外一人的代号是晨谷，色标是红色。那是对方的，不修改我的记录。",
+          "answer": "晨泉。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "晨泉。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：绿色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "紫色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标绿色。请暂存。",
+          "answer": "代号：晨泉；色标绿色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨谷，新色标为紫色。",
+          "answer": "新代号：晨谷；色标绿色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标绿色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：紫色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "白色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标蓝色。请暂存。",
+          "answer": "代号：晨桥，色标蓝色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨帆，新色标为白色。",
+          "answer": "新代号：晨帆，色标蓝色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆；色标：白色。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：白色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "蓝色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标红色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨泉，新色标为蓝色。",
+          "answer": "代号：晨泉。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：蓝色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "紫色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标紫色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不一样。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：紫色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "紫色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标白色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "修改一下：色标换成紫色，代号仍按原记录。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：紫色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "红色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标红色。请暂存。",
+          "answer": "代号：晨谷；色标红色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不客气，上次要对我进行。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标红色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：红色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "红色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标红色。请暂存。",
+          "answer": "代号：晨谷；色标红色。"
+        },
+        {
+          "question": "另外一人的代号是晨桥，色标是绿色。那是对方的，不修改我的记录。",
+          "answer": "代号：晨谷；色标红色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标红色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：红色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "紫色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标绿色。请暂存。",
+          "answer": "代号：晨帆，色标绿色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨泉，新色标为紫色。",
+          "answer": "新代号：晨泉，色标绿色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标：紫色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：紫色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "红色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标红色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "另外一人的代号是晨泉，色标是绿色。那是对方的，不修改我的记录。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：红色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "蓝色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标蓝色。请暂存。",
+          "answer": "代号：晨谷，色标蓝色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不客气，上次要对我进行。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标：蓝色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：蓝色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "蓝色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标蓝色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "另外一人的代号是晨泉，色标是紫色。那是对方的，不修改我的记录。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：蓝色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "绿色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标黄色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨泉，新色标为绿色。",
+          "answer": "代号：晨泉。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：绿色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "紫色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标白色。请暂存。",
+          "answer": "代号：晨泉；色标白色。"
+        },
+        {
+          "question": "修改一下：色标换成紫色，代号仍按原记录。",
+          "answer": "代号：晨泉；色标白色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标白色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：紫色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "绿色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标黄色。请暂存。",
+          "answer": "代号：晨谷；色标黄色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨桥，新色标为绿色。",
+          "answer": "新代号：晨桥；色标黄色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标黄色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：绿色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "红色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标紫色。请暂存。",
+          "answer": "代号：晨谷，色标紫色。"
+        },
+        {
+          "question": "修改一下：色标换成红色，代号仍按原记录。",
+          "answer": "代号：晨谷，色标紫色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标：红色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：红色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "绿色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标蓝色。请暂存。",
+          "answer": "代号：晨泉；色标蓝色。"
+        },
+        {
+          "question": "修改一下：色标换成绿色，代号仍按原记录。",
+          "answer": "代号：晨泉；色标蓝色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标蓝色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：绿色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "蓝色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标红色。请暂存。",
+          "answer": "代号：晨桥，色标红色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨帆，新色标为蓝色。",
+          "answer": "新代号：晨帆，色标红色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆；色标：蓝色。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：蓝色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "白色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标蓝色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨泉，新色标为白色。",
+          "answer": "代号：晨泉。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：白色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "白色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标绿色。请暂存。",
+          "answer": "代号：晨桥，色标绿色。"
+        },
+        {
+          "question": "修改一下：色标换成白色，代号仍按原记录。",
+          "answer": "代号：晨桥，色标绿色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：白色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：白色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "紫色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标白色。请暂存。",
+          "answer": "代号：晨桥，色标白色。"
+        },
+        {
+          "question": "修改一下：色标换成紫色，代号仍按原记录。",
+          "answer": "代号：晨桥，色标白色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：紫色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：紫色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "红色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标白色。请暂存。",
+          "answer": "代号：晨桥，色标白色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨帆，新色标为红色。",
+          "answer": "新代号：晨帆，色标白色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆；色标：红色。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：红色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "绿色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标绿色。请暂存。",
+          "answer": "代号：晨帆，色标绿色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不一样。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆；色标：绿色。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：绿色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "蓝色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标蓝色。请暂存。",
+          "answer": "代号：晨桥，色标蓝色。"
+        },
+        {
+          "question": "另外一人的代号是晨帆，色标是紫色。那是对方的，不修改我的记录。",
+          "answer": "代号：晨桥，色标蓝色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：蓝色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：蓝色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "蓝色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标蓝色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不一样。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：蓝色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "紫色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标绿色。请暂存。",
+          "answer": "代号：晨谷，色标绿色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨桥，新色标为紫色。",
+          "answer": "新代号：晨桥，色标绿色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标绿色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：紫色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "紫色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标紫色。请暂存。",
+          "answer": "代号：晨泉；色标紫色。"
+        },
+        {
+          "question": "另外一人的代号是晨谷，色标是蓝色。那是对方的，不修改我的记录。",
+          "answer": "代号：晨泉；色标紫色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标紫色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：紫色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "蓝色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标蓝色。请暂存。",
+          "answer": "代号：晨泉；色标蓝色。"
+        },
+        {
+          "question": "另外一人的代号是晨谷，色标是紫色。那是对方的，不修改我的记录。",
+          "answer": "代号：晨泉；色标蓝色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标蓝色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：蓝色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "黄色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标紫色。请暂存。",
+          "answer": "代号：晨泉；色标紫色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨谷，新色标为黄色。",
+          "answer": "新代号：晨谷；色标紫色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标紫色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：黄色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "红色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标红色。请暂存。",
+          "answer": "代号：晨桥，色标红色。"
+        },
+        {
+          "question": "另外一人的代号是晨帆，色标是绿色。那是对方的，不修改我的记录。",
+          "answer": "代号：晨桥，色标红色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：红色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：红色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "白色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标绿色。请暂存。",
+          "answer": "代号：晨帆，色标绿色。"
+        },
+        {
+          "question": "修改一下：色标换成白色，代号仍按原记录。",
+          "answer": "代号：晨帆，色标绿色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆；色标：白色。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：白色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "绿色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标蓝色。请暂存。",
+          "answer": "代号：晨桥，色标蓝色。"
+        },
+        {
+          "question": "修改一下：色标换成绿色，代号仍按原记录。",
+          "answer": "代号：晨桥，色标蓝色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：绿色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：绿色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "红色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标白色。请暂存。",
+          "answer": "代号：晨泉；色标白色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨谷，新色标为红色。",
+          "answer": "新代号：晨谷；色标白色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标白色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：红色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "绿色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标绿色。请暂存。",
+          "answer": "代号：晨谷，色标绿色。"
+        },
+        {
+          "question": "另外一人的代号是晨桥，色标是红色。那是对方的，不修改我的记录。",
+          "answer": "晨谷，色标绿色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "晨谷；色标绿色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：绿色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "绿色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标蓝色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "修改一下：色标换成绿色，代号仍按原记录。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：绿色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "红色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标白色。请暂存。",
+          "answer": "代号：晨谷，色标白色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨桥，新色标为红色。",
+          "answer": "新代号：晨桥，色标白色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标白色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：红色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "黄色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标红色。请暂存。",
+          "answer": "代号：晨桥，色标红色。"
+        },
+        {
+          "question": "修改一下：色标换成黄色，代号仍按原记录。",
+          "answer": "代号：晨桥，色标红色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：黄色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：黄色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "黄色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标黄色。请暂存。",
+          "answer": "代号：晨泉；色标黄色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不一样。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标黄色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：黄色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "白色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标绿色。请暂存。",
+          "answer": "代号：晨谷，色标绿色。"
+        },
+        {
+          "question": "修改一下：色标换成白色，代号仍按原记录。",
+          "answer": "代号：晨谷，色标绿色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标：白色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：白色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "蓝色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标蓝色。请暂存。",
+          "answer": "代号：晨泉；色标蓝色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不一样。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标蓝色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：蓝色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "白色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标白色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不一样。质量表示物体惯性的大小，单位是千克；重量通常指受到的重力，单位是牛顿。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：白色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "红色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标红色。请暂存。",
+          "answer": "代号：晨泉；色标红色。"
+        },
+        {
+          "question": "另外一人的代号是晨谷，色标是绿色。那是对方的，不修改我的记录。",
+          "answer": "代号：晨泉；色标红色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标红色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：红色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "白色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标白色。请暂存。",
+          "answer": "代号：晨泉；色标白色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不一样。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标白色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：白色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "黄色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标黄色。请暂存。",
+          "answer": "代号晨桥，色标黄色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不客气，上次要对我进行处理。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：黄色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：黄色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "绿色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标绿色。请暂存。",
+          "answer": "代号：晨桥，色标绿色。"
+        },
+        {
+          "question": "另外一人的代号是晨帆，色标是红色。那是对方的，不修改我的记录。",
+          "answer": "代号：晨桥，色标绿色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：绿色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：绿色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "红色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标红色。请暂存。",
+          "answer": "代号：晨泉；色标红色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不客气，随时可以。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标红色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：红色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "红色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标紫色。请暂存。",
+          "answer": "代号：晨桥，色标紫色。"
+        },
+        {
+          "question": "修改一下：色标换成红色，代号仍按原记录。",
+          "answer": "代号：晨桥，色标紫色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：红色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：红色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "黄色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标紫色。请暂存。",
+          "answer": "代号：晨谷，色标紫色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨桥，新色标为黄色。",
+          "answer": "新代号：晨桥，色标紫色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：黄色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：黄色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "紫色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标紫色。请暂存。",
+          "answer": "代号：晨桥，色标紫色。"
+        },
+        {
+          "question": "另外一人的代号是晨帆，色标是蓝色。那是对方的，不修改我的记录。",
+          "answer": "代号：晨桥，色标紫色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：紫色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：紫色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "蓝色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标红色。请暂存。",
+          "answer": "代号：晨谷；色标红色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨桥，新色标为蓝色。",
+          "answer": "新代号：晨桥；色标红色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标红色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：蓝色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "紫色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标紫色。请暂存。",
+          "answer": "代号：晨泉；色标紫色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不一样。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标紫色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：紫色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "蓝色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标黄色。请暂存。",
+          "answer": "代号晨桥，色标黄色。"
+        },
+        {
+          "question": "修改一下：色标换成蓝色，代号仍按原记录。",
+          "answer": "代号晨桥，色标黄色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号晨桥；色标蓝色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：蓝色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "黄色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标红色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "修改一下：色标换成黄色，代号仍按原记录。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：黄色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "红色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标紫色。请暂存。",
+          "answer": "代号：晨泉；色标紫色。"
+        },
+        {
+          "question": "修改一下：色标换成红色，代号仍按原记录。",
+          "answer": "代号：晨泉；色标紫色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标紫色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：红色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "绿色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标绿色。请暂存。",
+          "answer": "代号：晨帆，色标绿色。"
+        },
+        {
+          "question": "另外一人的代号是晨泉，色标是红色。那是对方的，不修改我的记录。",
+          "answer": "晨帆，色标绿色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "晨帆，色标绿色。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：绿色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "绿色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标绿色。请暂存。",
+          "answer": "代号：晨泉；色标绿色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不一样。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标绿色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：绿色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "紫色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标绿色。请暂存。",
+          "answer": "代号：晨桥，色标绿色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨帆，新色标为紫色。",
+          "answer": "新代号：晨帆，色标绿色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆；色标：紫色。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：紫色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "白色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标白色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "另外一人的代号是晨泉，色标是黄色。那是对方的，不修改我的记录。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：白色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "白色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标绿色。请暂存。",
+          "answer": "代号：晨泉；色标绿色。"
+        },
+        {
+          "question": "修改一下：色标换成白色，代号仍按原记录。",
+          "answer": "代号：晨泉；色标绿色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标绿色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：白色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "白色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标白色。请暂存。",
+          "answer": "代号：晨谷，色标白色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不客气，上次要对我进行。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标：白色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：白色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "蓝色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标黄色。请暂存。",
+          "answer": "代号：晨泉；色标黄色。"
+        },
+        {
+          "question": "修改一下：色标换成蓝色，代号仍按原记录。",
+          "answer": "代号：晨泉；色标黄色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉；色标黄色。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：蓝色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨泉",
+      "color": "红色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标白色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨泉，新色标为红色。",
+          "answer": "代号：晨泉。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨泉。"
+        }
+      ],
+      "expected_final": "代号：晨泉；色标：红色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "白色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标白色。请暂存。",
+          "answer": "代号：晨桥，色标白色。"
+        },
+        {
+          "question": "另外一人的代号是晨帆，色标是黄色。那是对方的，不修改我的记录。",
+          "answer": "代号：晨桥，色标白色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：白色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：白色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "蓝色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标黄色。请暂存。",
+          "answer": "代号：晨谷；色标黄色。"
+        },
+        {
+          "question": "修改一下：色标换成蓝色，代号仍按原记录。",
+          "answer": "代号：晨谷；色标黄色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标黄色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：蓝色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "黄色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标黄色。请暂存。",
+          "answer": "代号：晨谷；色标黄色。"
+        },
+        {
+          "question": "另外一人的代号是晨桥，色标是白色。那是对方的，不修改我的记录。",
+          "answer": "晨谷是白色，色标黄色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "晨谷；色标黄色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：黄色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "绿色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标绿色。请暂存。",
+          "answer": "代号：晨谷，色标绿色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不客气，上次要对我进行。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标：绿色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：绿色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "紫色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标紫色。请暂存。",
+          "answer": "代号：晨谷，色标紫色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不客气，上次要对我进行。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标：紫色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：紫色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "红色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标红色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不一样。质量表示物体惯性的大小，单位是千克；重量通常指受到的重力，单位是牛顿。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆；色标：红色。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：红色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "黄色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨帆，色标黄色。请暂存。",
+          "answer": "代号：晨帆。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不一样。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：黄色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "绿色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标蓝色。请暂存。",
+          "answer": "代号：晨谷，色标蓝色。"
+        },
+        {
+          "question": "修改一下：色标换成绿色，代号仍按原记录。",
+          "answer": "代号：晨谷，色标蓝色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标：绿色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：绿色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "紫色",
+      "kind": "change_color",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标白色。请暂存。",
+          "answer": "代号：晨谷，色标白色。"
+        },
+        {
+          "question": "修改一下：色标换成紫色，代号仍按原记录。",
+          "answer": "代号：晨谷，色标白色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标：紫色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：紫色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "黄色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标紫色。请暂存。",
+          "answer": "代号：晨桥，色标紫色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨帆，新色标为黄色。",
+          "answer": "新代号：晨帆，色标紫色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨帆；色标：黄色。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：黄色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨桥",
+      "color": "红色",
+      "kind": "keep",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标红色。请暂存。",
+          "answer": "代号：晨桥，色标红色。"
+        },
+        {
+          "question": "先保留这份记录，等会儿我会询问它。",
+          "answer": "不客气，上次要对我进行。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨桥；色标：红色。"
+        }
+      ],
+      "expected_final": "代号：晨桥；色标：红色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": true,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "蓝色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨泉，色标红色。请暂存。",
+          "answer": "代号：晨泉；色标红色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨谷，新色标为蓝色。",
+          "answer": "新代号：晨谷；色标红色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号：晨谷；色标红色。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：蓝色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨帆",
+      "color": "绿色",
+      "kind": "replace_record",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨桥，色标黄色。请暂存。",
+          "answer": "代号晨桥，色标黄色。"
+        },
+        {
+          "question": "旧记录作废，我这份的新代号为晨帆，新色标为绿色。",
+          "answer": "新代号：晨帆，色标黄色。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "代号；色标。"
+        }
+      ],
+      "expected_final": "代号：晨帆；色标：绿色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    },
+    {
+      "code": "晨谷",
+      "color": "蓝色",
+      "kind": "other_person",
+      "turns": [
+        {
+          "question": "这是我自己的记录：代号晨谷，色标蓝色。请暂存。",
+          "answer": "代号：晨谷，色标蓝色。"
+        },
+        {
+          "question": "另外一人的代号是晨桥，色标是紫色。那是对方的，不修改我的记录。",
+          "answer": "晨谷是地球表面纬度为零度的，把地球分为南半球和北半球。"
+        },
+        {
+          "question": "按“代号：名称；色标：颜色。”写出我目前这份记录，别填别人的。",
+          "answer": "晨谷是地球表面纬度为零度的，把地球分为南半球和北半球。"
+        }
+      ],
+      "expected_final": "代号：晨谷；色标：蓝色。",
+      "reset_final": "代号：大代。",
+      "exact_whole_answer_match": false,
+      "reset_exact_whole_answer_match": false
+    }
+  ],
+  "exact_whole_answer_matches": 34,
+  "reset_exact_matches": 0,
+  "metric": "strict entire string equality on temporary user-provided fields; not semantic or knowledge accuracy",
+  "physical_board_test": false
+}

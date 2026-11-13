@@ -1,0 +1,162 @@
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights:  14%|█▍        | 17/123 [00:00<00:00, 143.75it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 684.78it/s]
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  5.65it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  5.65it/s]
+{"device": "cpu", "train_rows": 784, "val_rows": 96, "initial_val_loss": 2.668370172381401, "trainable_params": 22089152}
+{"step": 10, "loss": 0.6517419815063477, "elapsed_seconds": 13.52}
+{"step": 20, "loss": 0.002048542257398367, "elapsed_seconds": 16.46}
+{"step": 30, "loss": 0.0013559592189267278, "elapsed_seconds": 18.95}
+{"step": 40, "loss": 0.29785534739494324, "elapsed_seconds": 21.21}
+{"step": 50, "loss": 0.0013031885027885437, "elapsed_seconds": 23.55}
+{"step": 60, "loss": 0.04648595675826073, "elapsed_seconds": 25.68}
+{"step": 70, "loss": 0.0015580130275338888, "elapsed_seconds": 28.05}
+{"step": 80, "loss": 0.004549337085336447, "elapsed_seconds": 30.79}
+{"step": 90, "loss": 0.08969736844301224, "elapsed_seconds": 33.94}
+{"step": 100, "loss": 0.03068525530397892, "elapsed_seconds": 36.58}
+{"step": 110, "loss": 0.011580117978155613, "elapsed_seconds": 39.57}
+{"step": 120, "loss": 0.00099159125238657, "elapsed_seconds": 42.23}
+{"step": 130, "loss": 0.0028943438082933426, "elapsed_seconds": 44.48}
+{"step": 140, "loss": 0.0017174534732475877, "elapsed_seconds": 47.14}
+{"step": 150, "loss": 0.0009238143684342504, "elapsed_seconds": 50.46}
+{"step": 160, "loss": 0.0023287301883101463, "elapsed_seconds": 53.43}
+{"step": 170, "loss": 0.0010807988001033664, "elapsed_seconds": 56.65}
+{"step": 180, "loss": 0.006048498209565878, "elapsed_seconds": 59.51}
+{"step": 190, "loss": 0.0008162267622537911, "elapsed_seconds": 62.35}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  5.69it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  5.69it/s]
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 10.07it/s]
+{"step": 200, "loss": 0.0009493001853115857, "elapsed_seconds": 64.73, "val_loss": 0.02937218246127789}
+{"step": 210, "loss": 0.0014067720621824265, "elapsed_seconds": 75.68}
+{"step": 220, "loss": 0.0013487780233845115, "elapsed_seconds": 78.73}
+{"step": 230, "loss": 0.0010396097786724567, "elapsed_seconds": 81.75}
+{"step": 240, "loss": 0.0014272528933361173, "elapsed_seconds": 84.87}
+{"step": 250, "loss": 0.025095751509070396, "elapsed_seconds": 87.96}
+{"step": 260, "loss": 0.0026563156861811876, "elapsed_seconds": 90.9}
+{"step": 270, "loss": 0.0013110124273225665, "elapsed_seconds": 93.99}
+{"step": 280, "loss": 0.00467057665809989, "elapsed_seconds": 97.16}
+{"step": 290, "loss": 0.000953474547713995, "elapsed_seconds": 99.29}
+{"step": 300, "loss": 0.0004854578000959009, "elapsed_seconds": 102.1}
+{"step": 310, "loss": 0.0012192813446745276, "elapsed_seconds": 105.21}
+{"step": 320, "loss": 0.0008597540436312556, "elapsed_seconds": 108.81}
+{"step": 330, "loss": 0.0007744114263914526, "elapsed_seconds": 111.94}
+{"step": 340, "loss": 0.0012625762028619647, "elapsed_seconds": 114.99}
+{"step": 350, "loss": 0.001954508712515235, "elapsed_seconds": 117.93}
+{"step": 360, "loss": 0.0003481194726191461, "elapsed_seconds": 120.68}
+{"step": 370, "loss": 0.002342215273529291, "elapsed_seconds": 123.53}
+{"step": 380, "loss": 0.00045068602776154876, "elapsed_seconds": 126.54}
+{"step": 390, "loss": 0.0005459344247356057, "elapsed_seconds": 129.55}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.40it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.40it/s]
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 17.64it/s]
+{"step": 400, "loss": 0.0006239226786419749, "elapsed_seconds": 132.26, "val_loss": 0.021760961147568498}
+{"step": 410, "loss": 0.0003718577208928764, "elapsed_seconds": 146.9}
+{"step": 420, "loss": 0.0006261240923777223, "elapsed_seconds": 148.84}
+{"step": 430, "loss": 0.00051541393622756, "elapsed_seconds": 151.68}
+{"step": 440, "loss": 0.002561998786404729, "elapsed_seconds": 153.55}
+{"step": 450, "loss": 0.0008273415733128786, "elapsed_seconds": 155.58}
+{"step": 460, "loss": 0.0018129536183550954, "elapsed_seconds": 157.5}
+{"step": 470, "loss": 0.0004688974586315453, "elapsed_seconds": 159.87}
+{"step": 480, "loss": 0.0023227259516716003, "elapsed_seconds": 162.31}
+{"step": 490, "loss": 0.0011253037955611944, "elapsed_seconds": 164.87}
+{"step": 500, "loss": 0.0015160039765760303, "elapsed_seconds": 167.17}
+{"step": 510, "loss": 0.0009767859010025859, "elapsed_seconds": 169.55}
+{"step": 520, "loss": 0.0007821426843293011, "elapsed_seconds": 172.03}
+{"step": 530, "loss": 0.0004556075145956129, "elapsed_seconds": 174.19}
+{"step": 540, "loss": 0.0007803720072843134, "elapsed_seconds": 176.58}
+{"step": 550, "loss": 0.00045885442523285747, "elapsed_seconds": 178.83}
+{"step": 560, "loss": 0.00023707380751147866, "elapsed_seconds": 181.16}
+{"step": 570, "loss": 0.001257444149814546, "elapsed_seconds": 183.44}
+{"step": 580, "loss": 0.0007791321258991957, "elapsed_seconds": 185.6}
+{"step": 590, "loss": 0.0009589404216967523, "elapsed_seconds": 187.79}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 14.02it/s]
+{"step": 600, "loss": 0.0006446557817980647, "elapsed_seconds": 189.94, "val_loss": 0.03472139257549619}
+{"step": 610, "loss": 0.0016919756308197975, "elapsed_seconds": 201.08}
+{"step": 620, "loss": 0.0002229358215117827, "elapsed_seconds": 203.93}
+{"step": 630, "loss": 0.00034718195092864335, "elapsed_seconds": 206.9}
+{"step": 640, "loss": 0.001192533876746893, "elapsed_seconds": 210.15}
+{"step": 650, "loss": 0.00034808472264558077, "elapsed_seconds": 214.16}
+{"step": 660, "loss": 0.00133697094861418, "elapsed_seconds": 216.77}
+{"step": 670, "loss": 0.00040449234074912965, "elapsed_seconds": 220.18}
+{"step": 680, "loss": 0.0010237206006422639, "elapsed_seconds": 223.03}
+{"step": 690, "loss": 0.00026646716287359595, "elapsed_seconds": 226.68}
+{"step": 700, "loss": 0.0005583444144576788, "elapsed_seconds": 229.97}
+{"step": 710, "loss": 0.0005116299143992364, "elapsed_seconds": 233.39}
+{"step": 720, "loss": 0.00028404153999872506, "elapsed_seconds": 236.31}
+{"step": 730, "loss": 0.0005481738480739295, "elapsed_seconds": 239.24}
+{"step": 740, "loss": 0.00036958311102353036, "elapsed_seconds": 241.43}
+{"step": 750, "loss": 0.0015722442185506225, "elapsed_seconds": 243.46}
+{"step": 760, "loss": 0.00021654834563378245, "elapsed_seconds": 245.41}
+{"step": 770, "loss": 0.00018416477541904896, "elapsed_seconds": 247.44}
+{"step": 780, "loss": 0.0015359355602413416, "elapsed_seconds": 249.72}
+{"step": 790, "loss": 0.0003095174615737051, "elapsed_seconds": 252.12}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.35it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.33it/s]
+{"step": 800, "loss": 0.00032301319879479706, "elapsed_seconds": 254.45, "val_loss": 0.03378360182978213}
+{"step": 810, "loss": 0.000633704592473805, "elapsed_seconds": 264.87}
+{"step": 820, "loss": 0.000579140498302877, "elapsed_seconds": 267.19}
+{"step": 830, "loss": 0.00018592113337945193, "elapsed_seconds": 269.73}
+{"step": 840, "loss": 0.0004991537425667048, "elapsed_seconds": 272.59}
+{"step": 850, "loss": 0.00024517448036931455, "elapsed_seconds": 275.63}
+{"step": 860, "loss": 0.0002973961818497628, "elapsed_seconds": 278.42}
+{"step": 870, "loss": 0.00023279439483303577, "elapsed_seconds": 280.97}
+{"step": 880, "loss": 0.000157036745804362, "elapsed_seconds": 283.51}
+{"step": 890, "loss": 0.0015257020713761449, "elapsed_seconds": 285.82}
+{"step": 900, "loss": 0.00025183166144415736, "elapsed_seconds": 288.73}
+{"step": 910, "loss": 0.0006939369486644864, "elapsed_seconds": 291.59}
+{"step": 920, "loss": 0.0007572192116640508, "elapsed_seconds": 294.85}
+{"step": 930, "loss": 0.0001550142333144322, "elapsed_seconds": 298.03}
+{"step": 940, "loss": 0.002557637868449092, "elapsed_seconds": 301.54}
+{"step": 950, "loss": 0.0007303270394913852, "elapsed_seconds": 304.65}
+{"step": 960, "loss": 0.00014763484068680555, "elapsed_seconds": 308.31}
+{"step": 970, "loss": 0.0008103250875137746, "elapsed_seconds": 311.89}
+{"step": 980, "loss": 0.0003544209757819772, "elapsed_seconds": 315.4}
+{"step": 990, "loss": 0.00022524896485265344, "elapsed_seconds": 318.89}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.65it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.64it/s]
+{"step": 1000, "loss": 0.00016069838602561504, "elapsed_seconds": 322.73, "val_loss": 0.030103963227399316}
+{"step": 1010, "loss": 0.0001528150460217148, "elapsed_seconds": 337.56}
+{"step": 1020, "loss": 0.0020609551575034857, "elapsed_seconds": 340.15}
+{"step": 1030, "loss": 0.00046062603360041976, "elapsed_seconds": 342.6}
+{"step": 1040, "loss": 0.0004176854563411325, "elapsed_seconds": 345.94}
+{"step": 1050, "loss": 0.0010429569520056248, "elapsed_seconds": 349.44}
+{"step": 1060, "loss": 0.0004267956246621907, "elapsed_seconds": 352.81}
+{"step": 1070, "loss": 0.0004155975766479969, "elapsed_seconds": 356.04}
+{"step": 1080, "loss": 0.00069470948074013, "elapsed_seconds": 359.0}
+{"step": 1090, "loss": 0.0005123281152918935, "elapsed_seconds": 361.53}
+{"step": 1100, "loss": 0.001656487351283431, "elapsed_seconds": 364.14}
+{"step": 1110, "loss": 0.0010796587448567152, "elapsed_seconds": 366.57}
+{"step": 1120, "loss": 0.0005237531731836498, "elapsed_seconds": 369.53}
+{"step": 1130, "loss": 0.0001936529006343335, "elapsed_seconds": 371.79}
+{"step": 1140, "loss": 0.000581206928472966, "elapsed_seconds": 374.11}
+{"step": 1150, "loss": 0.0008074466022662818, "elapsed_seconds": 376.37}
+{"step": 1160, "loss": 0.00038439995842054486, "elapsed_seconds": 378.49}
+{"step": 1170, "loss": 0.0001330117229372263, "elapsed_seconds": 380.7}
+{"step": 1180, "loss": 0.00038996103103272617, "elapsed_seconds": 383.59}
+{"step": 1190, "loss": 0.0003729787131305784, "elapsed_seconds": 386.52}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.66it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.65it/s]
+{"step": 1200, "loss": 0.00010350082447985187, "elapsed_seconds": 389.41, "val_loss": 0.03770389631972648}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 16.85it/s]
+{"step": 1200, "initial_val_loss": 2.668370172381401, "best_val_loss": 0.021760961147568498, "seconds": 401.6667414689982, "complete": true, "train_rows": 784, "val_rows": 96, "base": "models/n16-semantic-round3/final", "trainable_layers": 11, "data_sha256": "87bee82a43e88e889c74cae5595b8f4e5c1d91f1c21d1cfa40e763666fe8dae4"}

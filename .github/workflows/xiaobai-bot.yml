@@ -11,6 +11,8 @@ concurrency:
   cancel-in-progress: false
 jobs:
   train-build:
+    # Model training is explicitly dispatched; report/code pushes only build the installer.
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 180
     strategy:

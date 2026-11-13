@@ -1,0 +1,12 @@
+{
+  "step": 1200,
+  "initial_val_loss": 2.668370172381401,
+  "best_val_loss": 0.021760961147568498,
+  "seconds": 401.6667414689982,
+  "complete": true,
+  "train_rows": 784,
+  "val_rows": 96,
+  "base": "models/n16-semantic-round3/final",
+  "trainable_layers": 11,
+  "data_sha256": "87bee82a43e88e889c74cae5595b8f4e5c1d91f1c21d1cfa40e763666fe8dae4"
+}

@@ -1,0 +1,43 @@
+{
+  "audit": {
+    "train": {
+      "rows": 288,
+      "kind_counts": {
+        "keep": 72,
+        "replace_record": 72,
+        "other_person": 72,
+        "change_color": 72
+      },
+      "each_name_crossed_with_all_colors": true
+    },
+    "val": {
+      "rows": 96,
+      "kind_counts": {
+        "replace_record": 24,
+        "other_person": 24,
+        "change_color": 24,
+        "keep": 24
+      },
+      "each_name_crossed_with_all_colors": true
+    },
+    "test": {
+      "rows": 96,
+      "kind_counts": {
+        "change_color": 24,
+        "replace_record": 24,
+        "other_person": 24,
+        "keep": 24
+      },
+      "each_name_crossed_with_all_colors": true
+    }
+  },
+  "replay_rows": 496,
+  "train_rows": 784,
+  "selection_loss": "final assistant turn only in multi-turn rows",
+  "known_limits": "procedural fixed response format; does not establish free-form conversation or science knowledge",
+  "hashes": {
+    "data/train-orthogonal-round5.jsonl": "87bee82a43e88e889c74cae5595b8f4e5c1d91f1c21d1cfa40e763666fe8dae4",
+    "data/val-orthogonal-round5.jsonl": "d2bbd2caa5ddf6938c750db0408bcdbca96ed0dfd6a656c27d8524235df35637",
+    "eval/context-round5-frozen.jsonl": "fc66368a8ef0cede00ba99438d5ed48137445bfb6387ba7ee9599f7bad65d8fc"
+  }
+}

@@ -1,0 +1,42 @@
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 4280.01it/s]
+model: 11L hidden=448 heads=7x64 ffn=896 vocab=16384 rope_theta=1000000.0
+model.bin: 14.93 MB, 123 tensors
+tokenizer.bin: 413 KB, vocab 16384, merges 16124, specials {'<|im_start|>': 1, '<|im_end|>': 2, '<|endoftext|>': 0, '<|pad|>': 3}
+wrote ref_logits.bin / ref_ids.json / export_info.json
+
+Loading weights:   0%|          | 0/123 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 123/123 [00:00<00:00, 5319.21it/s]
+{'prompt': '你好', 'max_abs_diff': 6.67572021484375e-06, 'mean_abs_diff': 1.258483280253131e-06, 'top1_match': True}
+{'prompt': '欧姆定律是什么', 'max_abs_diff': 9.775161743164062e-06, 'mean_abs_diff': 1.5854675439186394e-06, 'top1_match': True}
+{'prompt': '你叫什么名字', 'max_abs_diff': 1.239776611328125e-05, 'mean_abs_diff': 3.6329574868432246e-06, 'top1_match': True}
+{'prompt': '中国的首都是哪里', 'max_abs_diff': 9.298324584960938e-06, 'mean_abs_diff': 1.5445984899997711e-06, 'top1_match': True}
+{'profile': 'n32', 'partitions': [{'name': 'nvs', 'offset': 36864, 'size': 20480}, {'name': 'phy_init', 'offset': 57344, 'size': 4096}, {'name': 'factory', 'offset': 65536, 'size': 1048576}, {'name': 'model', 'offset': 1114112, 'size': 15663104}, {'name': 'tokdata', 'offset': 16777216, 'size': 524288}], 'files': {'model.bin': {'size': 15659904, 'sha256': 'ff58d5aebf608d9ca4a132272cbd83cebea1457f5544c1928730019f8636d24f', 'offset': 1114112}, 'tokenizer.bin': {'size': 423154, 'sha256': '7c4eff87b2101327710f017a1536acd21f0f4531fb3fc4b90232520dfeb651f0', 'offset': 16777216}, 'firmware.bin': {'size': 975120, 'offset': 65536}}, 'layout_pass': True, 'physical_board_test': False}
+eval/round5-n32-context-int8.json 34
+eval/round5-n32-context-fp32kv.json 34
+eval/round5-n32-counterfactual-int8.json 50
+eval/round5-n32-knowledge-regression.json 100
+为什么冬天白天比较短 冬天里，白茫茫的冰雪就好。
+为什么月亮有圆缺 月亮不自行发出可见光。我们看到的月光主要是反射的太阳光。
+电压表应该串联还是并联 电压是两点间的电势差，是推动电荷定向移动的条件，单位是伏特。
+电流表直接接电池两端会怎样 电流表示电荷定向移动的快慢，单位是安培，符号是 A。
+电容能永久供电吗 一般不可以。应先断电，并对电容放电，避免读数错误或损坏仪表。
+上海是中国的首都吗 中国的首都是北京。
+水蒸气遇冷会发生什么 液体表面的一部分水分子获得足够能量，离开液体进入空气，形成水蒸气。
+太平洋和印度洋哪个更大 太平洋是地球面积最大的海洋。
+真空里能听见说话吗 不能。o是机械波，需要空气、水或固体等介质来传播。
+电阻串联后会变小吗 我可能产生错误或损坏电阻，尤其是如果想聊电阻的话。
+用什么把模拟电压变成数字 模拟电压是两点间的电势差，是推动电荷定向移动的条件，单位是伏特。
+如何减少陀螺仪积分误差 陀螺仪积分通常用 TX 时钟、MOSI 主发从收、MISO 分和 CSCL 分，最后通过 SDA 数据调整控制输入。
+告诉我你的名字和作者 我是小白Bot，也可以叫我小白，是理工阿白菌 TechABJ 基于开源底座继续训练的轻量中文本地语言模型。
+你回答问题需要云端接口吗 我擅长简单聊天和基础常识，复杂问题可能答错，不确定的内容需要核实。
+你知道所有问题吗 我擅长简单聊天和基础常识，复杂问题可能答错，不确定的内容需要核实。
+Flash断电后权重还在吗 Flash 断电，也就是 TechABJ。
+提高训练次数一定提高能力吗 挺好的。训练效果取决于模型容量、数据质量和训练方法，过度训练可能导致过拟合。
+太阳是不是行星 太阳是一颗恒星，主要由氢和氦组成，内部核聚变释放出光和热。
+请介绍一下浮力 浮力是能绕支点转动的，可以改变表示更准的运动或转矩。
+GPIO能做什么 GPIO 通常指在输入一到三个数目之间，比如 1.5 个数字。
+4000 汉字 roundtrip: 4000
+/workspace/scratch/4cf03e477896/xiaobai-bot/dist/XiaobaiBot-N32R16-v0.2-dev-round5.zip
+/workspace/scratch/4cf03e477896/xiaobai-bot/dist/XiaobaiBot-N32R16-v0.2-dev-round5-FP32.zip

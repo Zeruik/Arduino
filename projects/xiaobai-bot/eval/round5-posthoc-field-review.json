@@ -1,0 +1,4017 @@
+{
+  "primary_metric_unchanged": "strict whole-string equality",
+  "supplemental_posthoc": true,
+  "rule": "entire final answer must parse as exactly two ordered fields; optional colons and terminal full-stop, no extra prose; compare BOTH values exactly",
+  "not_keyword_scoring": true,
+  "not_knowledge_accuracy": true,
+  "files": {
+    "round5-n16-context-fp32kv.json": {
+      "full_structured_matches": 67,
+      "rows": 96,
+      "by_kind": {
+        "change_color": [
+          15,
+          24
+        ],
+        "replace_record": [
+          6,
+          24
+        ],
+        "other_person": [
+          23,
+          24
+        ],
+        "keep": [
+          23,
+          24
+        ]
+      },
+      "details": [
+        {
+          "kind": "change_color",
+          "answer": "代号晨帆；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨谷；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨泉；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨谷；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨谷；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨谷红色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨桥；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨帆；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨谷；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨谷；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨谷；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨帆；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨帆；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨谷红色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨谷红色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨帆；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨谷；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨桥，色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨谷红色，色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨桥；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨桥；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨帆；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨帆；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨谷；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨谷；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨谷；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨帆；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨桥；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨谷；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨桥；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨桥，色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨桥；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨帆；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨桥；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨谷；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨谷；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨谷；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨谷；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨谷；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨帆；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨帆；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨谷；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨谷；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨帆；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨谷；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨帆；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨谷；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        }
+      ]
+    },
+    "round5-n16-context-int8.json": {
+      "full_structured_matches": 67,
+      "rows": 96,
+      "by_kind": {
+        "change_color": [
+          15,
+          24
+        ],
+        "replace_record": [
+          6,
+          24
+        ],
+        "other_person": [
+          23,
+          24
+        ],
+        "keep": [
+          23,
+          24
+        ]
+      },
+      "details": [
+        {
+          "kind": "change_color",
+          "answer": "代号晨帆；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨谷；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨泉；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨谷；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨谷；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨谷红色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨桥；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨帆；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨谷；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨谷；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨谷；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨帆；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨帆；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨谷红色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨谷红色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨帆；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨谷；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨桥，色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨谷红色，色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨桥；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨桥；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨帆；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨帆；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨谷；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨谷；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨谷；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨帆；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨桥；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨谷；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨桥；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨桥，色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨桥；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨帆；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨桥；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨谷；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨谷；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨谷；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨谷；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨谷；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨帆；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨帆；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨谷；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨谷；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨帆；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨谷；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨帆；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨谷；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        }
+      ]
+    },
+    "round5-n16-fp32-master-context-probe.json": {
+      "full_structured_matches": 5,
+      "rows": 8,
+      "by_kind": {
+        "change_color": [
+          2,
+          2
+        ],
+        "replace_record": [
+          0,
+          2
+        ],
+        "other_person": [
+          1,
+          2
+        ],
+        "keep": [
+          2,
+          2
+        ]
+      },
+      "details": [
+        {
+          "kind": "change_color",
+          "answer": "代号晨帆；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨谷；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨泉；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨谷；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨泉。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨桥，色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨谷；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨桥，色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        }
+      ]
+    },
+    "round5-n32-context-fp32kv.json": {
+      "full_structured_matches": 49,
+      "rows": 96,
+      "by_kind": {
+        "change_color": [
+          11,
+          24
+        ],
+        "replace_record": [
+          7,
+          24
+        ],
+        "other_person": [
+          12,
+          24
+        ],
+        "keep": [
+          19,
+          24
+        ]
+      },
+      "details": [
+        {
+          "kind": "change_color",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨谷；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "晨泉是白色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨谷；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "晨谷是地球表面纬度为零度的，把地球分为南半球和北半球。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨谷；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨桥；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "晨谷；色标白色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨谷；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "晨泉。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨谷；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨谷；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨谷；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨谷；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨桥；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨谷；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨帆；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨帆；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨帆；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨桥；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨谷；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨谷；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "晨谷；色标绿色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨桥；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨谷；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨桥；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨桥；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨帆；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨谷；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨谷；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "晨谷；色标黄色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨谷；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨谷；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨谷；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨谷；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨帆；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨谷；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号；色标。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "晨谷是地球表面纬度为零度的，把地球分为南半球和北半球。",
+          "parse_valid": false,
+          "both_values_equal": false
+        }
+      ]
+    },
+    "round5-n32-context-int8.json": {
+      "full_structured_matches": 49,
+      "rows": 96,
+      "by_kind": {
+        "change_color": [
+          11,
+          24
+        ],
+        "replace_record": [
+          7,
+          24
+        ],
+        "other_person": [
+          11,
+          24
+        ],
+        "keep": [
+          20,
+          24
+        ]
+      },
+      "details": [
+        {
+          "kind": "change_color",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨谷；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "晨泉是白色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨谷；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "晨谷是地球表面纬度为零度的，把地球分为南半球和北半球。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨谷；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨桥；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "晨谷；色标白色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨谷；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "晨泉。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨谷；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨谷；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨谷；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨谷；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨桥；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨谷；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨帆；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨帆；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨帆；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨桥；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨谷；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨谷；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "晨谷；色标绿色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨桥；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨谷；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨桥；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨桥；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "晨帆，色标绿色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨帆；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨谷；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨泉。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号：晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨谷；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "晨谷；色标黄色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨谷；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨谷；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨帆；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨谷；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号：晨谷；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨帆；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号：晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号：晨谷；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号；色标。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "晨谷是地球表面纬度为零度的，把地球分为南半球和北半球。",
+          "parse_valid": false,
+          "both_values_equal": false
+        }
+      ]
+    },
+    "round5-n32-fp32-master-context-probe.json": {
+      "full_structured_matches": 5,
+      "rows": 8,
+      "by_kind": {
+        "change_color": [
+          1,
+          2
+        ],
+        "replace_record": [
+          0,
+          2
+        ],
+        "other_person": [
+          2,
+          2
+        ],
+        "keep": [
+          2,
+          2
+        ]
+      },
+      "details": [
+        {
+          "kind": "change_color",
+          "answer": "代号晨帆；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨谷；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨泉，色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨谷；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "other_person",
+          "answer": "代号晨泉，色标白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "keep",
+          "answer": "代号晨桥；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color",
+          "answer": "代号晨谷；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "replace_record",
+          "answer": "代号晨谷；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        }
+      ]
+    },
+    "round5-n16-counterfactual-int8.json": {
+      "full_structured_matches": 72,
+      "rows": 120,
+      "by_kind": {
+        "change_color_all_pairs": [
+          72,
+          120
+        ]
+      },
+      "details": [
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷红色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷红色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷红色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷红色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷红色。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷红色，色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨谷；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        }
+      ]
+    },
+    "round5-n32-counterfactual-int8.json": {
+      "full_structured_matches": 54,
+      "rows": 120,
+      "by_kind": {
+        "change_color_all_pairs": [
+          54,
+          120
+        ]
+      },
+      "details": [
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨帆。",
+          "parse_valid": false,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标绿色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标白色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨泉；色标紫色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨谷；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号晨桥；色标黄色。",
+          "parse_valid": true,
+          "both_values_equal": false
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：紫色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：红色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：黄色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：蓝色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：绿色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        },
+        {
+          "kind": "change_color_all_pairs",
+          "answer": "代号：晨桥；色标：白色。",
+          "parse_valid": true,
+          "both_values_equal": true
+        }
+      ]
+    }
+  }
+}

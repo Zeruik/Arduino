@@ -1,0 +1,25 @@
+{
+  "source_commit": "eee20ff3143c693d18e55077fa20db99b8f4d31c",
+  "run_id": 43415308564,
+  "job_id": 131851583170,
+  "artifact_id": 14031183448,
+  "windows_build_success": true,
+  "windows_source_logic_tests": {
+    "tests": 9,
+    "failures": 0,
+    "errors": 0,
+    "pass": true,
+    "scope": "Python source logic on win32; no Windows installation UI or serial/device test"
+  },
+  "exe_bytes": 26737365,
+  "exe_sha256": "225893f8e16d21b303a139ee5d40081198fd4312ef7d8ff8539ebf89bd567679",
+  "pe_header_valid": true,
+  "installer_interaction_tested": false,
+  "physical_board_test": false,
+  "archive_members": [
+    "dist/XiaobaiBot-Setup.exe",
+    "eval/round3-package-checks.json"
+  ],
+  "original_archive_sha256": "7a509ca05e0af03b72125de622d74b8e967f3ddf4cc5172285bd601adedbdb71",
+  "run_url": "https://github.com/Zeruik/Arduino/actions/runs/43415308564"
+}
