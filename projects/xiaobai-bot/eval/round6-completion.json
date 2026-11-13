@@ -1,0 +1,14 @@
+{
+  "round": 6,
+  "total_rounds": 6,
+  "automatic_task_enabled": false,
+  "pause_confirmed_by_update": true,
+  "pause_reason": "User requested termination after six checks; no further automatic training or tasks.",
+  "training_steps_this_round": 0,
+  "all_evaluation_processes_exited_successfully": true,
+  "artifacts_saved": true,
+  "knowledge_accepted": false,
+  "physical_board_accepted": false,
+  "windows_interaction_tested": false,
+  "completed_utc": "2026-11-13T12:42:09.145332+00:00"
+}

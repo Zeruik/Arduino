@@ -1,0 +1,1036 @@
+{
+  "model": "models/n32-orthogonal-q4-round5",
+  "model_sha256": "ff58d5aebf608d9ca4a132272cbd83cebea1457f5544c1928730019f8636d24f",
+  "suite_sha256": "efeabba67135a21c1ce003b2a0177dd90ab39c08cd72d5f4478456a6152d104c",
+  "weights": "Q4",
+  "kv": "INT8",
+  "ctx": 1024,
+  "kv_bytes": 10407936,
+  "rows": [
+    {
+      "id": "f6-01-01",
+      "category": "日常",
+      "question": "用吸管喝水时，是什么使饮料进入吸管？",
+      "answer": "吸管是机械波，通过空气、水或固体等介质来进入。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.35840798299977905
+    },
+    {
+      "id": "f6-01-02",
+      "category": "日常",
+      "question": "为什么湿毛巾比干毛巾更容易让皮肤感觉凉？",
+      "answer": "湿毛巾 通常较硬，容易打印；干毛巾 更合适，但打印更依赖送丝和参数设置。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.41915006800263654
+    },
+    {
+      "id": "f6-01-03",
+      "category": "日常",
+      "question": "电风扇一般会不会把整个封闭房间的空气温度持续降低？",
+      "answer": "电风扇的电流和电阻影响了电话和联系方式，还可能导致过大电流和发热。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.4078376319994277
+    },
+    {
+      "id": "f6-01-04",
+      "category": "日常",
+      "question": "为什么热汤放凉以后，表面水汽通常少了？",
+      "answer": "热汤放凉时，水蒸气凝结成小水滴，水滴长大后从云中落下，就形成雨。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.44439165400035563
+    },
+    {
+      "id": "f6-01-05",
+      "category": "日常",
+      "question": "闻到花香时，是否有气味分子到达鼻子？",
+      "answer": "闻到花香时，主要有光和热。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.2655538110011548
+    },
+    {
+      "id": "f6-01-06",
+      "category": "日常",
+      "question": "给自行车轮胎充气主要增加了轮胎里哪一种物质？",
+      "answer": "自行车轮胎通过光合作用，利用光能，把水分子转化为有机物，并释放氧气。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.38140617400131305
+    },
+    {
+      "id": "f6-01-07",
+      "category": "日常",
+      "question": "冰放在室温下逐渐变成水，这叫蒸发吗？",
+      "answer": "不一样。水是热度的，或者是热度，在室温下通常先蒸发半小时。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.3873041779988853
+    },
+    {
+      "id": "f6-01-08",
+      "category": "日常",
+      "question": "毛衣主要是自己产生热量，还是减慢身体散热？",
+      "answer": "？",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.16615033100242727
+    },
+    {
+      "id": "f6-01-09",
+      "category": "日常",
+      "question": "透明塑料杯装满水后变重，增加的质量来自哪里？",
+      "answer": "透明塑料杯装满水。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.23374597499787342
+    },
+    {
+      "id": "f6-01-10",
+      "category": "日常",
+      "question": "任务很多时，为什么可以先列清单再安排时间？",
+      "answer": "先别急着找小白，多问几句。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.2726977029997215
+    },
+    {
+      "id": "f6-02-01",
+      "category": "身份",
+      "question": "请介绍你自己的名字，并写明负责小白项目的人是谁。",
+      "answer": "理工阿白菌，也就是 TechABJ，在服务器上对我的开源底座进行压缩和继续训练。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.40391398199790274
+    },
+    {
+      "id": "f6-02-02",
+      "category": "身份",
+      "question": "理工阿白菌与TechABJ是这个项目的哪两个署名？",
+      "answer": "MIT 通常指在 2023 年，Bot（TechABJ）和 Bot（KLS）。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.41993224899852066
+    },
+    {
+      "id": "f6-02-03",
+      "category": "身份",
+      "question": "Xiaobai Bot对应的中文项目名是什么？",
+      "answer": "Xiaobai Bot 是通用开发公司，主要在移动设备、无线通信和嵌入式控制上。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.3684625280002365
+    },
+    {
+      "id": "f6-02-04",
+      "category": "身份",
+      "question": "小白完成部署后，聊天问题还必须发到云端吗？",
+      "answer": "在云端，我们先确认什么是哪个部分。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.29880903900266276
+    },
+    {
+      "id": "f6-02-05",
+      "category": "身份",
+      "question": "你使用的开源底座与项目后续训练，是否应当区分贡献？",
+      "answer": "贡献是把数据转换为开源底座，并评估误差。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.3095308299998578
+    },
+    {
+      "id": "f6-02-06",
+      "category": "身份",
+      "question": "请说明你是否需要外接SD卡保存模型才能回答。",
+      "answer": "可以，我主要用于在需要后台对线和传感器下通过“U-S”控制。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.3903684270007943
+    },
+    {
+      "id": "f6-02-07",
+      "category": "身份",
+      "question": "你能把自己的所有科学回答当作可靠结论吗？",
+      "answer": "我擅长简单聊天和基础常识，复杂问题可能答错，不确定的内容需要核实。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.3682758989998547
+    },
+    {
+      "id": "f6-02-08",
+      "category": "身份",
+      "question": "小白的权重和推理程序计划放在什么设备上？",
+      "answer": "选择合适的输入和输出，把输入转换为数字。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.26346662899959483
+    },
+    {
+      "id": "f6-02-09",
+      "category": "身份",
+      "question": "你的主要使用语言是现代中文还是只限古文？",
+      "answer": "古文就是“古人”或“现代中文”， 通常指代在中文里，比如《海阔天空》、《海阔天空》和《小白就该》，但通常指代在中文中，没有直接的口语或口语。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.9160752040006628
+    },
+    {
+      "id": "f6-02-10",
+      "category": "身份",
+      "question": "仅凭电脑端运行正常，可以宣布小白的实体板验收成功吗？",
+      "answer": "不一样。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.44846191400210955
+    },
+    {
+      "id": "f6-03-01",
+      "category": "地理",
+      "question": "纬度为零的位置通常叫什么？",
+      "answer": "纬度表示相对赤道的南北位置，经限度是 very-free。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.6221746429982886
+    },
+    {
+      "id": "f6-03-02",
+      "category": "地理",
+      "question": "地球绕太阳转一周大约对应日历中的哪一个周期？",
+      "answer": "地球绕太阳公转时，总共地。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.5475137920002453
+    },
+    {
+      "id": "f6-03-03",
+      "category": "地理",
+      "question": "中国与法国是否位于同一个大洲？",
+      "answer": "中国和法国在同一个大洲上位于非洲东北部，西奈半岛位于亚洲。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.6726165649997711
+    },
+    {
+      "id": "f6-03-04",
+      "category": "地理",
+      "question": "尼罗河注入的是地中海还是北冰洋？",
+      "answer": "尼罗河是地球表面纬度为零度的水蒸气，把地球分为南半球和北半球。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.9902692520008713
+    },
+    {
+      "id": "f6-03-05",
+      "category": "地理",
+      "question": "地球的陆地面积和海洋面积，哪一个更大？",
+      "answer": "地球的陆地面积大约是1.5万到2,000平方米，海洋面积约为328平方英里。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.8362541299975419
+    },
+    {
+      "id": "f6-03-06",
+      "category": "地理",
+      "question": "南美洲和非洲之间隔着哪一个大洋？",
+      "answer": "南美洲是非洲东北部，西奈半岛位于亚洲。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.5715947360004066
+    },
+    {
+      "id": "f6-03-07",
+      "category": "地理",
+      "question": "东经与西经通常以哪条经线为起点？",
+      "answer": "西经的经线是地磁场，符号是 N。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.6231248420008342
+    },
+    {
+      "id": "f6-03-08",
+      "category": "地理",
+      "question": "山顶的气压通常比山脚更高还是更低？",
+      "answer": "山脚的劲头，通常从高低到高下开始，主要由山体、基础和基础决定。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.8147200610001164
+    },
+    {
+      "id": "f6-03-09",
+      "category": "地理",
+      "question": "地球上最大的洋是否叫大西洋？",
+      "answer": "洋是地球面积最大的海洋。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.3722377640006016
+    },
+    {
+      "id": "f6-03-10",
+      "category": "地理",
+      "question": "太阳照到地球的半面和背光的半面，一般分别是什么时段？",
+      "answer": "太阳是一颗恒星，主要由氢和氦组成，内部核聚变释放出光和热。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.8393146470007196
+    },
+    {
+      "id": "f6-04-01",
+      "category": "物理",
+      "question": "物体速度的大小相同，运动方向改变时速度是否改变？",
+      "answer": "运动方向改变时，身体会产生阻碍相对运动的摩擦力。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.6081591179972747
+    },
+    {
+      "id": "f6-04-02",
+      "category": "物理",
+      "question": "用力推一个完全不动的箱子，这个推力对箱子做了多少机械功？",
+      "answer": "不一样。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.504268378001143
+    },
+    {
+      "id": "f6-04-03",
+      "category": "物理",
+      "question": "质量为两千克和一千克的物体，谁的惯性通常更大？",
+      "answer": "质量是物体保持原有运动状态的性质。质量越大，惯性越大。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.7471653899992816
+    },
+    {
+      "id": "f6-04-04",
+      "category": "物理",
+      "question": "同样质量的物体举得更高时，重力势能通常如何变化？",
+      "answer": "这个user\n自然语言推理和数学，人人有空洞。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.6205292640006519
+    },
+    {
+      "id": "f6-04-05",
+      "category": "物理",
+      "question": "把摄氏温度升高和把物体质量增加，是同一种变化吗？",
+      "answer": "华氏温度升高，能显著降低压力和热量。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.5939143899995543
+    },
+    {
+      "id": "f6-04-06",
+      "category": "物理",
+      "question": "声音传到耳朵，需要有传播介质吗？",
+      "answer": "不能。声音传入通常指在空气中，通过呼吸或运动，也可以作为电子开关控制负载。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.7765809939992323
+    },
+    {
+      "id": "f6-04-07",
+      "category": "物理",
+      "question": "光从空气进入水中传播方向发生变化，这是什么现象？",
+      "answer": "光从空气进入水中，经水蒸发、空气吸收和氧气等介质释放，形成光能。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.704908304996934
+    },
+    {
+      "id": "f6-04-08",
+      "category": "物理",
+      "question": "一米包含多少厘米？",
+      "answer": "一米，约 3.5厘米。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.2007473689991457
+    },
+    {
+      "id": "f6-04-09",
+      "category": "物理",
+      "question": "能量的国际单位是焦耳还是安培？",
+      "answer": "动手能。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.1970542179988115
+    },
+    {
+      "id": "f6-04-10",
+      "category": "物理",
+      "question": "在弹性范围内压缩弹簧，松手后它为什么可能恢复？",
+      "answer": "松手后，通过过大电流的\"/2-3\"/s3-1\"，会产生更小的“4”字。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.4697704230020463
+    },
+    {
+      "id": "f6-05-01",
+      "category": "化学",
+      "question": "氧分子O2和水分子H2O的组成是否相同？",
+      "answer": "氧分子是氧气的物质， 通常指二氧化碳和氧气。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.3094358160014963
+    },
+    {
+      "id": "f6-05-02",
+      "category": "化学",
+      "question": "把糖溶解在水里后，还能通过蒸发水分留下糖吗？",
+      "answer": "不一样。糖溶解时，盐和黑胡椒都是轻量化合物的来源，通常含有奶油、牛奶或糖类。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.49946937700224225
+    },
+    {
+      "id": "f6-05-03",
+      "category": "化学",
+      "question": "二氧化碳含有几种化学元素？",
+      "answer": "二氧化碳主要含氮气和氧气，体积分数大约分别为百分之七十八和百分之二十一。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.40256654100085143
+    },
+    {
+      "id": "f6-05-04",
+      "category": "化学",
+      "question": "金属表面发生锈蚀，通常有没有生成新物质？",
+      "answer": "金属表面发生锈蚀，通常含氮气和氧气，体积分数大约分别为百分之七十八和百分之二十一。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.8210289659982664
+    },
+    {
+      "id": "f6-05-05",
+      "category": "化学",
+      "question": "原子核中的质子通常带正电还是负电？",
+      "answer": "原子核中的质子，是导体、电阻和决定性等电流。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.6622821110031509
+    },
+    {
+      "id": "f6-05-06",
+      "category": "化学",
+      "question": "过滤操作通常能直接把溶解在水中的食盐全部滤掉吗？",
+      "answer": "煮熟的水会分钟以下，但可能损失精度。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.5315996480021568
+    },
+    {
+      "id": "f6-05-07",
+      "category": "化学",
+      "question": "把一块纸撕成两片，一定属于化学反应吗？",
+      "answer": "我可能产生错误或损坏物，尤其是化学物质（如氧气、氧气）的含量。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.3718598160012334
+    },
+    {
+      "id": "f6-05-08",
+      "category": "化学",
+      "question": "水结冰时，组成它的元素会自动变成别的元素吗？",
+      "answer": "不会。水结冰，也称为电子，是机械波长、热特质和热流等介质之间出现很低电阻的物质。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.5055526840005768
+    },
+    {
+      "id": "f6-05-09",
+      "category": "化学",
+      "question": "元素的种类主要由原子的质子数还是中子数决定？",
+      "answer": "元素有 1, 2, 3 到 5 个，所以中子数是 4。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.3628792839990638
+    },
+    {
+      "id": "f6-05-10",
+      "category": "化学",
+      "question": "空气中的氧气和二氧化碳可以用同一个化学式表示吗？",
+      "answer": "不能。空气中的氧气主要含氮气和氧气，体积分数大约分别为百分之七十八和百分之二十一。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.4246420039999066
+    },
+    {
+      "id": "f6-06-01",
+      "category": "生物",
+      "question": "绿色植物叶片中的叶绿素主要与什么作用有关？",
+      "answer": "绿色植物通过光合作用，利用光能，把水和二氧化碳转化为有机物，并释放氧气。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.5164382879993354
+    },
+    {
+      "id": "f6-06-02",
+      "category": "生物",
+      "question": "动物呼吸一般是在获取氧气，还是制造氧气供外界使用？",
+      "answer": "动物呼吸通常通过光合作用，利用光能，把水和二氧化碳转化为有机物，并释放氧气。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.7806450860007317
+    },
+    {
+      "id": "f6-06-03",
+      "category": "生物",
+      "question": "树木吸收的水分通常主要来自根还是花瓣？",
+      "answer": "树木的吸收通常含氮气和氧气，对肠道菌性强。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.637595993001014
+    },
+    {
+      "id": "f6-06-04",
+      "category": "生物",
+      "question": "真菌与绿色植物获取养分的方式总是一样的吗？",
+      "answer": "真菌的绿色植物通过光合作用，利用光能，把水和二氧化碳转化为有机物，并释放氧气。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.6037869209976634
+    },
+    {
+      "id": "f6-06-05",
+      "category": "生物",
+      "question": "蜜蜂帮助花传粉时，是否可能有利于植物繁殖？",
+      "answer": "蜜蜂通过光合作用，利用光能，把水和二氧化碳转化为有机物，并释放氧气。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.39036500599831925
+    },
+    {
+      "id": "f6-06-06",
+      "category": "生物",
+      "question": "植物种子在条件适宜时萌发，会发生生长吗？",
+      "answer": "不会。植物种子会产生生长和生长，但花生植物会产生光合作用或光能，从而让氧气更高效。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.49231642599988845
+    },
+    {
+      "id": "f6-06-07",
+      "category": "生物",
+      "question": "人体的心脏主要承担推动血液还是储存空气的任务？",
+      "answer": "心脏是身体的一种机械能，通过呼吸和固体释放氧气。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.30704506099937134
+    },
+    {
+      "id": "f6-06-08",
+      "category": "生物",
+      "question": "同一生态系统中的生物会相互影响吗？",
+      "answer": "我可能产生错误或编造内容，尤其是具体人名、数字和复杂推理。不确定时请核实。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.36929395500192186
+    },
+    {
+      "id": "f6-06-09",
+      "category": "生物",
+      "question": "绿色植物只有叶片能反射光，月球也有叶片才能发亮吗？",
+      "answer": "绿色植物通过光合作用，利用光能，把水和二氧化碳转化为有机物，并释放氧气。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.431188545000623
+    },
+    {
+      "id": "f6-06-10",
+      "category": "生物",
+      "question": "植物制造有机物时，是否通常需要水和二氧化碳？",
+      "answer": "植物通过光合作用，利用光能，把水和二氧化碳转化为有机物，并释放氧气。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.7166150420016493
+    },
+    {
+      "id": "f6-07-01",
+      "category": "电路",
+      "question": "欧姆导体两端电压加倍、电阻不变时，电流怎样变化？",
+      "answer": "电阻表示导体对电流的阻碍作用，单位是欧姆，符号是 Ω。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.8448793300012767
+    },
+    {
+      "id": "f6-07-02",
+      "category": "电路",
+      "question": "电阻的阻值用伏特还是欧姆表示？",
+      "answer": "对满足欧姆定律的阻值，电阻表示导体对电流的阻碍作用。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.7287347780002165
+    },
+    {
+      "id": "f6-07-03",
+      "category": "电路",
+      "question": "并联支路两端接在同一对节点上时，电压是否相同？",
+      "answer": "电压是两点间的电势差，是推动电荷定向移动的条件，单位是伏特。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.8929795620024379
+    },
+    {
+      "id": "f6-07-04",
+      "category": "电路",
+      "question": "LED导通以后，任意增大电压而不限制电流是否合适？",
+      "answer": "LED导通 需要限定的电流和电压，避免过大电流。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.6609036310001102
+    },
+    {
+      "id": "f6-07-05",
+      "category": "电路",
+      "question": "一个理想开关断开时，通过它的电流通常是多少？",
+      "answer": "电流表示电荷定向移动的快慢，单位是安培，符号是 A。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.699683147999167
+    },
+    {
+      "id": "f6-07-06",
+      "category": "电路",
+      "question": "电容中储存的电能有限，能否无限期向负载供电？",
+      "answer": "电容可以储存电荷，常用于滤波、去耦、耦合和定时等电路。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.8639885129996401
+    },
+    {
+      "id": "f6-07-07",
+      "category": "电路",
+      "question": "导体电流越大，在相同电阻上产生的焦耳热功率通常怎样变化？",
+      "answer": "电阻表示导体对电流的阻碍作用，单位是欧姆，符号是 Ω。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.8417980620033632
+    },
+    {
+      "id": "f6-07-08",
+      "category": "电路",
+      "question": "电池串联时，必须注意连接方向和极性吗？",
+      "answer": "不一样。质量表示电流对电压，单位是欧姆，符号是 Ω。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.6946028790007404
+    },
+    {
+      "id": "f6-07-09",
+      "category": "电路",
+      "question": "二极管的整流用途主要依靠什么导电特点？",
+      "answer": "普通二极管具有单向导电特性，常用于整流、保护和信号处理。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.7374785850006447
+    },
+    {
+      "id": "f6-07-10",
+      "category": "电路",
+      "question": "电源负极与正极直接通过低电阻导线相连，属于正常限流吗？",
+      "answer": "一般不可以。应先断电，并对电容放电，避免过流损坏或损坏仪表。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.903572098002769
+    },
+    {
+      "id": "f6-08-01",
+      "category": "机械",
+      "question": "减速齿轮机构能在没有额外能量输入时提高输出功率吗？",
+      "answer": "可以，把表皮、齿轮和齿轮换成更合适。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.675610575999599
+    },
+    {
+      "id": "f6-08-02",
+      "category": "机械",
+      "question": "用扳手拧螺母时，增大垂直力臂通常会怎样影响力矩？",
+      "answer": "增大垂直力臂的乘积是牛顿，单位是牛顿。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.6015240720007569
+    },
+    {
+      "id": "f6-08-03",
+      "category": "机械",
+      "question": "轴承是否主要用于支撑并引导相对运动？",
+      "answer": "轴承用于支撑运动部件，减小摩擦，并承受相应方向的载荷。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.33521400099925813
+    },
+    {
+      "id": "f6-08-04",
+      "category": "机械",
+      "question": "丝杠传动能否用于把电机转动变成平台升降？",
+      "answer": "丝杠传动通常指通过改变转速、转矩或转动来提升转力，常用于调光和电机控制。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.47191750700221746
+    },
+    {
+      "id": "f6-08-05",
+      "category": "机械",
+      "question": "弹簧越硬，在相同小变形下所需的力通常越大吗？",
+      "answer": "在没有“弹簧”的“小变形”下，不一样。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.35192726599780144
+    },
+    {
+      "id": "f6-08-06",
+      "category": "机械",
+      "question": "同一个零件，刚度大是否就保证永远不会断裂？",
+      "answer": "同一个部件，把两端电压转换为一致，并要求双方波特率等参数一致。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.3821831249988463
+    },
+    {
+      "id": "f6-08-07",
+      "category": "机械",
+      "question": "TPU打印件通常比PLA打印件更容易发生弹性弯曲吗？",
+      "answer": "PLA 打印件通常需要结合算法估计。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.3046849980019033
+    },
+    {
+      "id": "f6-08-08",
+      "category": "机械",
+      "question": "FDM打印时，物体通常是一次整体浇铸出来的吗？",
+      "answer": "FDM 是脉冲宽度调制，通过改变占空比调节平均输出，常用于调光和电机控制。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.8351368859985087
+    },
+    {
+      "id": "f6-08-09",
+      "category": "机械",
+      "question": "如果两个零件需要相对滑动，设计时通常要考虑摩擦吗？",
+      "answer": "两个接触物体有相对运动或运动趋势时，接触面会产生阻碍相对运动的摩擦力。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.7941806089984311
+    },
+    {
+      "id": "f6-08-10",
+      "category": "机械",
+      "question": "齿轮啮合是否可以传递转矩？",
+      "answer": "齿轮通过啮合传递运动和转矩，可以改变转速、转矩或转动方向。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.7622149689996149
+    },
+    {
+      "id": "f6-09-01",
+      "category": "嵌入式",
+      "question": "RAM中的普通临时数据通常是易失性还是非易失性的？",
+      "answer": "RAM 通常把“非易失性”转换为为非对量，常用于数据泄露和内存保存。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.8444109070005652
+    },
+    {
+      "id": "f6-09-02",
+      "category": "嵌入式",
+      "question": "保存固件的Flash与运行时RAM承担的用途是否不同？",
+      "answer": "Flash 通常指在运行时从 LX 指令中选择 RAM，它通过将 GS 转换为 `RA` 或 `UART`。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 1.075264856001013
+    },
+    {
+      "id": "f6-09-03",
+      "category": "嵌入式",
+      "question": "传感器输出是模拟电压时，通常可用什么模块把它变成数字读数？",
+      "answer": "标定用于建立传感器输出和真实测量值之间的关系，并评估误差。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.6924101379991043
+    },
+    {
+      "id": "f6-09-04",
+      "category": "嵌入式",
+      "question": "GPIO配置为输入时，能否用于读取按钮状态？",
+      "answer": "GPIO 通常使用 SDA 数据线和 SCL 时钟，常用于中高低电平。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.8227325279985962
+    },
+    {
+      "id": "f6-09-05",
+      "category": "嵌入式",
+      "question": "UART的TX一般负责发送还是接收？",
+      "answer": "UART 是异步串行通信接口，常用 TX 发送、RX 接收，并要求双方波特率等参数一致。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.8964713959976507
+    },
+    {
+      "id": "f6-09-06",
+      "category": "嵌入式",
+      "question": "I2C的数据线和时钟线分别通常叫什么？",
+      "answer": "I2C 通常使用 SDA 数据线和 SCL 时钟线，还需要共地，信誉时间。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.8417014309998194
+    },
+    {
+      "id": "f6-09-07",
+      "category": "嵌入式",
+      "question": "SPI通信的CS信号通常用于选择设备吗？",
+      "answer": "SPI 通常使用 SCLK 时钟、MOSI 主发从收、MISO 主收从发和 CS，并要求双方波特率等参数一致。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.5818597240031522
+    },
+    {
+      "id": "f6-09-08",
+      "category": "嵌入式",
+      "question": "PWM的频率与占空比，是同一个参数吗？",
+      "answer": "PWM 是脉冲宽度调制，通过改变占空比调节平均输出，常用于调光和电机控制。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.4526830909999262
+    },
+    {
+      "id": "f6-09-09",
+      "category": "嵌入式",
+      "question": "程序编译无错误，是否就证明传感器已经校准？",
+      "answer": "标定用于建立传感器输出和真实测量值之间的关系，并评估误差。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.31903532500291476
+    },
+    {
+      "id": "f6-09-10",
+      "category": "嵌入式",
+      "question": "芯片复位时，是否应当把未保存的对话历史当作一定还在？",
+      "answer": "这取决于你指的是哪部电影。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.29205454099792405
+    },
+    {
+      "id": "f6-10-01",
+      "category": "不确定性",
+      "question": "我没有给你照片或测量结果，你能说出眼前电阻的准确阻值吗？",
+      "answer": "不一样。质量表示物体惯性的大小，单位是千克；重量通常指受到的重力，单位是牛顿。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.46670144599920604
+    },
+    {
+      "id": "f6-10-02",
+      "category": "不确定性",
+      "question": "离线模型能否保证知道今天刚发生的所有新闻？",
+      "answer": "不一样。质量表示物体惯性的大小，单位是千克；重量通常指受到的重力，单位是牛顿。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.42102429200167535
+    },
+    {
+      "id": "f6-10-03",
+      "category": "不确定性",
+      "question": "如果两个来源互相矛盾，你应该直接编造一个结论吗？",
+      "answer": "我可能产生错误或编造内容，尤其是具体人名、数字和复杂推理。不确定时请核实。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.42366058599873213
+    },
+    {
+      "id": "f6-10-04",
+      "category": "不确定性",
+      "question": "没有看到程序源码，可以准确指出错误发生的行号吗？",
+      "answer": "我可能产生错误或编造内容，尤其是具体人名、数字和复杂推理。不确定时请核实。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.4129389480003738
+    },
+    {
+      "id": "f6-10-05",
+      "category": "不确定性",
+      "question": "对自己没有把握的答案，应不应该明确说明不确定？",
+      "answer": "不一样。质量表示物体惯性的大小，单位是千克；重量通常指受到的重力，单位是牛顿。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.45017346700115013
+    },
+    {
+      "id": "f6-10-06",
+      "category": "不确定性",
+      "question": "如果一次实验只做了一遍，就能保证结果没有偶然误差吗？",
+      "answer": "不一样。质量表示物体惯性的大小，单位是千克；重量通常指受到的重力，单位是牛顿。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.44452611199812964
+    },
+    {
+      "id": "f6-10-07",
+      "category": "不确定性",
+      "question": "缺少开发板的冷启动日志，能否确认它真实开机稳定？",
+      "answer": "这个数据通常需要一个“冷启动”或“冷启动”，因为热线和接入的板块受控，无法直接通过系统或设备运行。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.5160376660023758
+    },
+    {
+      "id": "f6-10-08",
+      "category": "不确定性",
+      "question": "测试集答得好是否就等于在所有新问法上都正确？",
+      "answer": "测试集答得好，我通常先检查和核实。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.33858638200035784
+    },
+    {
+      "id": "f6-10-09",
+      "category": "不确定性",
+      "question": "不知道一个零件的尺寸时，应该先要求测量还是随便填个数？",
+      "answer": "测量值是单位体积物质的质量，计算方法是质量除以体积。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.3494256560006761
+    },
+    {
+      "id": "f6-10-10",
+      "category": "不确定性",
+      "question": "你说过的话是否也需要和可靠资料交叉核实？",
+      "answer": "核实通常指的核聚变效应， 时钟 = 原子质量；而可靠资料则指的热点变化， 时钟表示质性或介质。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0,
+      "host_seconds": 0.547156382999674
+    }
+  ],
+  "multi_turn": [
+    {
+      "question": "我正在学习机械。请记住我刚才说的学习方向。",
+      "answer": "你刚才说的是什么？比如“机械”还是“机械”，我帮你学到很多新词。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0
+    },
+    {
+      "question": "我刚才说在学什么？",
+      "answer": "刚才说的是“机械”和“机械”。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0
+    },
+    {
+      "question": "你的名字和作者是谁？",
+      "answer": "我叫小白Bot，是个人开发者 jiaheng 独立开发训练的 AI。",
+      "utf8_valid": true,
+      "utf8_rejected_candidates": 0,
+      "utf8_token_rollbacks": 0
+    }
+  ],
+  "physical_board_test": false,
+  "scoring": "unscored; manual factual review required; timings are host-only"
+}

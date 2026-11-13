@@ -1,0 +1,128 @@
+{
+  "round": 6,
+  "all_saved": true,
+  "not_accepted_as_general_chat": true,
+  "artifacts": [
+    {
+      "filename": "XiaobaiBot-N16R8-v0.2-dev-final-round6-R3.zip",
+      "library_file_id": "libfile_b108dceb2750819193513ef82fe52e78",
+      "file_id": "file_00000000a90081f58f630ca8487106d5",
+      "current_version_number": 0,
+      "bytes": 12769917,
+      "sha256": "3ae55b43938d41fec89067fa304b6fc187b650ea036f5766375190ab57624f6e",
+      "url": "https://chatgpt.com/library?file_id=libfile_b108dceb2750819193513ef82fe52e78&account_id=personal",
+      "local_metadata_applied": true
+    },
+    {
+      "filename": "XiaobaiBot-N32R16-v0.2-dev-final-round6-R3.zip",
+      "library_file_id": "libfile_bffa6d5bcd688191926d690906da7f06",
+      "file_id": "file_00000000f96881f583fa788d17beba33",
+      "current_version_number": 0,
+      "bytes": 14159256,
+      "sha256": "3a5818c6d32480b494c56da96bfc61c9083f19b934f587286f37f2688ffef7b6",
+      "url": "https://chatgpt.com/library?file_id=libfile_bffa6d5bcd688191926d690906da7f06&account_id=personal",
+      "local_metadata_applied": true
+    },
+    {
+      "filename": "XiaobaiBot-final-source-round6.zip",
+      "library_file_id": "libfile_a1ba4593d5c481919c179c0cc01834cc",
+      "file_id": "file_000000002c9881f592b0c3ceddb8f0f5",
+      "current_version_number": 1,
+      "bytes": 14316807,
+      "sha256": "148aec615f0f1c8d77ec1efc1edb00f03ebadf8e1bd54db2a3d0a7ed96e3c2b3",
+      "url": "https://chatgpt.com/library?file_id=libfile_a1ba4593d5c481919c179c0cc01834cc&account_id=personal",
+      "local_metadata_applied": true
+    },
+    {
+      "filename": "XiaobaiBot-final-evidence-round6.zip",
+      "library_file_id": "libfile_e4bcf6467a708191ae09e78b8a6f4ca8",
+      "file_id": "file_00000000b41481f5976cbe71a7030b3f",
+      "current_version_number": 1,
+      "bytes": 1657836,
+      "sha256": "252786e317542cd84bbcbd30b8a817677d8473c1c7bf721ec647dbe1dd02daaa",
+      "url": "https://chatgpt.com/library?file_id=libfile_e4bcf6467a708191ae09e78b8a6f4ca8&account_id=personal",
+      "local_metadata_applied": true
+    },
+    {
+      "filename": "XiaobaiBot-N16R8-v0.2-dev-round3-FP32.zip",
+      "library_file_id": "libfile_4ea78b0d99b0819191c4ecab9de5691e",
+      "url": "https://chatgpt.com/library?file_id=libfile_4ea78b0d99b0819191c4ecab9de5691e&account_id=personal",
+      "bytes": 95950859,
+      "sha256": "e9098ec9a6a3fd2092d77ece04ae79e621553deaffd7a5369d922c346e73b656",
+      "reuse_existing_preserved_file": true
+    },
+    {
+      "filename": "XiaobaiBot-N32R16-v0.2-dev-round3-FP32.zip",
+      "library_file_id": "libfile_0fb2aad6c80c8191895cc39f5b2bb0d3",
+      "url": "https://chatgpt.com/library?file_id=libfile_0fb2aad6c80c8191895cc39f5b2bb0d3&account_id=personal",
+      "bytes": 109786388,
+      "sha256": "3c0bc4a50ee434510808dc5498eb53bdb3509d8da8171d4d8b3defc6f380be75",
+      "reuse_existing_preserved_file": true
+    },
+    {
+      "filename": "XiaobaiBot-N16R8-v0.2-dev-round5.zip",
+      "library_file_id": "libfile_04395787a7708191871e2484ca90ed3e",
+      "file_id": "file_000000009dd081f59e3d0ab70ce1e71b",
+      "bytes": 12769977,
+      "sha256": "9711483127873d1f42d905c851f1b0c934a6078ff3cb22dc960c5df79572745c",
+      "url": "https://chatgpt.com/library?file_id=libfile_04395787a7708191871e2484ca90ed3e&account_id=personal",
+      "local_metadata_applied": true
+    },
+    {
+      "filename": "XiaobaiBot-N16R8-v0.2-dev-round5-FP32.zip",
+      "library_file_id": "libfile_30ee98f9f99c81918db94f6fea53a332",
+      "file_id": "file_00000000b26c81f5a6314a9f2fc2672f",
+      "bytes": 95949202,
+      "sha256": "52689f0e62ba9fa095db7f63dd067d05fb2283b077688378e13cd82abe45a933",
+      "url": "https://chatgpt.com/library?file_id=libfile_30ee98f9f99c81918db94f6fea53a332&account_id=personal",
+      "local_metadata_applied": true
+    },
+    {
+      "filename": "XiaobaiBot-N32R16-v0.2-dev-round5.zip",
+      "library_file_id": "libfile_44929a8e0f108191be77f02c8e2eb513",
+      "file_id": "file_00000000c2f481f593cabb16377eb9fa",
+      "bytes": 14159517,
+      "sha256": "96236a5ea2e52a7b3996095e3f82f0c6416649ce1dec8193e29d2950e7711ae7",
+      "url": "https://chatgpt.com/library?file_id=libfile_44929a8e0f108191be77f02c8e2eb513&account_id=personal",
+      "local_metadata_applied": true
+    },
+    {
+      "filename": "XiaobaiBot-N32R16-v0.2-dev-round5-FP32.zip",
+      "library_file_id": "libfile_d8d556dab57c819190420b027e29cb12",
+      "file_id": "file_00000000c2d881f5a829bc514e26b2f1",
+      "bytes": 109786692,
+      "sha256": "a5b9878c8ee09f3e39530dff70b8e4dca40d8ccbd1cb222a2b22c3fc74523dfa",
+      "url": "https://chatgpt.com/library?file_id=libfile_d8d556dab57c819190420b027e29cb12&account_id=personal",
+      "local_metadata_applied": true
+    },
+    {
+      "filename": "XiaobaiBot-Setup-round4-ci.exe",
+      "library_file_id": "libfile_7506265abc048191b8edadf089a637ab",
+      "file_id": "file_00000000449081f5923671b6ab6bffbb",
+      "bytes": 26737365,
+      "sha256": "225893f8e16d21b303a139ee5d40081198fd4312ef7d8ff8539ebf89bd567679",
+      "url": "https://chatgpt.com/library?file_id=libfile_7506265abc048191b8edadf089a637ab&account_id=personal",
+      "local_metadata_applied": true
+    },
+    {
+      "filename": "XiaobaiBot-Windows-Setup-round4-ci.zip",
+      "library_file_id": "libfile_db93fedefa9881919ab0e8fba8902998",
+      "file_id": "file_000000000dc481f5b514bdaefabb2412",
+      "bytes": 26190203,
+      "sha256": "7a509ca05e0af03b72125de622d74b8e967f3ddf4cc5172285bd601adedbdb71",
+      "url": "https://chatgpt.com/library?file_id=libfile_db93fedefa9881919ab0e8fba8902998&account_id=personal",
+      "local_metadata_applied": true
+    },
+    {
+      "filename": "XiaobaiBot-round5-evidence-source.zip",
+      "library_file_id": "libfile_d1f3fb6db9d081918ca00158579c7ba3",
+      "file_id": "file_000000006a5881f59d9cefdcf889ccc8",
+      "bytes": 14688741,
+      "sha256": "3e60e0f8e8953191120958b026279016e37fd5be08156d2aa8bed4b17fab6440",
+      "url": "https://chatgpt.com/library?file_id=libfile_d1f3fb6db9d081918ca00158579c7ba3&account_id=personal",
+      "local_metadata_applied": true,
+      "current_version_number": 1
+    }
+  ],
+  "note": "Snapshots exclude their own upload/index/pause receipts. This index is authoritative in the final GitHub commit. FP32 masters contain no optimizer; original model versions retained."
+}

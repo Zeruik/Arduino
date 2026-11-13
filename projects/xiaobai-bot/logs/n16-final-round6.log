@@ -1,0 +1,13 @@
+START models/n16-semantic-q4-round3 int8
+eval/round6-n16-round3-int8.json 100
+DONE eval/round6-n16-round3-int8.json utf8_errors 0
+START models/n16-semantic-q4-round3 fp32kv
+eval/round6-n16-round3-fp32kv.json 100
+DONE eval/round6-n16-round3-fp32kv.json utf8_errors 0
+START models/n16-orthogonal-q4-round5 int8
+eval/round6-n16-round5-int8.json 100
+DONE eval/round6-n16-round5-int8.json utf8_errors 0
+START models/n16-orthogonal-q4-round5 fp32kv
+eval/round6-n16-round5-fp32kv.json 100
+DONE eval/round6-n16-round5-fp32kv.json utf8_errors 0
+FINISHED n16 NO TRAINING OR TEST-CONDITIONED UPDATES

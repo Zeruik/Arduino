@@ -1,0 +1,250 @@
+{
+  "round": 6,
+  "total_rounds": 6,
+  "training_steps_this_round": 0,
+  "training_processes_alive": false,
+  "evaluation_processes_finished": true,
+  "default_model_replaced": false,
+  "knowledge_accepted": false,
+  "identity_consistency_accepted": false,
+  "general_multiturn_accepted": false,
+  "physical_board_accepted": false,
+  "windows_gui_accepted": false,
+  "windows_build_verified": true,
+  "frozen_suite": {
+    "sha256": "efeabba67135a21c1ce003b2a0177dd90ab39c08cd72d5f4478456a6152d104c",
+    "frozen_utc": "2026-11-13T12:00:00.413778+00:00",
+    "rows": 100,
+    "exact_overlap_current_training": 0,
+    "policy": "Reserved for round6 AFTER all training/selection; no answers; never train from this suite. Concept overlap allowed. Newly authored questions, not a statistically blinded external benchmark."
+  },
+  "raw_answers": 800,
+  "continuous_dialogue_answers": 24,
+  "review_scope": "400 full INT8 responses plus 38 changed FP32-KV responses; exact-identical answers inherit annotations; single assistant post-hoc semantic review, no independent human adjudication, not general knowledge accuracy",
+  "fp32_master_final100_executed": false,
+  "results": [
+    {
+      "profile": "n16",
+      "stage": "round3",
+      "rows": 100,
+      "model_sha256": "dffaa2f16813560eca47104702379416ffaa23c2f85010dd8d1a5cd44764fd21",
+      "int8_review": {
+        "W": 74,
+        "P": 13,
+        "C": 13
+      },
+      "fp32kv_review": {
+        "W": 74,
+        "P": 13,
+        "C": 13
+      },
+      "same_answers": 89,
+      "invalid_utf8_int8": 0,
+      "invalid_utf8_fp32kv": 0,
+      "int8_kv_bytes": 5203968,
+      "fp32_kv_bytes_host_only": 20185088,
+      "multiturn": [
+        {
+          "question": "我正在学习机械。请记住我刚才说的学习方向。",
+          "answer": "你想学什么？比如“机械”还是“机械”，我才能帮你简单说出具体的问题。",
+          "utf8_valid": true,
+          "utf8_rejected_candidates": 0,
+          "utf8_token_rollbacks": 0
+        },
+        {
+          "question": "我刚才说在学什么？",
+          "answer": "我刚才说的是“机械”和“机械”，我们通常把“机械”当成是电子，所以我们通常能帮你简单说出具体的问题。",
+          "utf8_valid": true,
+          "utf8_rejected_candidates": 0,
+          "utf8_token_rollbacks": 0
+        },
+        {
+          "question": "你的名字和作者是谁？",
+          "answer": "我叫小白Bot，由个人理工和工程师训练。",
+          "utf8_valid": true,
+          "utf8_rejected_candidates": 0,
+          "utf8_token_rollbacks": 0
+        }
+      ]
+    },
+    {
+      "profile": "n16",
+      "stage": "round5",
+      "rows": 100,
+      "model_sha256": "eb99c32480f1e5a0247fe65587238d0d658dee7b09829738edfd9aee378378bd",
+      "int8_review": {
+        "W": 77,
+        "P": 13,
+        "C": 10
+      },
+      "fp32kv_review": {
+        "W": 75,
+        "P": 14,
+        "C": 11
+      },
+      "same_answers": 88,
+      "invalid_utf8_int8": 0,
+      "invalid_utf8_fp32kv": 0,
+      "int8_kv_bytes": 5203968,
+      "fp32_kv_bytes_host_only": 20185088,
+      "multiturn": [
+        {
+          "question": "我正在学习机械。请记住我刚才说的学习方向。",
+          "answer": "你想学什么？比如“机械”还是“机械”，我才能帮你简单说个具体问题。",
+          "utf8_valid": true,
+          "utf8_rejected_candidates": 0,
+          "utf8_token_rollbacks": 0
+        },
+        {
+          "question": "我刚才说在学什么？",
+          "answer": "刚才说的是什么？",
+          "utf8_valid": true,
+          "utf8_rejected_candidates": 0,
+          "utf8_token_rollbacks": 0
+        },
+        {
+          "question": "你的名字和作者是谁？",
+          "answer": "我叫小白Bot，由个人理工阿白菌和科普。",
+          "utf8_valid": true,
+          "utf8_rejected_candidates": 0,
+          "utf8_token_rollbacks": 0
+        }
+      ]
+    },
+    {
+      "profile": "n32",
+      "stage": "round3",
+      "rows": 100,
+      "model_sha256": "cdde403054f9cfcc8938b0c4fc22d759c62df07a1e0d3a2451462a2adf847221",
+      "int8_review": {
+        "W": 79,
+        "P": 11,
+        "C": 10
+      },
+      "fp32kv_review": {
+        "W": 79,
+        "P": 11,
+        "C": 10
+      },
+      "same_answers": 94,
+      "invalid_utf8_int8": 0,
+      "invalid_utf8_fp32kv": 0,
+      "int8_kv_bytes": 10407936,
+      "fp32_kv_bytes_host_only": 40370176,
+      "multiturn": [
+        {
+          "question": "我正在学习机械。请记住我刚才说的学习方向。",
+          "answer": "你刚才说的是什么？比如你想问什么？",
+          "utf8_valid": true,
+          "utf8_rejected_candidates": 0,
+          "utf8_token_rollbacks": 0
+        },
+        {
+          "question": "我刚才说在学什么？",
+          "answer": "你刚才说的是什么？",
+          "utf8_valid": true,
+          "utf8_rejected_candidates": 0,
+          "utf8_token_rollbacks": 0
+        },
+        {
+          "question": "你的名字和作者是谁？",
+          "answer": "我是小白Bot，也可以叫我小白，是理工阿白菌 TechABJ 基于开源底座继续训练的轻量中文本地语言模型。",
+          "utf8_valid": true,
+          "utf8_rejected_candidates": 0,
+          "utf8_token_rollbacks": 0
+        }
+      ]
+    },
+    {
+      "profile": "n32",
+      "stage": "round5",
+      "rows": 100,
+      "model_sha256": "ff58d5aebf608d9ca4a132272cbd83cebea1457f5544c1928730019f8636d24f",
+      "int8_review": {
+        "W": 78,
+        "P": 11,
+        "C": 11
+      },
+      "fp32kv_review": {
+        "W": 79,
+        "P": 11,
+        "C": 10
+      },
+      "same_answers": 91,
+      "invalid_utf8_int8": 0,
+      "invalid_utf8_fp32kv": 0,
+      "int8_kv_bytes": 10407936,
+      "fp32_kv_bytes_host_only": 40370176,
+      "multiturn": [
+        {
+          "question": "我正在学习机械。请记住我刚才说的学习方向。",
+          "answer": "你刚才说的是什么？比如“机械”还是“机械”，我帮你学到很多新词。",
+          "utf8_valid": true,
+          "utf8_rejected_candidates": 0,
+          "utf8_token_rollbacks": 0
+        },
+        {
+          "question": "我刚才说在学什么？",
+          "answer": "刚才说的是“机械”和“机械”。",
+          "utf8_valid": true,
+          "utf8_rejected_candidates": 0,
+          "utf8_token_rollbacks": 0
+        },
+        {
+          "question": "你的名字和作者是谁？",
+          "answer": "我叫小白Bot，是个人开发者 jiaheng 独立开发训练的 AI。",
+          "utf8_valid": true,
+          "utf8_rejected_candidates": 0,
+          "utf8_token_rollbacks": 0
+        }
+      ]
+    }
+  ],
+  "package_checks": {
+    "pass": true,
+    "rows": [
+      {
+        "package": "XiaobaiBot-N16R8-v0.2-dev-final-round6-R3",
+        "pass": true,
+        "model_sha256": "dffaa2f16813560eca47104702379416ffaa23c2f85010dd8d1a5cd44764fd21",
+        "firmware_sha256": "e7f0bcf93c771b7b347a88ee69821cb1a8e10d2e51023d63383667930421fd0c",
+        "firmware_bytes": 974528
+      },
+      {
+        "package": "XiaobaiBot-N16R8-v0.2-dev-round5",
+        "pass": true,
+        "model_sha256": "eb99c32480f1e5a0247fe65587238d0d658dee7b09829738edfd9aee378378bd",
+        "firmware_sha256": "e7f0bcf93c771b7b347a88ee69821cb1a8e10d2e51023d63383667930421fd0c",
+        "firmware_bytes": 974528
+      },
+      {
+        "package": "XiaobaiBot-N32R16-v0.2-dev-final-round6-R3",
+        "pass": true,
+        "model_sha256": "cdde403054f9cfcc8938b0c4fc22d759c62df07a1e0d3a2451462a2adf847221",
+        "firmware_sha256": "377bc722098092ab2356560026342010a31c27392351c8f4c4c7288b63f68aac",
+        "firmware_bytes": 975120
+      },
+      {
+        "package": "XiaobaiBot-N32R16-v0.2-dev-round5",
+        "pass": true,
+        "model_sha256": "ff58d5aebf608d9ca4a132272cbd83cebea1457f5544c1928730019f8636d24f",
+        "firmware_sha256": "377bc722098092ab2356560026342010a31c27392351c8f4c4c7288b63f68aac",
+        "firmware_bytes": 975120
+      }
+    ],
+    "hardware_test": false
+  },
+  "last_windows_ci": {
+    "run_id": 43424746000,
+    "commit": "eed951e946126520050c9323ad436cbeb9bae66a",
+    "windows_job_id": 131883301516,
+    "windows_build_success": true,
+    "train_job_skipped": true,
+    "installer_delivered_from_verified_prior_run": 43415308564,
+    "gui_tested": false
+  },
+  "no_further_training": true,
+  "stop_after_this_round": true,
+  "automatic_task_enabled": false,
+  "all_artifacts_saved": true
+}

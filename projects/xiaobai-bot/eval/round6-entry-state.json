@@ -1,0 +1,15 @@
+{
+  "round": 6,
+  "training_started": false,
+  "training_process_alive_on_entry": false,
+  "baseline_steps": {
+    "n16": 11428,
+    "n32": 11882
+  },
+  "finish_v4_log_bytes": 0,
+  "recovered_weights": false,
+  "previous_rounds_preserved": true,
+  "suite_sha256": "efeabba67135a21c1ce003b2a0177dd90ab39c08cd72d5f4478456a6152d104c",
+  "source_commit": "eed951e946126520050c9323ad436cbeb9bae66a",
+  "observed_utc": "2026-11-13T12:30:10.265842+00:00"
+}

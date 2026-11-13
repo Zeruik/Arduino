@@ -1,0 +1,68 @@
+[
+  {
+    "profile": "n16",
+    "stage": "round3",
+    "fp32_sha256": "5ac71c738500701e2b5526964c5ee6a19f2db20841bdd54bacc4e00c68c7dc05",
+    "unchanged_vs_prior_record": true,
+    "checkpoint_meta": {
+      "step": 1000,
+      "data_sha256": "80806d1a94cb89721081551d45443677c76b8413649f994a1990282c0a20fec7",
+      "val_sha256": "9320ea1ace95255f8ed47f83c750f98a5f5d599b5b7811c1c7be505e1a00c04d",
+      "qat": true,
+      "seq": 384,
+      "layers": 11,
+      "lr": 2e-05,
+      "train_embedding": false
+    },
+    "comparison": "XiaobaiBot-N16R8-v0.2-dev-round3-FP32.zip model.safetensors"
+  },
+  {
+    "profile": "n16",
+    "stage": "round5",
+    "fp32_sha256": "4ca9a2823064c79b6ff8e8362691a6aa59741a90c26d259df8186ba11dd3494e",
+    "unchanged_vs_prior_record": true,
+    "checkpoint_meta": {
+      "step": 400,
+      "data_sha256": "87bee82a43e88e889c74cae5595b8f4e5c1d91f1c21d1cfa40e763666fe8dae4",
+      "val_sha256": "d2bbd2caa5ddf6938c750db0408bcdbca96ed0dfd6a656c27d8524235df35637",
+      "qat": true,
+      "seq": 384,
+      "layers": 11,
+      "lr": 1e-05,
+      "train_embedding": false
+    }
+  },
+  {
+    "profile": "n32",
+    "stage": "round3",
+    "fp32_sha256": "1690b74151daa0b7eca92907b2e5174f240bb7683e282a3af5c6401b865c8272",
+    "unchanged_vs_prior_record": true,
+    "checkpoint_meta": {
+      "step": 1200,
+      "data_sha256": "80806d1a94cb89721081551d45443677c76b8413649f994a1990282c0a20fec7",
+      "val_sha256": "9320ea1ace95255f8ed47f83c750f98a5f5d599b5b7811c1c7be505e1a00c04d",
+      "qat": true,
+      "seq": 384,
+      "layers": 11,
+      "lr": 2e-05,
+      "train_embedding": false
+    },
+    "comparison": "XiaobaiBot-N32R16-v0.2-dev-round3-FP32.zip model.safetensors"
+  },
+  {
+    "profile": "n32",
+    "stage": "round5",
+    "fp32_sha256": "eaff82029ebf758c2e7bce10c49058bb984b56cfe5e22a50040f5890def2c533",
+    "unchanged_vs_prior_record": true,
+    "checkpoint_meta": {
+      "step": 400,
+      "data_sha256": "87bee82a43e88e889c74cae5595b8f4e5c1d91f1c21d1cfa40e763666fe8dae4",
+      "val_sha256": "d2bbd2caa5ddf6938c750db0408bcdbca96ed0dfd6a656c27d8524235df35637",
+      "qat": true,
+      "seq": 384,
+      "layers": 11,
+      "lr": 1e-05,
+      "train_embedding": false
+    }
+  }
+]

@@ -10,8 +10,10 @@ Xiaobai targets short modern-Chinese conversations and elementary science, geogr
 electronics and engineering. Model weights stay in onboard Flash; generation runs
 on the ESP32-S3 itself, without an SD card or cloud chat API.
 
-**状态 / Status：研发候选版。首轮已完成训练和主机数值验证，但语言质量未通过验收，尚无实体板验收。**
-**Research candidate. Initial training and host numerical checks completed; language quality is not accepted. Physical-board validation is pending.**
+**状态 / Status（2026-11-13）：六轮研究结束并暂停。主机工程检查与Windows构建完成，综合知识、身份和通用多轮未通过，实体板与Windows交互仍未验收。**
+**Six research rounds concluded and paused. Host engineering checks and Windows builds completed; general knowledge, consistent identity and conversation remain unaccepted. Physical-board and Windows interactive validation are pending.**
+
+[最终对比与未通过项](docs/FINAL_DELIVERY_ROUND6.md) · [模型、源码、安装器及证据下载](docs/FINAL_DOWNLOADS_ROUND6.md) · [原始回答](docs/FINAL_RAW_ANSWERS_ROUND6.md) · [架构筛选](docs/FINAL_RESEARCH_ROUND6.md)
 
 不能把“能运行”“4000 汉字可编码”或“数值一致”理解成通用知识可靠。
 Running successfully, encoding 4000 Hanzi and numerical parity do not establish reliable general knowledge.
